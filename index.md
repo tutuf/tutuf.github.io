@@ -28,5 +28,5 @@ Ruby on Rails, метапрограмиране, редовни код ревю�
 
 ![tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)
 
-~~(¢)~~ 2007-2016 tutuf unlimited
+~~(¢)~~ 2007-досега тутуф
 
