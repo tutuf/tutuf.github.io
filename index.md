@@ -1,3 +1,5 @@
+<img style=" display: block; margin-left: auto; margin-right: auto;" src="https://media.giphy.com/media/3o8dFtMAykf5Edr2hy/giphy.gif"/>
+
 # Какво правим
 Онлайн магазина на [laptop.bg](http://laptop.bg). 
 
