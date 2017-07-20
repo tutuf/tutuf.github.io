@@ -1,4 +1,4 @@
-<img style=" display: block; margin-left: auto; margin-right: auto;" src="https://media.giphy.com/media/3o8dFtMAykf5Edr2hy/giphy.gif"/>
+![tutuf at ten](https://media.giphy.com/media/3o8dFtMAykf5Edr2hy/giphy.gif)
 
 # Какво правим
 Онлайн магазина на [laptop.bg](http://laptop.bg). 
@@ -28,7 +28,7 @@ Ruby on Rails, метапрограмиране, редовни код ревю�
 ![Габриела Лухова](https://www.gravatar.com/avatar/fe520bd26bf0c4edbf3dc3205dbb5d14?rating=PG&size=140)
 Габи, младши разработчик
 
-![tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)
+<!--![tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)-->
 
 ~~(¢)~~ 2007-досега тутуф
 
