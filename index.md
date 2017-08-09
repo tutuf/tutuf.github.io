@@ -20,13 +20,13 @@ Ruby on Rails, метапрограмиране, редовни код ревю�
 Сава, devops
 
 ![Аксения Пенкова](https://www.gravatar.com/avatar/1a85cac501b50899c68982f0c1700f4d?rating=PG&size=140)
-Ася, водещ разработчик
+Ася, разработчик
 
 ![Герасим Станчев](https://www.gravatar.com/avatar/262402dac56bca9646caa2a9c8dcc6c5?rating=PG&size=140)
 Геро, разработчик
 
 ![Габриела Лухова](https://www.gravatar.com/avatar/fe520bd26bf0c4edbf3dc3205dbb5d14?rating=PG&size=140)
-Габи, младши разработчик
+Габи, разработчик
 
 <!--![tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)-->
 
