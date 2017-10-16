@@ -38,22 +38,22 @@
 * Стремим се да удовлетворяваме истинските нужди, а не привидните искания
 
 # Кои сме ние
-![Деница Белогушева](https://www.gravatar.com/avatar/eaca6fc2d7ec41f687fbefed1c3bd2ab?rating=PG&size=140)
+![Деница Белогушева](images/deni.png)
 Дени, тийм лидер
 
-![Сава Чанков](https://www.gravatar.com/avatar/f847a3ac8a83aac981beeeee0e66fa69?rating=PG&size=140)
+![Сава Чанков](images/sava.png)
 Сава, devops
 
-![Аксения Пенкова](https://www.gravatar.com/avatar/1a85cac501b50899c68982f0c1700f4d?rating=PG&size=140)
+![Аксения Пенкова](images/asya.png)
 Ася, разработчик
 
-![Герасим Станчев](https://www.gravatar.com/avatar/262402dac56bca9646caa2a9c8dcc6c5?rating=PG&size=140)
+![Герасим Станчев](images/gero.png)
 Геро, разработчик
 
-![Габриела Лухова](https://www.gravatar.com/avatar/fe520bd26bf0c4edbf3dc3205dbb5d14?rating=PG&size=140)
+![Габриела Лухова](images/gabi.png)
 Габи, разработчик
 
 <!--![tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)-->
-
+c
 ~~(¢)~~ 2007-досега тутуф
 
