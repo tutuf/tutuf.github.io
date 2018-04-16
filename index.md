@@ -55,7 +55,5 @@
 ![Габриела Лухова](images/gabi.png)
 Габи, разработчик
 
-<!--![tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)-->
-c
 ~~(¢)~~ 2007-досега тутуф
 
