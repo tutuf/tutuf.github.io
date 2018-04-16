@@ -1,6 +1,6 @@
-# tutuf простота в сложен свят
+# тутуф - простота в сложен свят
 
-[tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)
+![tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)
 
 # Какво правим
 
