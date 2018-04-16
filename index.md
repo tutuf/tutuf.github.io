@@ -1,3 +1,7 @@
+# tutuf простота в сложен свят
+
+[tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)
+
 # Какво правим
 
 ## В момента 
@@ -31,7 +35,7 @@
 * код ревюта (от 2016)
 * Elixir (от 2018)
 
-Други технологии, от които имаме някаква представа: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language, домашна лютеница и домашна баница.
+Други технологии, от които имаме някаква представа: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language, домашна лютеница и баница.
 
 # Какви сме
 * Ние сме обикновени разработчици без претенции
@@ -39,7 +43,7 @@
 * Не съблазняваме със заплати
 * Стремим се да удовлетворяваме истинските нужди, а не привидните искания
 
-# Кои сме ние
+# Кои сме
 ![Деница Белогушева](images/deni.png)
 Дени, тийм лидер
 
