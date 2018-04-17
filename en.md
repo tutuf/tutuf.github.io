@@ -54,8 +54,8 @@ Sava, devops
 ![Akseniya Penkova](images/asya.png)
 Asya, developer
 
-![Gero](images/gero.png)
-Gerasim Stanchev, developer
+![Gerasim Stanchev](images/gero.png)
+Gero, developer
 
 ![Gabriela Luhova](images/gabi.png)
 Gabi, developer
