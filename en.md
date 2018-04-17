@@ -1,6 +1,6 @@
 ---
 title: tutuf - simplicity in a complicated world
-subtitle: tutuf
+lang: en-US
 ---
 
 # What do we do
