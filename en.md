@@ -1,10 +1,8 @@
 # tutuf - simplicity in a complicated world
 
-![tutuf foreva](https://pbs.twimg.com/profile_images/793585723995807745/41tCv4x5_bigger.jpg)
-
 # What do we do
 
-## At present
+## Currently
 [laptop.bg](http://laptop.bg) online shop (since 2009).
 
 ## Previous projects
@@ -35,28 +33,28 @@
 * code reviews (since  2016)
 * Elixir (since  2018)
 
-Other technologies we somewhat grasp: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language, homemade lyutenitsa and burek.
+Other technologies we somewhat grasp: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language and homemade burek (a Balkan layered pastry).
 
 # What kind of people are we
-* We are ordinary developers.
-* We have no wizards, ninjas or rockstars in our team.
-* We don't seduce with salaries.
-* We strive to fulfill real needs, not ostentatious wants.
+* We are ordinary developers with no pretense
+* We have no wizards, ninjas or rockstars in our team
+* We don't seduce with salaries
+* We strive to fulfill real needs, not ostentatious wants
 
-# Кои сме
-![Deni](images/deni.png)
-Denitsa Belogusheva, team leader
+# Who are we
+![Denitsa Belogusheva](images/deni.png)
+Deni, team leader
 
-![Sava](images/sava.png)
-Sava Chankov, devops
+![Sava Chankov](images/sava.png)
+Sava, devops
 
-![Asya](images/asya.png)
-Akseniya, developer
+![Akseniya Penkova](images/asya.png)
+Asya, developer
 
 ![Gero](images/gero.png)
 Gerasim Stanchev, developer
 
-![Gabi](images/gabi.png)
-Gabriela Luhova, developer
+![Gabriela Luhova](images/gabi.png)
+Gabi, developer
 
 ~~(¢)~~ 2007-now tutuf ltd
