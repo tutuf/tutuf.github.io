@@ -17,6 +17,12 @@
   <body>
     <div class="wrapper">
       <header>
+        {% if page.lang == 'bg-BG' %}
+        <a href="/en">english</a>
+        {% elsif page.lang == 'en-US' %}
+        <a href="/">български</a>
+        {% endif %}
+
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
