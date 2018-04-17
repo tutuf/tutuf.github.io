@@ -1,5 +1,6 @@
 ---
 title: tutuf - simplicity in a complicated world
+description: simplicity in a complicated world
 ---
 
 # What do we do
