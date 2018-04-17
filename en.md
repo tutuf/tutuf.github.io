@@ -1,6 +1,6 @@
 ---
 title: tutuf - simplicity in a complicated world
-favicon: favicon.ico
+subtitle: tutuf
 ---
 
 # What do we do
