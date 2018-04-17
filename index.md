@@ -33,7 +33,7 @@
 * код ревюта (от 2016)
 * Elixir (от 2018)
 
-Други технологии, от които имаме някаква представа: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language, домашна лютеница и баница.
+Други технологии, от които имаме някаква представа: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language и домашна баница.
 
 # Какви сме
 * Ние сме обикновени разработчици без претенции
