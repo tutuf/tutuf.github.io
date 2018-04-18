@@ -4,7 +4,7 @@ lang: bg-BG
 ---
 
 # Какво правим
-Разработваме специализирани уеб приложения и сайтове. За контакти: info@tutuf.com
+Разработваме специализирани уеб приложения и сайтове. За контакти: <info@tutuf.com>
 
 ## Текущи проекти
 Онлайн магазина на [laptop.bg](http://laptop.bg) (от 2009 насам). 
@@ -39,7 +39,7 @@ lang: bg-BG
 
 Други технологии, от които имаме някаква представа: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language и домашна баница.
 
-Ако сте отговорен и ученолюбив разработчик, който иска да работи в малък екип с възможност за отдалечена работа, пишете ни на info@tutuf.com.
+Ако сте отговорен и ученолюбив разработчик, който иска да работи в малък екип с възможност за отдалечена работа, пишете ни на <info@tutuf.com>
 
 # Какви сме
 * Ние сме обикновени разработчици без претенции
