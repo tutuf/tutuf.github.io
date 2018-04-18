@@ -18,10 +18,10 @@ lang: en-US
 
 ## With clients
 1. We listen to you to understand what you need.
-1. We estimate roughly the time required to make the software.
+1. We estimate roughly the time required to create a solution to your problem.
 1. We split the work in small iterations during which we implement the negotiated functionality.
-1. We deploy regularly on a staging server so that you can see and try what we've done. If you have any remarks, we recover them and deploy again until you're almost completely satisfied.
-1. We deploy in production environment.
+1. We deploy regularly on a staging server so that you can see and try what we have done. If you have any remarks, we address them and redeploy.
+1. We deploy to production (that is, servers your customers hit).
 1. Profit!!
 
 ## With developers
