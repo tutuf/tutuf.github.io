@@ -5,7 +5,9 @@ lang: en-US
 
 # What do we do
 
-## Currently
+We develop custom web apps and sites. You can reach us at info@tutuf.com.
+
+## Current projects
 [laptop.bg](http://laptop.bg) online shop (since 2009).
 
 ## Previous projects
@@ -37,6 +39,8 @@ lang: en-US
 * Elixir (since  2018)
 
 Other technologies we somewhat grasp: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language and homemade burek (a Balkan layered pastry).
+
+If you are reliant and continously studying developer who longs to work in a small team with remote option, contact us at info@tutuf.com
 
 # What kind of people are we
 * We are ordinary developers with no pretense
