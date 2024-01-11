@@ -73,7 +73,7 @@ would you give it your email address to be notified you when this becomes possib
       }
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper {
         background-color: #333;
-
+        
         border-width: 0px;
         border-color: transparent;
         border-radius: 4px;
@@ -113,7 +113,7 @@ would you give it your email address to be notified you when this becomes possib
       }
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
-        color: #000000;
+        color: #fff;
         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
         font-size: 30px;
         font-weight: 400;
@@ -123,7 +123,7 @@ would you give it your email address to be notified you when this becomes possib
       }
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
-        color: #000000;
+        color: #fff;
         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: 400;
@@ -135,7 +135,7 @@ would you give it your email address to be notified you when this becomes possib
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol,
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ul,
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol {
-        color: #000000;
+        color: #fff;
         font-family: 'Open Sans', Arial, Helvetica, sans-serif;
         font-size: 14px;
       }
@@ -478,8 +478,8 @@ would you give it your email address to be notified you when this becomes possib
         height: auto;
       }
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
-        background-color: #333333 !important;
-        border-color: #333333 !important;
+        background-color: #777 !important;
+        border-color: #777 !important;
       }
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type="checkbox"] {
         box-sizing: border-box;
@@ -552,7 +552,7 @@ would you give it your email address to be notified you when this becomes possib
         display: none;
       }
       #mlb2-10956822.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
-        background-color: #333333 !important;
+        background-color: #777 !important;
       }
       .ml-subscribe-close {
         width: 30px;
@@ -598,26 +598,23 @@ would you give it your email address to be notified you when this becomes possib
         .ml-form-formContent.horozintalForm .ml-button-horizontal.labelsOn { padding-top: 0px!important; }
 
       }
-</style>
-
+    </style>
+ 
 <div id="mlb2-10956822" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-10956822">
   <div class="ml-form-align-center ">
     <div class="ml-form-embedWrapper embedForm">
       <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
-
-        <div class="ml-form-embedContent" style="margin-bottom: 0px; ">
-
-        </div>
+      <div class="ml-form-embedContent" style="margin-bottom: 0px; "></div>
 
         <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/768073/forms/110105728559089186/subscribe" data-code="" method="post" target="_blank">
           <div class="ml-form-formContent">
+            
 
-
-
+              
               <div class="ml-form-fieldRow ml-last-item">
                 <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
 
-
+                  
 
 
                   <!-- input -->
@@ -625,23 +622,23 @@ would you give it your email address to be notified you when this becomes possib
                   <!-- /input -->
 
                   <!-- textarea -->
-
+                  
                   <!-- /textarea -->
 
                   <!-- select -->
-
+                  
                   <!-- /select -->
 
                   <!-- checkboxes -->
-
+        
         <!-- /checkboxes -->
 
                   <!-- radio -->
-
+                  
                   <!-- /radio -->
 
                   <!-- countries -->
-
+                  
                   <!-- /countries -->
 
 
@@ -650,40 +647,40 @@ would you give it your email address to be notified you when this becomes possib
 
                 </div>
               </div>
-
+            
           </div>
 
-
+          
 
           <!-- Privacy policy -->
-
+          
           <!-- /Privacy policy -->
 
+          
+
+          
+
+          
 
 
 
 
 
 
-
-
-
-
-
-
+          
           <input type="hidden" name="ml-submit" value="1">
 
           <div class="ml-form-embedSubmit">
-
+            
               <button type="submit" class="primary">Yes, please</button>
-
+            
             <button disabled="disabled" style="display: none;" type="button" class="loading">
               <div class="ml-form-embedSubmitLoad"></div>
               <span class="sr-only">Loading...</span>
             </button>
           </div>
 
-
+          
           <input type="hidden" name="anticsrf" value="true">
         </form>
       </div>
@@ -691,19 +688,17 @@ would you give it your email address to be notified you when this becomes possib
       <div class="ml-form-successBody row-success" style="display: none">
 
         <div class="ml-form-successContent">
-
+          
             <h4>Thank you!</h4>
-
-              <p>You have successfully joined our subscriber list.</p>
-
-
+            <p>You are now on the waiting list for something that will change your work for the better. </p>
+          
         </div>
 
       </div>
     </div>
   </div>
 </div>
-
+  
 <script>
   function ml_webform_success_10956822() {
     var $ = ml_jQuery || jQuery;
@@ -712,6 +707,7 @@ would you give it your email address to be notified you when this becomes possib
   }
 </script>
 
-
 <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v2d8fb22bb5b3677f161552cd9e774127" type="text/javascript"></script>
-<script>fetch("https://assets.mailerlite.com/jsonp/768073/forms/110105728559089186/takel")</script>
+<script>
+    fetch("https://assets.mailerlite.com/jsonp/768073/forms/110105728559089186/takel")
+</script>
