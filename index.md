@@ -6,9 +6,9 @@ title: tutuf - build data apps without coding
 You need to make an app, quickly.<br/>
 You have complex relationships in your data.<br/>
 You've heard about databases but they're too complicated.<br/>
-All you can make is something like a prototype in a spreadsheet.<br/>
-If a site could instantly make an app from something that looks like a spreadsheet,<br/>
-would you give it your email address to be notified you when this becomes possible?
+All you can make is a prototype in a spreadsheet.<br/>
+If a site could instantly make an app from a spreadsheet,<br/>
+would you give it your email address to be notified when this becomes possible?
 
 <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1704356");</style>
 <style type="text/css">
