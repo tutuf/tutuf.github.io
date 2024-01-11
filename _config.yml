@@ -1,8 +1,7 @@
 title: tutuf
 logo: images/tutuf_logo.png
 show_downloads: false
-remote_theme: andrewhwanpark/dark-poole
+theme: midnight
 
 gems:
   - jekyll-mentions
-  - jekyll-remote-theme 
