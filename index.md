@@ -1,67 +1,13 @@
 ---
-title: тутуф - простота в сложен свят
-lang: bg-BG
+title: tutuf - build data apps without coding
 ---
+# Build a complex app without programming
 
-# Какво правим
-Разработваме специализирани уеб приложения и сайтове. За контакти: <info@tutuf.com>
+You need to make an app, quickly.<br/>
+You have complex relationships in your data.<br/>
+You've heard about databases but they're too complicated.<br/>
+All you can make is something like a prototype in a spreadsheet.<br/>
+If a site could instantly make an app from something that looks like a spreadsheet,<br/>
+would you give it your email address to be notified you when this becomes possible?
 
-## Текущи проекти
-Онлайн магазина на [laptop.bg](http://laptop.bg) (от 2009 насам). 
-
-## Предишни проекти
-1. Уеб система за планиране на материалната осигуреност на шивашко производство (2006-2008). Клиент: IPL Bulgaria
-2. Спортен сайт (2008-2009). Клиент: ultrasport.bg
-3. Сайт за продажба на върнати от лизинг автомобили (2009). Клиент: buyback.bg
-4. Сайт за запознанства (2011-2012). Клиент: Deutsche Telekom
-
-# Как работим
-
-## С клиенти
-1. Уточняваме от какво се нуждаете. 
-1. Правим приблизителна оценка на необходимото за изработка време.
-1. Разбиваме работата на малки итерации, в които имплементираме договорената функционалност.
-1. Редовно качваме изработеното на бета сървър, за да може да го видите и пипнете. Ако имате забележки, правим промени, качваме отново на бета сървъра, докато направеното удовлетворява изискванията ви.
-1. Качваме изработеното на производствен сървър.
-1. Печалба!!
-
-## С програмисти
-* Ruby on Rails (от 2006)
-* PostgreSQL (от 2006)
-* тестване на кода (от 2006)
-* автоматизирано внедряване (от 2007)
-* nginx (от 2007)
-* метапрограмиране (от 2009)
-* наблюдение на производителността на приложенията в реално време (от 2012)
-* continuous integration (от 2015)
-* код ревюта (от 2016)
-* Elixir (от 2018)
-
-Други технологии, от които имаме някаква представа: JavaScript, Cascading Stylesheets, Hypertext Markup Language, Hypertext Transfer Protocol, Extensible Markup Language, Extensible Markup Language Schema Definition, Web Services Description Language и домашна баница.
-
-Ако сте отговорен и ученолюбив разработчик, който иска да работи в малък екип с възможност за отдалечена работа, пишете ни на <info@tutuf.com>
-
-# Какви сме
-* Ние сме обикновени разработчици без претенции
-* В екипа ни няма магьосници, нинджи или рокзвезди 
-* Не съблазняваме със заплати
-* Стремим се да удовлетворяваме истинските нужди, а не привидните искания
-
-# Кои сме
-![Деница Белогушева](images/deni.png)
-Дени, тийм лидер
-
-![Сава Чанков](images/sava.png)
-Сава, devops
-
-![Аксения Пенкова](images/asya.png)
-Ася, разработчик
-
-![Герасим Станчев](images/gero.png)
-Геро, разработчик
-
-![Габриела Лухова](images/gabi.png)
-Габи, разработчик
-
-~~(¢)~~ 2007-досега тутуф
-
+<div class="ml-embedded" data-form="mt18aj"></div>

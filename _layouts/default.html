@@ -8,24 +8,27 @@
     <link rel="icon" href="/images/favicon.ico">
     <link rel="shortcut icon" href="/images/favicon-16x16.png">
 
-{% seo %}
+    {% seo %}
+
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+
+    <!-- MailerLite Universal -->
+    <script>
+        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+        ml('account', '768073');
+    </script>
+    <!-- End MailerLite Universal -->
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <p>
-        {% if page.lang == 'bg-BG' %}
-        български / <a href="/en">english</a>
-        {% elsif page.lang == 'en-US' %}
-        <a href="/">български</a> / english
-        {% endif %}
-        </p>
-        
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="tutuf logo" />
@@ -38,9 +41,6 @@
       {{ content }}
 
       </section>
-      <footer>
-        <p><small>theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
