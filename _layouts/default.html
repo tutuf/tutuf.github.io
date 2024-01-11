@@ -28,13 +28,9 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="tutuf logo" />
         {% endif %}
-
-        <p class="view"><a href="{{ site.github.owner_url }}">View tutuf open source code</a></p>
       </header>
       <section>
 
