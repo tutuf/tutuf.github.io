@@ -1,34 +1,36 @@
 ---
-title: tutuf - build data apps without coding
+title: tutuf - natural intelligence programming 
 ---
-# Build a complex app without programming
+# Who we are
 
-You need to make an app, quickly.<br/>
-You have complex relationships in your data.<br/>
-You've heard about databases but they're too complicated.<br/>
-All you can make is a prototype in a spreadsheet.<br/>
-If a site could instantly make an app from a spreadsheet,<br/>
-would you give it your email address to be notified when this becomes possible?
+tutuf is a small company founded in 2007 that has built and maintained several complex web apps. 
+We are agile with a small 'a' - we work in small iterations that include frequent loops
+of refining client requirements, coding, testing and deploying. Our skill we value most is
+open and honest communication with everybody involved in the projects we undertake.
 
-<div id="mc_embed_signup">
-  <form action="https://tutuf.us9.list-manage.com/subscribe/post?u=9c8e05d83eb1f5220bf408bf2&amp;id=5e75544654&amp;f_id=00f522e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
-  <div id="mc_embed_signup_scroll">
-    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
-    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-      /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-      <input type="text" name="b_9c8e05d83eb1f5220bf408bf2_5e75544654" tabindex="-1" value="">
-    </div>
-    <div class="optionalParent">
-      <div class="clear foot">
-        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Yes, I need such a tool">
-      </div>
-    </div>
-    <div id="mce-responses" class="clear foot">
-      <div class="response" id="mce-error-response" style="display: none;"></div>
-      <div class="response" id="mce-success-response" style="display: none;"></div>
-    </div>
-    </div>
-  </form>
-</div>
+We put emphasis on code quality with regular code reviews and an extensive automated test suite (end-to-end tests included). While we are full-stack developers focused on backend, we collaborate with front-end developers, UX designers,
+quality assurance and devops engineers.
 
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+Our development stack is [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We utilize a lot of the PostgreSQL advanced features (e.g. materialized views, complex SQL queries) to build robust and performant relational databases. We have experience with message queues and event logs, as well as application scaling and integration with third party API providers. We maintain several open source [ruby gems](https://github.com/tutuf/).
+
+All of us have degrees from the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at the [Saint Kliment Ohridski University of Sofia](https://uni-sofia.bg/index.php/eng).
+
+## Current team
+
+[Denitsa Belogusheva](https://github.com/denitsa) - manager and lead developer
+[Gabriela Velinova](https://github.com/luhova) - senior developer
+[Sava Lachezarov](https://github.com/kanmeiban) - systems design and development
+
+## tutuf alumni
+
+[Stefan Kanev](https://github.com/skanev) - CTO at dext.com
+[Tzanka Dobreva](https://github.com/tsankaste) - senior developer at browswave.com
+[Gerassim Stanchev](https://github.com/gesta) - Elixir developer 
+
+# How can we help you?
+
+We can consult you in any stage of your software project. Drop us a line at dev@tutuf.com.
+
+# Looking for a job?
+
+We have experience in helping students and junior developers ramp up skills. We run an intern program with an up-to-date curriculum that includes peer programming and one onone sessions when we have people interested in it. If you like our approach to software development, drop us a line at jobs@tutuf.com.
