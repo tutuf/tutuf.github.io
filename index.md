@@ -5,9 +5,9 @@ title: tutuf - natural intelligence programming
 
 small company founded in 2007 that builds and maintains complex web apps. Our biggest projects are a [manufacturing planning system](https://github.com/tutuf/sht/) (2006-2014) and an [online shop with mutiple sales channels](https://laptop.bg) (2009-present). 
 
-We are agile with a small 'a'. We work in small iterations that include frequent loops of understanding client requirements, coding, testing and deploying. We review our code and test it automatically.
+We are agile with a small 'a'. We work in small iterations, looping frequently between understanding client requirements, coding, testing and deploying. We review our code and automatically test it.
 
-Our development stack is [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We have worked with message queues and event logs (like [Kafka](https://kafka.apache.org/)). We know how to scale apps and integratate with third party API providers. We maintain several open source [ruby gems](https://github.com/tutuf/).
+We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We have worked with message queues and event logs ([Kafka](https://kafka.apache.org/)). We know how to scale apps and integrate APIs. We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
 ## tutuf team
 
@@ -15,7 +15,7 @@ Our development stack is [Ruby on Rails](https://rubyonrails.org/) and [PostgreS
 * [Sava Lachezarov](https://github.com/kanmeiban) - systems design and development
 * [Gabriela Velinova](https://github.com/luhova) - senior developer
 
-All of us are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at the [Saint Kliment Ohridski University of Sofia](https://uni-sofia.bg/index.php/eng).
+We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at the [Saint Kliment Ohridski University of Sofia](https://uni-sofia.bg/index.php/eng).
 
 ## tutuf alumni
 
