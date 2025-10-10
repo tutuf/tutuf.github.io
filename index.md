@@ -5,11 +5,11 @@ title: tutuf - natural intelligence programming
 
 tutuf is a small company founded in 2007 that builds and maintains complex web app. Our biggest projects are a [manufacturing planning system](https://github.com/tutuf/sht/) (2006-2014) and [online shop with mutiple sales channels](https://laptop.bg) (2009-present). 
 
-We are agile with a small 'a' - we work in small iterations that include frequent loops of refining client requirements, coding, testing and deploying. We highly value open and honest communication with everybody involved in the projects we undertake.
+We are agile with a small 'a' - we work in small iterations that include frequent loops of understanding client requirements, coding, testing and deploying. We strive to communicate in an open and honest manner.
 
-We put emphasis on code quality with regular code reviews and extensive automated test suite (end-to-end tests included). While we are full-stack developers focused on backend, we collaborate with UX designers, front-end developers, quality assurance and devops engineers.
+We put emphasis on quality with code reviews and automated tests. We focus primarily on backend and we collaborate with UX designers, front-end developers, quality assurance and devops engineers.
 
-Our development stack is [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We use PostgreSQL's advanced features to build robust and performant databases. We have experience with message queues and event logs (like [Kafka](https://kafka.apache.org/)), as well as application scaling and integration with third party API providers. We maintain several open source [ruby gems](https://github.com/tutuf/).
+Our development stack is [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We have worked with message queues and event logs (like [Kafka](https://kafka.apache.org/)). We know how to scale apps and integratate with third party API providers. We maintain several open source [ruby gems](https://github.com/tutuf/).
 
 ## Current team
 
@@ -29,9 +29,10 @@ All of us are graduates of the [Faculty of Mathematics and Informatics](https://
 
 # How can we help you
 
-We can consult you in any stage of your software project. We are familiar with discrete manufacturing, warehouse management and online commerce. Contact us at [dev@tutuf.com](mailto:dev@tutuf.com).
+We can consult you at any stage of your software project. We are familiar with discrete manufacturing, warehouse management and online commerce. Contact us at [dev@tutuf.com](mailto:dev@tutuf.com).
 
 # Looking for a job?
 
-We are not actively recruiting but we are always open for full stack developers that share our approach to software. If you know Ruby, tell us why you would like to work with us at [jobs@tutuf.com](mailto:jobs@tutuf.com). We are a fully remote company and have collaborated with freelencers and part-time developers for two decades.
+We are not actively recruiting but we are always open for full stack developers who share our approach to software. If you know Ruby, tell us why you would like to work with us at [jobs@tutuf.com](mailto:jobs@tutuf.com). We are a fully remote company and have collaborated with freelencers and part-time developers for two decades.
+
 
