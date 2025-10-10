@@ -7,7 +7,7 @@ small company founded in 2007 that builds and maintains complex web apps. Our bi
 
 We are agile with a small 'a'. We work in small iterations, looping frequently between understanding client requirements, coding, testing and deploying. We review our code and automatically test it.
 
-We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We have worked with message queues and event logs ([Kafka](https://kafka.apache.org/)). We know how to scale apps and integrate APIs. We maintain several open source [Ruby gems](https://github.com/tutuf/).
+We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
 ## tutuf team
 
@@ -31,7 +31,7 @@ We do web development. We are familiar with discrete manufacturing, warehouse ma
 
 # Looking for a job?
 
-We are not actively recruiting but if you are a Rails developer who shares our approach, reach us at [jobs@tutuf.com](mailto:jobs@tutuf.com). We are a fully remote company.
+We are not recruiting but if you are a Rails developer and share our approach, reach us at [jobs@tutuf.com](mailto:jobs@tutuf.com). We are a fully remote company.
 
 
 
