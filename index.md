@@ -20,7 +20,7 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 ## tutuf alumni
 
 * [Stefan Kanev](https://github.com/skanev) - CTO at dext.com
-* [Tzanka Dobreva](https://github.com/tsankaste) - Rails developer
+* [Tzanka Dobreva](https://github.com/tsankaste) - Rails developer
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
