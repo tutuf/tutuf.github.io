@@ -3,7 +3,7 @@ title: tutuf - natural intelligence programming
 ---
 # tutuf is a 
 
-small company founded in 2007 thatdoes web development.Since 2009 we build and maintain [Bulgaria’s #10 online shop](https://laptop.bg).
+small company founded in 2007 that does web development. We build and maintain [Bulgaria’s #10 online shop](https://laptop.bg) since 2009.
 
 We work in small iterations, looping frequently between understanding client requirements, coding and deploying. We review our code and cover it with automated tests.
 
