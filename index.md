@@ -9,9 +9,9 @@ We work in small iterations, incrementally understanding client needs, programmi
 
 We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
-# Looking for.help on your project?
+## looking for help on your project?
 
-As a team we have worked together for half a century. We can help in any stage of a project, be it prototyping, building a minimum viable product, upgrading Rails and gems, optimizing database schema, setting multistaged deploymwent, scaling or.maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+As a team we have half a century combined programmming experience. We can help in any stage of a project: prototyping, building a minimum viable product, upgrading Rails and gems, optimizing database schema and queries, setting multistaged deploymwent, scaling, and maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 ## tutuf team
 
@@ -28,8 +28,12 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
+# statement on modern day slaveey
+
+We consider Amazon labour practices such as not providing humane conditions for its workforce as a form of modern day slavery and we would prefer not to support it by hosting any services on it.  
+
 ---
-Made in Sofia, Bulgaria
+Made in Bulgaria
 
 
 
