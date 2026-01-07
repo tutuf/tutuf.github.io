@@ -8,10 +8,6 @@ small company founded in 2007 that does web development. We have experience in b
 We work in small iterations, incrementally understanding client needs, programming, deploying on staging environment and getting user feedback. We review our code and automatedly test it.
 
 We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We maintain several open source [Ruby gems](https://github.com/tutuf/).
-
-# Looking for help on your project?
-
-As a team we have half a century combined programmming experience. We can help in any stage of a project: prototyping, building a minimum viable product, upgrading Rails and gems, optimizing database schema and queries, setting multistaged deploymwent, scaling, and maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 ## tutuf team
 
@@ -27,6 +23,10 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Tzanka Dobreva](https://github.com/tsankaste) - Rails developer
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
+
+# Looking for help on your project?
+
+As a team we have half a century combined programmming experience. We can help in any stage of a project: prototyping, building a minimum viable product, upgrading Rails and gems, optimizing database schema and queries, setting multistaged deploymwent, scaling, and maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 # Moral policy
 
