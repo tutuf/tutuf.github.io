@@ -28,9 +28,13 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
-# statement on modern slavery
+# environmemtal policy
 
-We consider Amazon labour practices as a inhumane and we would prefer not to support it by hosting any services on it.  
+We try to minimize our footprint by  using our hardware as long as possible. Climate change is real, and infinite growth is impossible on a finite planet.
+
+# moral policy
+
+We don’t work with companies in gambling, tobacco, weapons, or those engaging in exploitative practices and/or harmfully addictive products.
 
 ---
 Made in Bulgaria
