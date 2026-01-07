@@ -28,9 +28,9 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
-# statement on modern day slaveey
+# statement on modern slavery
 
-We consider Amazon labour practices such as not providing humane conditions for its workforce as a form of modern day slavery and we would prefer not to support it by hosting any services on it.  
+We consider Amazon labour practices as a inhumane and we would prefer not to support it by hosting any services on it.  
 
 ---
 Made in Bulgaria
