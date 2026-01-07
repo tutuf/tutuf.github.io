@@ -11,9 +11,9 @@ We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https:/
 
 ## tutuf team
 
-* [Denitsa Belogusheva](https://github.com/denitsa) - manager and lead developer
-* [Sava Lachezarov](https://github.com/kanmeiban) - systems design and development
-* [Gabriela Velinova](https://github.com/luhova) - senior developer
+* [Denitsa Belogusheva](https://github.com/denitsa) - manager and lead developer, co-founder
+* [Sava Lachezarov](https://github.com/kanmeiban) - systems design and development, co-founder
+* [Gabriela Velinova](https://github.com/luhova) - senior developer, joined 2015
 
 We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at the [Saint Kliment Ohridski University of Sofia](https://uni-sofia.bg/index.php/eng).
 
@@ -30,11 +30,15 @@ As a team we have half a century combined programmming experience. We can help i
 
 # Moral policy
 
-We don’t work with companies in gambling, tobacco, weapons, or those engaging in exploitative practices and/or harmfully addictive products.
+We don’t work with companies in gambling, tobacco, weapons, or those engaging in exploitative practices, dealing harmfully addictive products, or damaging environment.
 
 # Environmemtal policy
 
-We try to minimize our footprint by  using our hardware as long as possible. Climate change is real, and infinite growth is impossible on a finite planet.
+We try to minimize our footprint by  using our hardware as long as we can. Climate change is real, and infinite growth on a finite planet is impossible.
+
+# Internship program
+
+We have ran successfully several paid internship programs in the past. If you are a student and you speak Ruby, drop us a short cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
 
 ---
 Made in Bulgaria
