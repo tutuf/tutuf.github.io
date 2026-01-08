@@ -3,7 +3,7 @@ title: tutuf - natural intelligence programming
 ---
 # tutuf is a 
 
-small company founded in 2007 that does web development. We are experienced in building management systems for small and medium businesses in manufacturing, trade and online retail. 
+small company founded in 2007 that does web development. We are experienced in building management systems for small and medium businesses in manufacturing, trade and online retail.
 
 We work in small iterations, incrementally understanding client needs, programming, deploying on staging environment and getting user feedback. We review our code and automatedly test it.
 
@@ -26,19 +26,19 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 
 # Looking for help on your project?
 
-Our team’s combined experience with Ruby on Rails is half a century. We can help in any stage of a project: proof of concept, building a minimum viable product, upgrading Rails and gems, optimizing database queries and schema, setting multistaged deploymwent, scaling, and maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+Our team’s combined experience with Ruby on Rails is half a century. We can help in any stage of a project: proof of concept, building a minimum viable product, upgrading Rails and gems, optimizing database queries and schema, setting multistaged deployment, scaling, and maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 # Moral policy
 
-We don’t work with gambling, tobacco, alcohol, and weapons companies or those engaging in exploitative practices, harmful addiction, or environment damage.
+We don’t work with gambling, tobacco, alcohol, or weapons companies as well as those engaging in exploitative practices, harmful addiction, or environment damage.
 
 # Environmemtal policy
 
 We try to minimize our footprint by  using our hardware as long as we can. Climate change is real, and infinite growth on a finite planet is impossible.
 
-# Internship program
+# Internship/job
 
-If you have little or no work experience but you speak Ruby and share our values, drop us a short cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
+If you speak Ruby and share our values, drop us a short cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
 
 ---
 Made in Bulgaria
