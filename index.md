@@ -8,7 +8,8 @@ small company founded in 2007 that does web development. We are experienced in b
 We work in small iterations, incrementally understanding client needs, programming, deploying on staging environment and getting user feedback. We review our code and automatedly test it.
 
 We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We maintain several open source [Ruby gems](https://github.com/tutuf/).
-
+
+
 ## tutuf team
 
 * [Denitsa Belogusheva](https://github.com/denitsa) - manager and lead developer, co-founder
@@ -30,9 +31,9 @@ Our team’s combined experience with Ruby on Rails is half a century. We can he
 
 # Moral policy
 
-We don’t work with gambling, tobacco, alcohol, or weapons companies as well as those engaging in exploitative practices, harmful addiction, or environment damage.
+We don’t work with gambling, tobacco, alcohol, or weapons companies as well as those engaging in exploitative practices, harmful addiction, or environmentally damaging activities.
 
-# Environmemtal policy
+# Environmental policy
 
 We try to minimize our footprint by  using our hardware as long as we can. Climate change is real, and infinite growth on a finite planet is impossible.
 
@@ -42,6 +43,7 @@ If you speak Ruby and share our values, drop us a short cover letter at [jobs@tu
 
 ---
 Made in Bulgaria
+
 
 
 
