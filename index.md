@@ -31,7 +31,7 @@ Our team’s combined experience with Ruby on Rails is half a century. We can he
 
 # Moral policy
 
-We don’t work with gambling, tobacco, alcohol, or weapons companies as well as those engaging in exploitative practices, harmful addiction, or environmentally damaging activities.
+We don’t work with gambling, tobacco, and weapons companies as well as those engaging in exploitative practices, harmful addiction, or environmentally damaging activities.
 
 # Environmental policy
 
@@ -43,6 +43,7 @@ If you speak Ruby and share our values, drop us a short cover letter at [jobs@tu
 
 ---
 Made in Bulgaria
+
 
 
 
