@@ -18,7 +18,7 @@ We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https:/
 
 We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at the [Saint Kliment Ohridski University of Sofia](https://uni-sofia.bg/index.php/eng).
 
-## tutuf alumni
+## tutuf hall of fame
 
 * [Stefan Kanev](https://github.com/skanev) - CTO at dext.com
 * [Tsanka Dobreva](https://github.com/tsankaste) - Rails developer
