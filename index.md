@@ -5,7 +5,7 @@ title: tutuf - natural intelligence programming
 
 small company founded in 2007 that does web development. We are experienced in building management systems for small and medium businesses in manufacturing, trade and online retail.
 
-We work in small iterations, incrementally understanding client needs, programming, deploying on staging environment and getting user feedback. We review our code and automatedly test it.
+We work in small iterations, starting with understanding client needs, programming, deploying to testing environment and getting user feedback. We review our code and automatedly test it.
 
 We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
@@ -25,9 +25,9 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
-# Looking for help on your project?
+# Need help with your project?
 
-Our team’s combined experience with Ruby on Rails is half a century. We can help in any stage of a project: proof of concept, building a minimum viable product, upgrading Rails and gems, optimizing database queries and schema, setting multistaged deployment, scaling, and maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+Our combined experience with Ruby on Rails is half a century. We can help at any stage of a project: proof of concept, building a minimum viable product, upgrading Rails and gems, optimizing database queries and schema, setting multistaged deployment, scaling, and maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 # Moral policy
 
