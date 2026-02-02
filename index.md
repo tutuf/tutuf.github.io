@@ -42,7 +42,9 @@ We try to minimize our footprint by  using our hardware as long as we can. Clima
 If you speak Ruby and share our values, drop us a short cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
 
 ---
-Made in Bulgaria. Our timezone is ±1 hour from most of Eurooe, Africa, and the Middle East.
+Made in Bulgaria. 
+
+Our timezone is ±1 hour from most of Eurooe, Africa, and the Middle East.
 
 
 
