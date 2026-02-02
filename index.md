@@ -27,7 +27,7 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 
 # Need help with your project?
 
-Our combined experience with Ruby on Rails is half a century. We can help at any stage of a project: proof of concept, building a minimum viable product, upgrading Rails and gems, optimizing database queries and schema, setting multistaged deployment, scaling, and maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+Our combined experience with Ruby on Rails is half a century. We can help you at any stage: paper prototyping, building proof of concept and minimum viable product, scaling, upgrading Rails and gems, optimizing database queries and schema, maintaining legacy code, or doing a partial or complete rewrite. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 # Moral policy
 
