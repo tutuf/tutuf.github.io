@@ -25,9 +25,9 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
-# Need help with your project?
+# Need help with a Rails project?
 
-Our combined experience with Ruby on Rails is half a century. We can help you at any stage: paper prototyping, building proof of concept and minimum viable product, scaling, upgrading Rails and gems, optimizing database queries and schema, maintaining legacy code, or doing a partial or complete rewrite. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+Our combined experience with Ruby on Rails is half a century. We can help you at any stage: paper prototyping, building proof of concept and minimum viable product, scaling, upgrading Rails and gems, optimizing database queries and schema, maintaining legacy code, or doing a partial or complete rewrite of your app. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 # Moral policy
 
@@ -42,9 +42,8 @@ We try to minimize our footprint by  using our hardware as long as we can. Clima
 If you speak Ruby and share our values, drop us a short cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
 
 ---
-Made in Bulgaria. 
+Made in Bulgaria, Southeast Europe. 
 
-Our timezone is ±1 hour from most of Eurooe, Africa, and the Middle East.
 
 
 
