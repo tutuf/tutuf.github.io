@@ -3,9 +3,7 @@ title: tutuf - natural intelligence programming
 ---
 # tutuf is a 
 
-small company founded in 2007 that does web development. We are experienced in building management systems for small and medium businesses in manufacturing, trade and online retail.
-
-We work in small iterations, starting with understanding client needs, programming, deploying to testing environment and getting user feedback. We review our code and automatedly test it.
+small company that does web development for small and medium businesses since 2007. We actively listen to our clients in order to truly understand their needs, then we design, program, deploy, and finally refine the software based on client's feedback. 
 
 We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
@@ -25,9 +23,9 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
-# Need help with a Rails project?
+# Need help with a web application?
 
-Our combined experience with Ruby on Rails is half a century. We can help you at any stage: paper prototyping, building proof of concept and minimum viable product, scaling, upgrading Rails and gems, optimizing database queries and schema, maintaining legacy code, or doing a partial or complete rewrite of your app. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+Our combined experience with Ruby on Rails is half a century. We can help you at any stage: paper prototype, proof of concept / minimum viable product, scaling, adding / removing features, upgrading Rails and gems, optimizing database, or maintaining and improving legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 # Moral policy
 
@@ -39,10 +37,11 @@ We try to minimize our footprint by  using our hardware as long as we can. Clima
 
 # Internship/job
 
-If you speak Ruby and share our values, drop us a short cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
+If you speak Ruby and share our values, drop us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
 
 ---
-Made in Bulgaria, Southeast Europe. 
+Made in Bulgaria.
+
 
 
 
