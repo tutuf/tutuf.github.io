@@ -3,7 +3,7 @@ title: tutuf - natural intelligence programming
 ---
 # tutuf is a 
 
-small company that does web development for small and medium businesses since 2007. We actively listen to our clients to fully understand their needs,then we design, program, deploy, and refine the software based on client's feedback. 
+small company that does web development for small and medium businesses since 2007. We actively listen to our clients to fully understand their needs, then we design, program, deploy, and refine the software based on client's feedback. 
 
 We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
