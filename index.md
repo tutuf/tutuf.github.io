@@ -17,7 +17,7 @@ We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
 # Need help with a web application?
 
-Our combined experience with Ruby on Rails is half a century. We can help you at any stage of your oroject: paper prototyping, proof of concept,  minimum viable product, scaling, adding and removing features, upgrading Rails and gems, optimizing database, or maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+Our combined experience with Ruby on Rails is half a century. We can help you at any stage of your oroject: paper prototyping, proof of concept,  minimum viable product, scaling, adding and removing features, upgrading Ruby, Rails, gems and other dependencies, optimizing database, or maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 # tutuf moral policy
 
