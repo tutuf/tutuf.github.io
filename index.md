@@ -11,7 +11,10 @@ We actively listen to our clients to fully understand their needs, then  quicly 
 
 # tutuf tech stack
 
-We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We maintain several open source [Ruby gems](https://github.com/tutuf/).
+We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We have experience in event-driven architecture, distributed systems, API design, and service integration.
+
+We maintain several open source [Ruby gems](https://github.com/tutuf/).
+
 
 # Need help with a web application?
 
