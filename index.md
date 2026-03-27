@@ -3,7 +3,7 @@ title: tutuf - natural intelligence programming
 ---
 # tutuf is a 
 
-small company that does web development for small and medium businesses since 2007. Our portfolio includes a [manufacturing resource planning system](https://github.com/tutuf/sht) for the fashion industry (2006-2008) and a top Bulgarian [e-commerce platform](https://laptop.bg) (2009-now).
+small company that does web development for small and medium businesses since 2007. Our portfolio includes a [manufacturing resource planning system](https://github.com/tutuf/sht) for the fashion industry (2006-2014) and a top Bulgarian [e-commerce platform](https://laptop.bg) (2009-now).
 
 # tutuf way
 
