@@ -7,15 +7,14 @@ small company that does web development for small and medium businesses since 20
 
 # tutuf way
 
-We actively listen to our clients to fully understand their needs, then  quicly prototype to make sure we got it right before we start implementation. We continously deploy when we have somwthing ready to get client’s feedback and refine the software based on it. We minimize risk by working in small iterations. We keep the cost of change low and product quality high by maintaining extensive test coverage.
+We actively listen to our clients to fully understand their needs, then  quicly prototype to ensure it's the right thing to do before we start implementation. When we have something ready we deploy it in a testing environment to get client’s feedback and refine the product. We minimize risk by working step by step in small iterations. We keep the cost of change low and product quality high by maintaining extensive test coverage. We build products that can communicate and exchange data with other software.
 
 # tutuf tech stack
 
-We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We have experience in event-driven architecture, distributed systems, API design, and service integration.
+We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). 
 
 We maintain several open source [Ruby gems](https://github.com/tutuf/).
-
-
+
 # Need help with a web application?
 
 Our combined experience with Ruby on Rails is half a century. We can help you at any stage of your oroject: paper prototyping, proof of concept,  minimum viable product, scaling, adding and removing features, upgrading Rails and gems, optimizing database, or maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
