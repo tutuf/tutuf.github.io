@@ -18,7 +18,7 @@ We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
 # Need help with a web application?
 
-Our combined experience with Ruby on Rails is half a century. We can help you at any stage of your project: paper prototyping, proof of concept,  minimum viable product, scaling, adding and removing features, upgrading Ruby, Rails, gems and other dependencies, optimizing database schema and queries, or maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+Our team’s combined experience with Ruby on Rails is half a century. We can help you at any stage of your project: paper prototyping, proof of concept,  minimum viable product, scaling, adding and removing features, upgrading Ruby, Rails, gems and other dependencies, optimizing database schema and queries, or maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
 
 # tutuf moral policy
 
@@ -45,7 +45,7 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 
 # tutuf internship and jobs
 
-If you speak Ruby and share our values, drop us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com). We are a fully remote company.
+If you speak Ruby and share our values, drop us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com) even if you have no.professional experience. We are a fully remote company. Although we are officeless, we like to meet in person and work together from time to time.
 
 ---
 Made in Bulgaria
