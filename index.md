@@ -7,7 +7,7 @@ small company that does web development for small and medium businesses since 20
 
 # tutuf way
 
-We actively listen to our clients to fully understand their needs, then  quicly prototype to ensure it's the right thing to do before we start implementation. When we have something ready we deploy it in a testing environment to get client’s feedback and refine the product. We minimize risk by working step by step in small iterations. We keep the cost of change low and product quality high by maintaining extensive test coverage. We build products that can communicate and exchange data with other software.
+We actively listen to our clients to fully understand their needs, then  quicly prototype to make sure we got  it right. When we have something ready we deploy it in a testing environment to get client’s feedback and refine further. We minimize risk by working step by step in small iterations. We keep the cost of change low and product quality high by maintaining extensive test coverage. We build products that can communicate and exchange data with other software.
 
 # tutuf tech stack
 
