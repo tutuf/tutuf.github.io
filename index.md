@@ -43,9 +43,11 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
-# tutuf internship and jobs
+# tutuf paid internship
 
-If you speak Ruby and share our values, drop us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com) even if you have no.professional experience. We are a fully remote company. Although we are officeless, we like to meet in person and work together from time to time.
+We have been running internship programs since 2010. If you are a student or recent graduate who speaks or wants to learn Ruby and shares our work ethics, please, send us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com). 
+
+We are a remote officeless company, but from time to time we love to meet in person and work together.
 
 ---
 Made in Bulgaria
