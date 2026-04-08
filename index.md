@@ -26,7 +26,7 @@ We don’t work with gambling, tobacco, and weapons companies as well as those e
 
 # tutuf environmental policy
 
-We try to minimize our footprint by  using our hardware as long as we can. Climate change is real, and infinite growth on a finite planet is impossible.
+We try to minimize our footprint by using our hardware as long as we can. Climate change is real, and infinite growth on a finite planet is impossible.
 
 # tutuf team
 
@@ -43,11 +43,11 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
-# tutuf paid internship
+# tutuf internship
 
 We have been running internship programs since 2010. If you are a student or recent graduate who speaks or wants to learn Ruby and shares our work ethics, please, send us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com). 
 
-We are a remote officeless company, but from time to time we love to meet in person and work together.
+We are a fully remote company. We love to meet at least once a month in person to work or play.
 
 ---
 Made in Bulgaria
