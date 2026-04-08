@@ -7,14 +7,15 @@ small company that does web development for small and medium businesses since 20
 
 # tutuf way
 
-We actively listen to our clients to fully understand their needs, then  quicкly prototype to make sure we got it right. When we have something ready we deploy it in a testing environment to get client’s feedback and refine further. We minimize risk by working step by step in small iterations. We keep the cost of change low and product quality high by maintaining automatic tests.
+We actively listen to our clients to fully understand their needs, then rapidly prototype to make sure we got it right. When we have something ready we deploy it in a testing environment to get client’s feedback and refine further. We minimize risk by working step by step in small iterations. We keep the cost of change low and product quality high by maintaining automatic tests.
 
 # tutuf tech stack
 
-We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/). We are experienced in event-driven architectures, API design, distributed systems and service integration.
+We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/).
+
+We are experienced in event-driven architectures, API design, distributed systems and service integration.
 
 We maintain several open source [Ruby gems](https://github.com/tutuf/).
-
 
 # Need help with a web application?
 
@@ -38,14 +39,14 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 
 # tutuf hall of fame
 
-* [Stefan Kanev](https://github.com/skanev) - CTO at dext.com
+* [Stefan Kanev](https://github.com/skanev) - Chief Technology Officer at Dext
 * [Tsanka Dobreva](https://github.com/tsankaste) - Rails developer
 * [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
 * [Georgi Peshev](https://github.com/EL-34) - QA engineer
 
 # tutuf internship
 
-We have been running internship programs since 2010. If you are a student or recent graduate who speaks or wants to learn Ruby and shares our work ethics, please, send us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com). 
+We have been running internship programs since 2010. If you are a student or recent graduate who knows or wants to learn Ruby, and you share our work ethic, please, send us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com). 
 
 We are a fully remote company. We love to meet at least once a month in person to work or play.
 
