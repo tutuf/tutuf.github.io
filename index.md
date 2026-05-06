@@ -17,9 +17,9 @@ We are experienced in event-driven architectures, API design, distributed system
 
 We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
-# Need help with a web application?
+# tutuf culture
 
-Our team’s combined experience with Ruby on Rails is half a century. We can help you at any stage of your project: paper prototyping, proof of concept,  minimum viable product, scaling, adding and removing features, upgrading Ruby, Rails, gems and other dependencies, optimizing database schema and queries, or maintaining legacy code. Contact us at [help@tutuf.com](mailto:help@tutuf.com). 
+We build software with a product mindset and a strong focus on long-term value. We see ourselves not just as developers, but as partners in shaping sustainable products and system solutions. Our culture is rooted in collective ownership, close collaboration, and continuous improvement, where quality is a shared responsibility and learning never stops. We invest in both technical excellence and people growth, combining deep engineering expertise with strong teamwork and communication. Working primarily remote, with meaningful in-person collaboration, we foster a culture of trust, proactivity, and shared commitment to building products that last. Beyond client work, we’ve contributed to open source, invested in mentoring through internship programs, and supported the local Ruby community.
 
 # tutuf moral policy
 
