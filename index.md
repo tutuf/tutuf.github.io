@@ -1,14 +1,18 @@
 ---
-title: tutuf - we program the now
+title: tutuf - build.your own ERP
 ---
 
-# You know better than us how to solve your problems
+# You can solve your problems better than anyone else could — with the right tools
 
-We build tools that enable small companies without technical knowledge to create software that fits perfectly their needs when Google Spreadsheets or AirTable are not enough. If you are interested and want early access, write to [hi@tutuf.com](mailto:hi@tutuf.com)
+Your company uses differwnt web apps to run its bussiness. You struggle with synchronising the data between the disparatw apps and do a lot of manual work. Sometimeas you make mistakes that cost you money or lost opportunities. It might happen that when you need to change something on the fly on your phone the mobile app lacks the functuinality or its web version would tell you it only works on a desktop.
+
+You wish all the apps could seemlessly work, that your manual data handling could be automated, and you could.focus on the creative part of your business that brings the food to your table. We have the same problems as yo uand we decided to solve them in a way that would enable anyone to solve them for their specific business, be it producing organic food, creating hand crafted items of repurpised materials or something completely different.
+
+Soon here will be a form to sign up for early access to what we are building now. In the mean time you can drrop us a line at [hi@tutuf.com](mailto:hi@tutuf.com) if we can help you in any other way.
 
 # tutuf roots
 
-We are a tiny company that does web development for small and medium businesses since 2007. Our portfolio includes a [manufacturing resource planning system](https://github.com/tutuf/sht) for the fashion industry (2006-2014) and a top Bulgarian [e-commerce platform](https://laptop.bg) (2009-2026).
+We are a tiny company develiping web apps for small and medium businesses since 2007. Our portfolio includes a [manufacturing resource planning system](https://github.com/tutuf/sht) for the fashion industry (2006-2014) and a top Bulgarian [e-commerce platform](https://laptop.bg) (2009-2026).
 
 # tutuf way
 
@@ -30,7 +34,7 @@ We value mutual trust, proactivity, and commitment to building high-quality soft
 
 Beyond commisioned work, we  mentor interns to become full-fledged developers, contribute to open source, and support the local Ruby community.
 
-We work remotely, and we love to collaborate in-person from time to time.
+We work remotely, and we love to meet in-person occasionally to work or play.
 
 # tutuf moral policy
 
@@ -58,8 +62,6 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 # tutuf internship
 
 We have been running internship programs since 2010. If you are a student or recent graduate who knows or wants to learn Ruby, and you share our work ethic, please, send us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com). 
-
-We are a fully remote company. We love to meet at least once a month in person to work or play.
 
 ---
 Made in Bulgaria
