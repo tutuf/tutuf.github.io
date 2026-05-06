@@ -12,7 +12,7 @@ Soon here will be a form to sign up for early access to what we are building now
 
 # tutuf roots
 
-We are a tiny company develiping web apps for small and medium businesses since 2007. Our portfolio includes a [manufacturing resource planning system](https://github.com/tutuf/sht) for the fashion industry (2006-2014) and a top Bulgarian [e-commerce platform](https://laptop.bg) (2009-2026).
+We are a tiny company develoiping web apps for small and medium businesses since 2007. Our portfolio includes a [manufacturing resource planning system](https://github.com/tutuf/sht) for the fashion industry (2006-2014) and a top Bulgarian [e-commerce platform](https://laptop.bg) (2009-2026).
 
 # tutuf way
 
