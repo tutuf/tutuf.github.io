@@ -4,7 +4,7 @@ title: tutuf - we program the now
 
 # You know better than us how to solve your problems
 
-We build tools that enable small companies without technical knowledge to create software that fits perfectly their needs when Google Spreadsheets or AirTable are not enough. If you are interested and want an early access, write to [hi@tutuf.com](mailto:hi@tutuf.com)
+We build tools that enable small companies without technical knowledge to create software that fits perfectly their needs when Google Spreadsheets or AirTable are not enough. If you are interested and want early access, write to [hi@tutuf.com](mailto:hi@tutuf.com)
 
 # tutuf roots
 
