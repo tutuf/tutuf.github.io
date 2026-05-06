@@ -1,9 +1,14 @@
 ---
-title: tutuf - natural intelligence programming 
+title: tutuf - we program the now
 ---
-# tutuf is a 
 
-small company that does web development for small and medium businesses since 2007. Our portfolio includes a [manufacturing resource planning system](https://github.com/tutuf/sht) for the fashion industry (2006-2014) and a top Bulgarian [e-commerce platform](https://laptop.bg) (2009-now).
+# You know better than us how to solbe your problems
+
+We build tools that enable small companies without technical knowledge to create software that fits perfectly their needs when Google Spreadsheets or AirTable are not enough. If you are interested and want an early access, write to [hi@tutuf.com](mailto:hi@tutuf.com)
+
+# tutuf roots
+
+We are a tiny company that does web development for small and medium businesses since 2007. Our portfolio includes a [manufacturing resource planning system](https://github.com/tutuf/sht) for the fashion industry (2006-2014) and a top Bulgarian [e-commerce platform](https://laptop.bg) (2009-2026).
 
 # tutuf way
 
@@ -19,7 +24,13 @@ We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
 # tutuf culture
 
-We build software with a product mindset and a strong focus on long-term value. We see ourselves not just as developers, but as partners in shaping sustainable products and system solutions. Our culture is rooted in collective ownership, close collaboration, and continuous improvement, where quality is a shared responsibility and learning never stops. We invest in both technical excellence and people growth, combining deep engineering expertise with strong teamwork and communication. Working primarily remote, with meaningful in-person collaboration, we foster a culture of trust, proactivity, and shared commitment to building products that last. Beyond client work, we’ve contributed to open source, invested in mentoring through internship programs, and supported the local Ruby community.
+We build products with a strong focus on long-term value. We practice collective ownership, close collaboration, and continuous improvement of both technical and interpersonal skills. 
+
+We value mutual trust, proactivity, and commitment to building high-quality software that is a pleasure both to use and maintain. The engineering expertise is as important for us as teamwork and open communication
+
+Beyond commisioned work, we  mentor interns to become full-fledged developers, contribute to open source, and support the local Ruby community.
+
+We work remotely, and we love to collaborate in-person from time to time.
 
 # tutuf moral policy
 
