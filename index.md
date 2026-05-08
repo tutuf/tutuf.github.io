@@ -8,7 +8,7 @@ Sometimes this means custom development. Sometimes it means giving you user frie
 
 # tutuf way
 
-We build web apps since 2007. We always ask a lot of questions in order to understand our clients’ needs before we program. We deploy often to a test environment and refine the software based on the clients’ feedback. We automate tests to keep cost of change low. We outsorce coding to AI agents but never the thinking.
+We build web apps since 2007. We always ask a lot of questions in order to understand our clients’ needs before we program. We deploy often to a test environment and refine the software based on the clients’ feedback. We automate tests to keep cost of change low. We outsource coding to AI agents but never the thinking.
 
 We have experience in building from scratch as well as maintaining and improving legacy systems. Our biggest project is [custom-built online shop](https://laptop.bg): 17 years, seven-digit number of customers, double-digit sustained annual growth.
 
@@ -26,7 +26,7 @@ We build products with a strong focus on long-term value. We practice collective
 
 We value mutual trust, proactivity, and commitment to building high-quality software that is a pleasure both to use and to maintain. The engineering expertise is as important for us as teamwork and open communication.
 
-We're a small team by choice because we value quality over quantity. A thousand hands are needless, if one knows exactly where to touch.
+We're a small team by choice because  quality is more important than quantity. A thousand hands are needless, if one knows exactly where to touch.
 
 Success for us is not getting unhandsomely rich but having the satisfaction of job well done and enough time to enjoy life outside of work. 
 
