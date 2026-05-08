@@ -42,7 +42,7 @@ We try to minimize our footprint by using our hardware as long as we can. Climat
 
 # tutuf tech stack
 
-We work with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/).
+We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/).
 
 We are experienced in event-driven architectures, API design, distributed systems and service integration.
 
