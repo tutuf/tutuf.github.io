@@ -4,13 +4,13 @@ title: tutuf - we program the present
 
 # We help small companies build the software they actually need
 
-Sometimes this means custom development. Sometimes it means giving you user friendly tools to build it yourself, without writing a line of code. Sometimes it means joining your team to help ship what you're already building. Either way, we start by listening. You can reach out to us at [hi@tutuf.com](mailto:hi@tutuf.com).
+Sometimes this means custom development. Sometimes it means giving you user friendly tools so you can build it yourself, without writing a line of code. Sometimes it means joining your team to help ship what you're already building. Either way, we start by listening. You can reach out to us at [hi@tutuf.com](mailto:hi@tutuf.com).
 
 # tutuf way
 
-We build web apps since 2007. We always start with asking a lot of questions in order to understand our client's needs, followed by programming, deploying to a test environment, and refining the software based on the client's feedback. We have experience in building both from scratch as well as maintaining and improving legacy systems.
+We build web apps since 2007. We always ask a lot of questions in order to understand our clients’ needs before we program. We deploy often to a test environment and refine the software based on the clients’ feedback. We automate tests to keep cost of change low. We outsorce coding to AI agents but never the thinking.
 
-Our biggest project is [custom-built online shop](https://laptop.bg): 17 years, seven-digit number of customers, double-digit sustained annual growth.
+We have experience in building from scratch as well as maintaining and improving legacy systems. Our biggest project is [custom-built online shop](https://laptop.bg): 17 years, seven-digit number of customers, double-digit sustained annual growth.
 
 # tutuf team
 
@@ -24,15 +24,15 @@ We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni
 
 We build products with a strong focus on long-term value. We practice collective ownership, close collaboration, and continuous improvement of both technical and interpersonal skills.
 
-We value mutual trust, proactivity, and commitment to building high-quality software that is a pleasure both to use and maintain. The engineering expertise is as important for us as teamwork and open communication.
+We value mutual trust, proactivity, and commitment to building high-quality software that is a pleasure both to use and to maintain. The engineering expertise is as important for us as teamwork and open communication.
 
 We're a small team by choice because we value quality over quantity. A thousand hands are needless, if one knows exactly where to touch.
 
 Success for us is not getting unhandsomely rich but having the satisfaction of job well done and enough time to enjoy life outside of work. 
 
-Beyond commisioned work, we  mentor interns to become full-fledged developers, contribute to open source, and support the local Ruby community.
+Beyond commisioned projects, we mentor interns to become full-fledged developers, we contribute to open source, and we support the local Ruby community.
 
-We work remotely, and we love to meet in-person occasionally to work or play.
+We are a remote company, and we love to meet in-person occasionally to keep the human connection. And we are playful!
 
 # tutuf policy
 
