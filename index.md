@@ -1,5 +1,5 @@
 ---
-title: tutuf - we program the now
+title: tutuf - we program the present
 ---
 
 # We help small companies build the software they actually need
@@ -26,7 +26,9 @@ We build products with a strong focus on long-term value. We practice collective
 
 We value mutual trust, proactivity, and commitment to building high-quality software that is a pleasure both to use and maintain. The engineering expertise is as important for us as teamwork and open communication.
 
-We're a small team by choice and we do not plan to be more than a handful of people. For us success is not expansion but having the satisfaction of job well done and balanced work that allows us to enjoy life too.
+We're a small team by choice because we value quality over quantity. A thousand hands are needless, if one knows exactly where to touch.
+
+Success for us is not getting unhandsomely rich but having the satisfaction of job well done and enough time to enjoy life outside of work. 
 
 Beyond commisioned work, we  mentor interns to become full-fledged developers, contribute to open source, and support the local Ruby community.
 
