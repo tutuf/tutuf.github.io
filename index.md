@@ -62,6 +62,6 @@ We have been running internship programs since 2010. If you are a student or rec
 ---
 Made in Bulgariai
 
-![We program the present](images/ние програмираме настоящето - тутуb.png)
+![We program the present](images/we_program_the_present_bg.png))
 
 
