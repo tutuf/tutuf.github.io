@@ -28,7 +28,7 @@ We value mutual trust, proactivity, and commitment to building high-quality soft
 
 We're a small team by choice because  quality is more important than quantity. A thousand hands are needless, if one knows exactly where to touch.
 
-Success for us is not getting unhandsomely rich but having the satisfaction of job well done and enough time to enjoy life outside of work. 
+Success for us is not getting unhandsomely rich but having the satisfaction of job well done and enough time to enjoy life outside of work.
 
 Beyond commisioned projects, we mentor interns to become full-fledged developers, we contribute to open source, and we support the local Ruby community.
 
@@ -59,9 +59,8 @@ We maintain several open source [Ruby gems](https://github.com/tutuf/).
 
 We have been running internship programs since 2010. If you are a student or recent graduate who knows or wants to learn Ruby, and you share our work ethic, please, send us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
 
----
-Made in Bulgariai
+![We program the present](images/we_program_the_present_bg.png)
 
-![We program the present](images/we_program_the_present_bg.png))
+<footer style="text-align:center;">Made in Bulgaria</footer>
 
 
