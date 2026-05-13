@@ -60,4 +60,8 @@ We maintain several open source [Ruby gems](https://github.com/tutuf/).
 We have been running internship programs since 2010. If you are a student or recent graduate who knows or wants to learn Ruby, and you share our work ethic, please, send us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
 
 ---
-Made in Bulgaria
+Made in Bulgariai
+
+![We program the present](images/ние програмираме настоящето - тутуb.png)
+
+
