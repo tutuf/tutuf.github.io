@@ -4,7 +4,7 @@ title: tutuf - we program the present
 
 # We help small companies build the software they actually need
 
-Sometimes this means custom development. Sometimes it means giving you user friendly tools so you can build it yourself, without writing a line of code. Sometimes it means joining your team to help ship what you're already building. Either way, we start by listening. You can reach out to us at [hi@tutuf.com](mailto:hi@tutuf.com).
+Sometimes this means custom development. Sometimes it means giving you user friendly tools so you can build it yourself, without writing a line of code. Sometimes it means joining your team to help ship what you're already building. Either way, we start by listening. You can reach out to us at [hi@tutuf.com](mailto:hi@tutuf.com) or [connect on LinkedIn](https://www.linkedin.com/company/tutuf)
 
 # tutuf way
 
