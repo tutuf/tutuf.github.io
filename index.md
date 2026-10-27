@@ -115,6 +115,8 @@ AI made writing code cheaper. That makes the judgment behind what to write, what
 
 [See how we approach a decision](/how-we-work/)
 
+**Make a product our clients could use?** We often recommend and connect proven products instead of building. If you make one—or work alongside teams like ours—[we would like to hear from you](mailto:hi@tutuf.com?subject=Partnership).
+
 ---
 
 # Seventeen years with one growing business.
