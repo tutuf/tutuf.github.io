@@ -67,6 +67,14 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 [Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
 
+# We should probably talk if…
+
+* A process or system already matters to daily operations.
+* There is a real cost to leaving it as it is.
+* You want a partner who will question the solution, not just execute it.
+
+**Probably not if** a ready-made ERP, accounting or CRM product solves the need well, the product is still searching for product-market fit, or you need one supplier to cover an entire technology and design organisation.
+
 # Not a clean slate. A sound next step.
 
 Every business already has a system. Sometimes it is software. Sometimes it is a spreadsheet, a manual handoff or knowledge held by one person. We learn what is valuable in it before deciding what should change—and what should become software.
@@ -121,14 +129,6 @@ We make uncertainty visible, deliver working change and decide together whether 
 *Reserved capacity · monthly*
 
 For software that keeps changing, you get continuity, priority and senior judgment without building a full internal engineering team.
-
-# We should probably talk if…
-
-* A process or system already matters to daily operations.
-* There is a real cost to leaving it as it is.
-* You want a partner who will question the solution, not just execute it.
-
-**Probably not if** a ready-made ERP, accounting or CRM product solves the need well, the product is still searching for product-market fit, or you need one supplier to cover an entire technology and design organisation.
 
 # Some work is not ours to take.
 
