@@ -15,13 +15,13 @@ We shape dependable software around the way your business actually works—conne
 * **A few clients at a time** — senior attention by design
 * **Yours from day one** — code, accounts and infrastructure
 
-[Tell us what’s in the way](mailto:hi@tutuf.com?subject=What%E2%80%99s%20in%20the%20way) · [See the questions we ask](#what-is-getting-in-the-way)
+[Tell us what’s in the way](mailto:hi@tutuf.com?subject=What%E2%80%99s%20in%20the%20way) · [Find your situation](#what-is-getting-in-the-way)
 
 ---
 
 # What is getting in the way?
 
-You do not need a specification to start. Choose the situation that feels closest and use the questions to see it more clearly.
+You do not need a specification to start. Find the situation that feels closest and open its questions to see it more clearly.
 
 <div class="situation" markdown="1">
 
@@ -29,12 +29,17 @@ You do not need a specification to start. Choose the situation that feels closes
 
 The business model works and your team knows how the process should run. But ready-made products do not fit the part specific to your business, and manual work is beginning to limit growth.
 
+<details class="questions" markdown="1">
+<summary>Before suggesting anything, we would ask…</summary>
+
 * Which part of the process is already proven?
 * Where does the work depend on a person, spreadsheet or workaround?
 * What could the business do if that constraint disappeared?
 
-[This sounds like us](mailto:hi@tutuf.com?subject=A%20proven%20process%20has%20outgrown%20spreadsheets%20and%20workarounds)
+[Talk these through with us](mailto:hi@tutuf.com?subject=A%20proven%20process%20has%20outgrown%20spreadsheets%20and%20workarounds)
 {: .cta}
+
+</details>
 
 </div>
 
@@ -44,12 +49,17 @@ The business model works and your team knows how the process should run. But rea
 
 ERP, accounting, payments, suppliers and sales channels each do their job, while somebody on your team has quietly become the integration between them.
 
+<details class="questions" markdown="1">
+<summary>Before suggesting anything, we would ask…</summary>
+
 * Where is information entered or checked twice?
 * Which system should remain the source of truth?
 * What becomes possible when the handoffs disappear?
 
-[This sounds like us](mailto:hi@tutuf.com?subject=Useful%20systems%20still%20need%20people%20to%20bridge%20the%20gaps)
+[Talk these through with us](mailto:hi@tutuf.com?subject=Useful%20systems%20still%20need%20people%20to%20bridge%20the%20gaps)
 {: .cta}
+
+</details>
 
 </div>
 
@@ -59,12 +69,17 @@ ERP, accounting, payments, suppliers and sales channels each do their job, while
 
 It was built quickly—perhaps partly with AI—and proved the idea. Now customers, data and daily work are beginning to depend on it.
 
+<details class="questions" markdown="1">
+<summary>Before suggesting anything, we would ask…</summary>
+
 * Which parts are already used in real work?
 * What kind of failure would matter to the business?
 * What should the system be able to change next?
 
-[This sounds like us](mailto:hi@tutuf.com?subject=A%20useful%20prototype%20has%20become%20real%20software)
+[Talk these through with us](mailto:hi@tutuf.com?subject=A%20useful%20prototype%20has%20become%20real%20software)
 {: .cta}
+
+</details>
 
 </div>
 
@@ -74,12 +89,17 @@ It was built quickly—perhaps partly with AI—and proved the idea. Now custome
 
 A freelancer disappeared, an agency dissolved, or the person who held the context moved on. The system still works, but the next decision no longer feels safe.
 
+<details class="questions" markdown="1">
+<summary>Before suggesting anything, we would ask…</summary>
+
 * Where does the system’s knowledge live today?
 * Which change are you least comfortable approving?
 * What must keep working while context is rebuilt?
 
-[This sounds like us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again)
+[Talk these through with us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again)
 {: .cta}
+
+</details>
 
 </div>
 

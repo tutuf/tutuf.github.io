@@ -292,18 +292,23 @@ strong {
   }
 }
 
-// Situations as numbered cards, in the same style as the answer tiles
+// Situations as numbered cards, in the same style as the answer tiles;
+// each card's questions open on demand
 .content {
   counter-reset: situation stage;
 }
 
 .situation {
   counter-increment: situation;
-  padding: 20px 24px 4px;
+  padding: 20px 24px 0;
   margin-bottom: 16px;
   background: $card-bg;
   border: 1px solid $card-border;
   border-radius: 4px;
+
+  &:has(details[open]) {
+    border-color: $secondary;
+  }
 
   h3 {
     margin-top: 0;
@@ -318,9 +323,61 @@ strong {
     }
   }
 
-  ul {
-    border-top: 1px solid $card-border;
-    padding-top: 12px;
+  > p {
+    margin-bottom: 14px;
+  }
+}
+
+details.questions {
+  border-top: 1px solid $card-border;
+  margin: 0 -24px;
+  padding: 0 24px;
+
+  &[open] {
+    padding-bottom: 4px;
+  }
+
+  summary {
+    position: relative;
+    display: inline-block;
+    padding: 12px 22px 14px 0;
+    list-style: none;
+    cursor: pointer;
+    color: $primary;
+    font-size: 15px;
+
+    &::-webkit-details-marker { display: none; }
+
+    &:hover { color: $primary-light; }
+
+    &:focus-visible {
+      outline: 2px solid $primary;
+      outline-offset: 2px;
+    }
+
+    // chevron that turns when the questions open
+    &::after {
+      content: "";
+      position: absolute;
+      right: 2px;
+      top: 50%;
+      width: 8px;
+      height: 8px;
+      margin-top: -7px;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      transform: rotate(45deg);
+      transition: transform 0.2s ease;
+    }
+  }
+
+  &[open] summary {
+    padding-bottom: 8px;
+
+    &::after {
+      margin-top: -3px;
+      transform: rotate(-135deg);
+    }
   }
 }
 
