@@ -228,7 +228,7 @@ summary {
   }
 
   // keep lines to roughly 75 characters
-  p:not(.cta),
+  p:not(.cta):not(.note),
   > ul {
     max-width: 38em;
   }
