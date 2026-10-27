@@ -63,9 +63,7 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 * Which change are you least comfortable approving?
 * What must keep working while context is rebuilt?
 
-[This sounds like us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again)
-
-[Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
+[This sounds like us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again) · [Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
 
 ---
 
