@@ -4,7 +4,7 @@ description: "Engineering partnership for established businesses: connecting pro
 image: /images/og-image.png
 ---
 
-[Home](/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
+[Home](/) · [How we work](/how-we-work/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
 
 # Care for what works. Shape what comes next.
 
@@ -97,18 +97,7 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 **Probably not if** a ready-made ERP, accounting or CRM product solves the need well, the product is still searching for product-market fit, or you need one supplier to cover an entire technology and design organisation.
 
----
-
-# Not a clean slate. A sound next step.
-
-Every business already has a system. Sometimes it is software. Sometimes it is a spreadsheet, a manual handoff or knowledge held by one person. We learn what is valuable in it before deciding what should change—and what should become software.
-
-* **What should become possible?** We begin with what the business, its customers or its team should be able to do differently—not with a feature.
-* **What happens today instead?** We look for the real delay, risk, manual work or missed opportunity—and who carries it.
-* **What already works and should stay?** We preserve useful products, processes and knowledge instead of replacing them with custom code.
-{: .lenses}
-
-You know the business. We bring the engineering judgment. The important decisions are made together.
+We are also selective about the work we take. [See what we will not build](/how-we-work/#some-work-is-not-ours-to-take).
 
 ---
 
@@ -123,6 +112,8 @@ Every custom line can create value—and becomes something that must be understo
 {: .answers}
 
 AI made writing code cheaper. That makes the judgment behind what to write, what not to write and what to remove more valuable.
+
+[See how we approach a decision](/how-we-work/)
 
 ---
 
@@ -176,16 +167,6 @@ We make uncertainty visible, deliver working change and decide together whether 
 For software that keeps changing, you get continuity, priority and senior judgment without building a full internal engineering team.
 
 </div>
-
----
-
-# Some work is not ours to take.
-
-We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.
-
-If a company asks us to build dark patterns, manipulate people or hide material information, we do not take work from that company—even when its industry would otherwise be a fit.
-
-In our own work, we keep hardware in use for as long as it remains reliable and prefer durable systems over needless replacement.
 
 ---
 

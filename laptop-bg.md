@@ -5,7 +5,7 @@ image: /images/og-image.png
 permalink: /work/laptop-bg/
 ---
 
-[Home](/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
+[Home](/) · [How we work](/how-we-work/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
 
 *Client story · [laptop.bg](https://laptop.bg)*
 

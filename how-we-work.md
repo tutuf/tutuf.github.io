@@ -1,0 +1,45 @@
+---
+title: tutuf — How we work
+description: "How we decide what should change, what should stay and what should become software—and the work we do not take."
+image: /images/og-image.png
+permalink: /how-we-work/
+---
+
+[Home](/) · [How we work](/how-we-work/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
+
+*How we work*
+
+# Not a clean slate. A sound next step.
+
+Every business already has a system. Sometimes it is software. Sometimes it is a spreadsheet, a manual handoff or knowledge held by one person. We learn what is valuable in it before deciding what should change—and what should become software.
+
+* **What should become possible?** We begin with what the business, its customers or its team should be able to do differently—not with a feature.
+* **What happens today instead?** We look for the real delay, risk, manual work or missed opportunity—and who carries it.
+* **What already works and should stay?** We preserve useful products, processes and knowledge instead of replacing them with custom code.
+{: .lenses}
+
+You know the business. We bring the engineering judgment. The important decisions are made together.
+
+---
+
+# Some work is not ours to take.
+
+We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.
+
+If a company asks us to build dark patterns, manipulate people or hide material information, we do not take work from that company—even when its industry would otherwise be a fit.
+
+In our own work, we keep hardware in use for as long as it remains reliable and prefer durable systems over needless replacement.
+
+---
+
+# A useful first conversation
+
+## Not sure where your situation fits?
+
+Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
+
+[Start the conversation](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
+
+We reply within two working days.
+
+<footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>
