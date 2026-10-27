@@ -63,7 +63,7 @@ ol.answers {
 
 // Situations as numbered cards, in the same style as the answer tiles
 section {
-  counter-reset: situation;
+  counter-reset: situation stage;
 }
 
 .situation {
@@ -90,6 +90,62 @@ section {
   ul {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     padding-top: 12px;
+  }
+}
+
+// Stages as numbered steps along a gold line
+h1 + .stage {
+  margin-top: 20px;
+}
+
+.stage {
+  counter-increment: stage;
+  position: relative;
+  padding-left: 48px;
+  padding-bottom: 4px;
+
+  // the line down to the next step
+  &:has(+ .stage)::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 34px;
+    bottom: -2px;
+    width: 2px;
+    background: rgba(255, 204, 0, 0.35);
+  }
+
+  h3 {
+    color: #e8e8e8;
+    margin-bottom: 6px;
+
+    &::before {
+      content: counter(stage);
+      position: absolute;
+      left: 0;
+      top: -4px;
+      width: 28px;
+      height: 28px;
+      border: 2px solid #ffcc00;
+      border-radius: 50%;
+      color: #ffcc00;
+      font-size: 14px;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+
+  p.meta {
+    margin-bottom: 8px;
+
+    em {
+      font-style: normal;
+      font-size: 12px;
+      color: #ffcc00;
+      border: 1px solid rgba(255, 204, 0, 0.4);
+      border-radius: 12px;
+      padding: 2px 10px;
+    }
   }
 }
 

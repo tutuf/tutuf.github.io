@@ -144,23 +144,38 @@ That experience taught us to judge a decision not only by launch day, but by whe
 
 # A clear decision at every stage.
 
-### 01. Focused assessment
+<div class="stage" markdown="1">
+
+### Focused assessment
 
 *Usually 1–2 weeks · fixed price*
+{: .meta}
 
 We study the business goal, system and process. You receive written findings, options, priorities and a practical next step—yours to keep.
 
-### 02. Delivery in useful increments
+</div>
+
+<div class="stage" markdown="1">
+
+### Delivery in useful increments
 
 *Clear objective · review point*
+{: .meta}
 
 We make uncertainty visible, deliver working change and decide together whether to continue, adjust or stop.
 
-### 03. Ongoing care and development
+</div>
+
+<div class="stage" markdown="1">
+
+### Ongoing care and development
 
 *Reserved capacity · monthly*
+{: .meta}
 
 For software that keeps changing, you get continuity, priority and senior judgment without building a full internal engineering team.
+
+</div>
 
 ---
 
