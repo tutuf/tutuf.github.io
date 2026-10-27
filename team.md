@@ -1,5 +1,5 @@
 ---
-title: tutuf — The people behind the work
+title: The people behind the work
 description: "A small team of product engineers who think beyond the next release."
 image: /images/og-image.png
 permalink: /team/

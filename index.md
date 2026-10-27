@@ -1,6 +1,6 @@
 ---
-title: tutuf — Care for what works. Shape what comes next.
-description: "Engineering partnership for established businesses: connecting proven tools, strengthening existing systems and building focused custom software."
+title: Care for what works. Shape what comes next.
+description: "The engineering partner for the business behind the software. We help established businesses decide what to use, connect, build or remove—and stay to look after it."
 image: /images/og-image.png
 ---
 
@@ -110,7 +110,7 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 # Four legitimate answers. Only one of them is “build”.
 
-Every custom line can create value—and becomes something that must be understood, changed and cared for.
+Every line of custom code can create value—and becomes something that must be understood, changed and cared for.
 
 1. **Use** Choose a proven product where it already solves the common need well.
 2. **Connect** Make trusted systems work together around the actual business process.
@@ -196,7 +196,7 @@ We are also selective about the work we take. [See the work we do not take](/how
 **What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change. If one of the four situations sounds familiar, start there. You do not need a specification or a proposed solution.
 
 1. **You write** A few lines about the situation are enough.
-2. **We reply** One of the product engineers who would be involved reads and replies. If a conversation would be useful, we send you a link to choose a time. If we are not the right fit, we say so.
+2. **We reply** One of the [product engineers](/team/) who would be involved reads and replies. If a conversation would be useful, we send you a link to choose a time. If we are not the right fit, we say so.
 3. **We talk** A free, focused first conversation about the problem, the constraints and the best next step, even if that is not working with us.
 {: .steps}
 

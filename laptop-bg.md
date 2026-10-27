@@ -1,5 +1,5 @@
 ---
-title: tutuf — Client story · laptop.bg
+title: Client story · laptop.bg
 description: "How laptop.bg grew from an online store into the production system behind daily commercial operations over seventeen years."
 image: /images/og-image.png
 permalink: /work/laptop-bg/
@@ -7,7 +7,7 @@ permalink: /work/laptop-bg/
 
 *Client story · [laptop.bg](https://laptop.bg)*
 
-# Built for the business it became
+# Built for the business it became.
 
 laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations—catalogue, suppliers, payments and sales channels. We changed it repeatedly without discarding the business knowledge already built into it.
 

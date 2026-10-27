@@ -1,5 +1,5 @@
 ---
-title: tutuf — How we work
+title: How we work
 description: "How we decide what should change, what should stay and what should become software—and the work we do not take."
 image: /images/og-image.png
 permalink: /how-we-work/
