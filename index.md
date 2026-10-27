@@ -138,6 +138,8 @@ laptop.bg started as an online store. For seventeen years, the system we evolved
 
 # A clear decision at every stage.
 
+It starts with a free conversation, before either of us commits to anything. After that, you commit to one step at a time, and each one ends with something useful in your hands and a decision that is yours.
+
 <div class="stage" markdown="1">
 
 ### Focused assessment
@@ -145,7 +147,7 @@ laptop.bg started as an online store. For seventeen years, the system we evolved
 *Usually 1–2 weeks · fixed price*
 {: .meta}
 
-We study the business goal, system and process. You receive written findings, options, priorities and a practical next step—yours to keep.
+Every engagement starts here. We study the business goal, the system and the process around it. You receive written findings, options and a recommended next step. They are yours to keep, whether you continue with us, with someone else, or not at all.
 
 </div>
 
@@ -153,10 +155,10 @@ We study the business goal, system and process. You receive written findings, op
 
 ### Delivery in useful increments
 
-*Clear objective · review point*
+*One clear objective · review at the end*
 {: .meta}
 
-We make uncertainty visible, deliver working change and decide together whether to continue, adjust or stop.
+Each increment ends in working change your team can use. We name risks and unknowns early, and at every review we decide together whether to continue, adjust or stop.
 
 </div>
 
@@ -167,7 +169,7 @@ We make uncertainty visible, deliver working change and decide together whether 
 *Reserved capacity · monthly*
 {: .meta}
 
-For software that keeps changing, you get continuity, priority and senior judgment without building a full internal engineering team.
+For software that keeps changing, you get continuity, priority and senior judgment without building an internal engineering team. The capacity is agreed with you, and you can change it as your needs change.
 
 </div>
 
