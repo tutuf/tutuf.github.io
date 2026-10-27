@@ -108,6 +108,30 @@ strong {
   font-weight: 700;
 }
 
+// One visible focus ring for everything keyboard users can reach
+a,
+button,
+summary {
+  &:focus-visible {
+    outline: 2px solid $primary;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+// No movement for readers who ask for less of it
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
+
+  .content p.cta.primary a:hover {
+    transform: none;
+  }
+}
+
 // Header: Midnight's textured bar
 .header {
   background: url("../images/nav-bg.gif") #353535;
@@ -195,12 +219,6 @@ strong {
     &:hover {
       color: $primary-light;
       text-decoration-color: currentColor;
-    }
-
-    &:focus-visible {
-      outline: 2px solid $primary;
-      outline-offset: 2px;
-      border-radius: 2px;
     }
   }
 
@@ -413,11 +431,6 @@ details.questions {
     &::-webkit-details-marker { display: none; }
 
     &:hover { color: $primary-light; }
-
-    &:focus-visible {
-      outline: 2px solid $primary;
-      outline-offset: 2px;
-    }
 
     // chevron that turns when the questions open
     &::after {
