@@ -1,0 +1,112 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+// Questions we start from: stacked, with a gold rail like the blockquote
+ul.lenses {
+  list-style: none;
+  padding: 0;
+
+  li {
+    border-left: 3px solid #ffcc00;
+    padding: 2px 0 2px 20px;
+    margin-bottom: 16px;
+  }
+
+  strong {
+    display: block;
+    color: #e8e8e8;
+    font-size: 16px;
+  }
+}
+
+// Use / Connect / Build / Remove as a 2×2 grid, with Build set apart
+ol.answers {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  counter-reset: answer;
+
+  li {
+    counter-increment: answer;
+    padding: 14px 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    color: #b6b6b6;
+
+    &::before {
+      content: "0" counter(answer);
+      display: block;
+      font-size: 12px;
+      color: #666;
+    }
+  }
+
+  strong {
+    display: block;
+    color: #e8e8e8;
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  li.build {
+    border-color: #ffcc00;
+    color: #f0e7d5;
+
+    strong { color: #ffcc00; }
+  }
+}
+
+// Situations as numbered cards, in the same style as the answer tiles
+section {
+  counter-reset: situation;
+}
+
+.situation {
+  counter-increment: situation;
+  padding: 18px 20px 4px;
+  margin-bottom: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+
+  h3 {
+    color: #e8e8e8;
+    margin-bottom: 8px;
+
+    &::before {
+      content: "0" counter(situation);
+      display: block;
+      font-size: 12px;
+      line-height: 18px;
+      color: #666;
+    }
+  }
+
+  ul {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 12px;
+  }
+}
+
+p.cta a {
+  display: inline-block;
+  padding: 4px 14px;
+  border: 1px solid #ffcc00;
+  border-radius: 4px;
+
+  &::after { content: " →"; }
+
+  &:hover {
+    background: #ffcc00;
+    color: #1c1c1c;
+  }
+}
+
+@media (max-width: 480px) {
+  ol.answers { grid-template-columns: 1fr; }
+}

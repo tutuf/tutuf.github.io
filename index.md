@@ -25,7 +25,9 @@ We shape dependable software around the way your business actually works—conne
 
 You do not need a specification to start. Choose the situation that feels closest and use the questions to see it more clearly.
 
-### 01. A proven process has outgrown spreadsheets and workarounds
+<div class="situation" markdown="1">
+
+### A proven process has outgrown spreadsheets and workarounds
 
 The business model works and your team knows how the process should run. But ready-made products do not fit the part specific to your business, and manual work is beginning to limit growth.
 
@@ -34,8 +36,13 @@ The business model works and your team knows how the process should run. But rea
 * What could the business do if that constraint disappeared?
 
 [This sounds like us](mailto:hi@tutuf.com?subject=A%20proven%20process%20has%20outgrown%20spreadsheets%20and%20workarounds)
+{: .cta}
 
-### 02. Useful systems still need people to bridge the gaps
+</div>
+
+<div class="situation" markdown="1">
+
+### Useful systems still need people to bridge the gaps
 
 ERP, accounting, payments, suppliers and sales channels each do their job, while somebody on your team has quietly become the integration between them.
 
@@ -44,8 +51,13 @@ ERP, accounting, payments, suppliers and sales channels each do their job, while
 * What becomes possible when the handoffs disappear?
 
 [This sounds like us](mailto:hi@tutuf.com?subject=Useful%20systems%20still%20need%20people%20to%20bridge%20the%20gaps)
+{: .cta}
 
-### 03. A useful prototype has become real software
+</div>
+
+<div class="situation" markdown="1">
+
+### A useful prototype has become real software
 
 It was built quickly—perhaps partly with AI—and proved the idea. Now customers, data and daily work are beginning to depend on it.
 
@@ -54,8 +66,13 @@ It was built quickly—perhaps partly with AI—and proved the idea. Now custome
 * What should the system be able to change next?
 
 [This sounds like us](mailto:hi@tutuf.com?subject=A%20useful%20prototype%20has%20become%20real%20software)
+{: .cta}
 
-### 04. An important system needs a responsible team again
+</div>
+
+<div class="situation" markdown="1">
+
+### An important system needs a responsible team again
 
 A freelancer disappeared, an agency dissolved, or the person who held the context moved on. The system still works, but the next decision no longer feels safe.
 
@@ -63,7 +80,12 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 * Which change are you least comfortable approving?
 * What must keep working while context is rebuilt?
 
-[This sounds like us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again) · [Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
+[This sounds like us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again)
+{: .cta}
+
+</div>
+
+[Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
 
 ---
 
@@ -84,6 +106,7 @@ Every business already has a system. Sometimes it is software. Sometimes it is a
 * **What should become possible?** We begin with what the business, its customers or its team should be able to do differently—not with a feature.
 * **What happens today instead?** We look for the real delay, risk, manual work or missed opportunity—and who carries it.
 * **What already works and should stay?** We preserve useful products, processes and knowledge instead of replacing them with custom code.
+{: .lenses}
 
 You know the business. We bring the engineering judgment. The important decisions are made together.
 
@@ -93,10 +116,11 @@ You know the business. We bring the engineering judgment. The important decision
 
 Every custom line can create value—and becomes something that must be understood, changed and cared for.
 
-1. **Use** — Choose a proven product where it already solves the common need well.
-2. **Connect** — Make trusted systems work together around the actual business process.
-3. **Build** — Create the focused custom layer specific to the way your business works.
-4. **Remove** — Take away code, steps and dependencies that no longer earn their place.
+1. **Use** Choose a proven product where it already solves the common need well.
+2. **Connect** Make trusted systems work together around the actual business process.
+3. {:.build} **Build** Create the focused custom layer specific to the way your business works.
+4. **Remove** Take away code, steps and dependencies that no longer earn their place.
+{: .answers}
 
 AI made writing code cheaper. That makes the judgment behind what to write, what not to write and what to remove more valuable.
 
