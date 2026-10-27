@@ -4,7 +4,7 @@ description: "Engineering partnership for established businesses: connecting pro
 image: /images/og-image.png
 ---
 
-[Home](/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
+[Home](/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
 
 # Care for what works. Shape what comes next.
 
@@ -80,9 +80,9 @@ Every custom line can create value—and becomes something that must be understo
 
 AI made writing code cheaper. That makes the judgment behind what to write, what not to write and what to remove more valuable.
 
-# Built for the business it became—not only the business it was.
+# Seventeen years with one growing business.
 
-An online store grew into a production system carrying daily operations, supplier integrations, payments and new commercial channels. We changed it repeatedly over 17 years without discarding the business knowledge inside it.
+[laptop.bg](https://laptop.bg) started as an online store and grew into the production system behind its daily commercial operations. Along the way, the business gained product categories it could define itself, one stable model over many supplier feeds, and new sales channels without a second commerce system—all without discarding the knowledge already built in.
 
 > “We’ve worked with tutuf for 17 years, and they know how to look past the feature we’ve asked for to the business problem underneath. They are straightforward about the trade-offs and will tell us when a quick solution is likely to cost us later. Just as importantly, they understand when to build something specific and when to connect what already exists. The result is a system that has kept adapting as our business has changed—and a team we trust to think beyond the immediate request.”
 >
@@ -90,7 +90,7 @@ An online store grew into a production system carrying daily operations, supplie
 
 That experience taught us to judge a decision not only by launch day, but by whether it remains understandable and useful after years of business change.
 
-[Meet the product engineers behind the work](/team/)
+[Read how the system kept up with the business](/work/laptop-bg/) · [Meet the product engineers behind the work](/team/)
 
 **A stronger system. More room to evolve.** Not a promise to stay forever. A way of working that creates continuity without lock-in.
 

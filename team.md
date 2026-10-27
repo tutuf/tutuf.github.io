@@ -5,7 +5,7 @@ image: /images/og-image.png
 permalink: /team/
 ---
 
-[Home](/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
+[Home](/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
 
 # A small team of product engineers who think beyond the next release.
 
