@@ -4,18 +4,19 @@ description: "Engineering partnership for established businesses: connecting pro
 image: /images/og-image.png
 ---
 
-# Care for what works. Shape what comes next.
+<div class="hero" markdown="1">
 
-**The engineering partner for the business behind the software**
+# <span>Care for what works.</span> <span>Shape what comes next.</span>
 
-Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to use, connect, build or remove—and we stay to look after it. You bring the context; we bring the engineering judgment and continuity.
+The engineering partner for the business behind the software
+{: .tagline}
 
-* **Since 2007** — building and caring for web software
-* **17 years with one client** — [evolving the system behind laptop.bg’s daily operations](/work/laptop-bg/)
-* **A few clients at a time** — so senior people stay close to your work
-* **Yours from day one** — your code, accounts and infrastructure
+Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to **use**, **connect**, **build** or **remove**—and we stay to look after it.
 
 [Tell us what’s in the way](mailto:hi@tutuf.com?subject=What%E2%80%99s%20in%20the%20way) · [Find your situation](#what-has-started-to-hold-you-back)
+{: .hero-links}
+
+</div>
 
 ---
 

@@ -218,19 +218,42 @@ strong {
   }
 }
 
-// The home page opens with a larger headline
-.page-home .content > h1:first-child {
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 1.15;
+// Home hero: headline, gold tagline, then the explanation in softer, larger text
+.content .hero {
+  h1 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: 16px;
 
-  @include media-breakpoint-up(md) {
-    font-size: 48px;
+    // each sentence on its own line where both fit
+    @include media-breakpoint-up(md) {
+      font-size: 48px;
+
+      span { display: block; }
+    }
   }
 
-  + p strong {
+  p.tagline {
+    font-size: 20px;
+    line-height: 1.35;
+    color: $primary;
+    margin-bottom: 24px;
+  }
+
+  p:not(.tagline):not(.hero-links) {
     font-size: 19px;
-    color: $black;
+    line-height: 1.6;
+    color: $muted;
+
+    strong {
+      color: $black;
+      font-weight: 600;
+    }
+  }
+
+  p.hero-links {
+    font-size: 17px;
   }
 }
 
