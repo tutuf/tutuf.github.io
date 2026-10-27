@@ -112,12 +112,12 @@ We keep learning across product engineering, leadership, facilitation and AI-ass
 
 # A useful first conversation
 
-## Talk to the people who would do the work.
+**Talk to the people who would do the work.** Tell us what the business needs, where the software gets in the way, or what has become difficult to change. Your first conversation will be with the same senior people who would shape the work and remain responsible for it.
 
-Tell us what the business needs, where the software gets in the way, or what has become difficult to change. Your first conversation will be with the same senior people who would shape the work and remain responsible for it.
-
-[Start the conversation](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
+[Start the conversation](mailto:hi@tutuf.com?subject=Talking%20to%20the%20people%20who%20would%20do%20the%20work)
+{: .cta .primary}
 
 We reply within two working days.
+{: .note}
 
 <footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>

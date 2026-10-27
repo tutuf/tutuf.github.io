@@ -31,12 +31,12 @@ None of this means these capabilities should always be custom-built. Mature plat
 
 # A useful first conversation
 
-## Is your system carrying more than it was built for?
+**Is your system carrying more than it was built for?** Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
 
-Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
-
-[Start the conversation](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
+[Start the conversation](mailto:hi@tutuf.com?subject=After%20reading%20the%20laptop.bg%20story)
+{: .cta .primary}
 
 We reply within two working days.
+{: .note}
 
 <footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>

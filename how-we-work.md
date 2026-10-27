@@ -34,12 +34,12 @@ In our own work, we keep hardware in use for as long as it remains reliable and 
 
 # A useful first conversation
 
-## Not sure where your situation fits?
+**Not sure where your situation fits?** Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
 
-Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
-
-[Start the conversation](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
+[Start the conversation](mailto:hi@tutuf.com?subject=Not%20sure%20where%20our%20situation%20fits)
+{: .cta .primary}
 
 We reply within two working days.
+{: .note}
 
 <footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>
