@@ -33,6 +33,8 @@ The business model works and your team knows how the process should run. But rea
 * Where does the work depend on a person, spreadsheet or workaround?
 * What could the business do if that constraint disappeared?
 
+[This sounds like us](mailto:hi@tutuf.com?subject=A%20proven%20process%20has%20outgrown%20spreadsheets%20and%20workarounds)
+
 ### 02. Useful systems still need people to bridge the gaps
 
 ERP, accounting, payments, suppliers and sales channels each do their job, while somebody on your team has quietly become the integration between them.
@@ -40,6 +42,8 @@ ERP, accounting, payments, suppliers and sales channels each do their job, while
 * Where is information entered or checked twice?
 * Which system should remain the source of truth?
 * What becomes possible when the handoffs disappear?
+
+[This sounds like us](mailto:hi@tutuf.com?subject=Useful%20systems%20still%20need%20people%20to%20bridge%20the%20gaps)
 
 ### 03. A useful prototype has become real software
 
@@ -49,6 +53,8 @@ It was built quickly—perhaps partly with AI—and proved the idea. Now custome
 * What kind of failure would matter to the business?
 * What should the system be able to change next?
 
+[This sounds like us](mailto:hi@tutuf.com?subject=A%20useful%20prototype%20has%20become%20real%20software)
+
 ### 04. An important system needs a responsible team again
 
 A freelancer disappeared, an agency dissolved, or the person who held the context moved on. The system still works, but the next decision no longer feels safe.
@@ -57,7 +63,9 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 * Which change are you least comfortable approving?
 * What must keep working while context is rebuilt?
 
-[Something else is getting in the way](mailto:hi@tutuf.com)
+[This sounds like us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again)
+
+[Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
 
 # Not a clean slate. A sound next step.
 
