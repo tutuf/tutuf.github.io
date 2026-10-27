@@ -22,7 +22,7 @@ Your business already runs on systems, tools and knowledge that work. When they 
 
 # What has started to hold you back?
 
-The right next step depends on how your business actually works, so we start with your situation—not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open its questions to see it more clearly. You do not need a specification to start.
+The right next step depends on how your business actually works, so we start with your situation—not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open its questions to see it more clearly.
 
 <div class="situation" markdown="1">
 
@@ -193,17 +193,17 @@ We are also selective about the work we take. [See the work we do not take](/how
 
 # A useful first conversation
 
-**What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
+**What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change. If one of the four situations sounds familiar, start there. You do not need a specification or a proposed solution.
 
 1. **You write** A few lines about the situation are enough.
-2. **We reply** One of the product engineers who would be involved reads and replies. If a conversation would be useful, we send you a link to choose a time.
-3. **We talk** A focused first conversation about the problem, the constraints and the soundest next step.
+2. **We reply** One of the product engineers who would be involved reads and replies. If a conversation would be useful, we send you a link to choose a time. If we are not the right fit, we say so.
+3. **We talk** A free, focused first conversation about the problem, the constraints and the best next step, even if that is not working with us.
 {: .steps}
 
 [Write to hi@tutuf.com](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
 {: .cta .primary}
 
-We reply personally within two working days.
+We reply personally within two working days. You can write in English or Bulgarian.
 {: .note}
 
 ---
