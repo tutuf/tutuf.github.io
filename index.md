@@ -21,7 +21,7 @@ We shape dependable software around the way your business actually works—conne
 
 # What has started to hold you back?
 
-You do not need a specification to start. Find the situation that feels closest and open its questions to see it more clearly.
+The right next step depends on how your business actually works, so we start with your situation—not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open its questions to see it more clearly. You do not need a specification to start.
 
 <div class="situation" markdown="1">
 
