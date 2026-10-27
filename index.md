@@ -8,12 +8,12 @@ image: /images/og-image.png
 
 **The engineering partner for the business behind the software**
 
-We shape dependable software around the way your business actually works—connecting proven tools, strengthening existing systems and building the focused custom layer ready-made products cannot provide. You bring the context; we bring the engineering judgment and continuity.
+Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to keep, what to connect and what to build—and we stay to look after it. You bring the context; we bring the engineering judgment and continuity.
 
-* **Since 2007** — building web software
+* **Since 2007** — building and caring for web software
 * **17 years with one client** — [evolving the system behind laptop.bg’s daily operations](/work/laptop-bg/)
-* **A few clients at a time** — senior attention by design
-* **Yours from day one** — code, accounts and infrastructure
+* **A few clients at a time** — so senior people stay close to your work
+* **Yours from day one** — your code, accounts and infrastructure
 
 [Tell us what’s in the way](mailto:hi@tutuf.com?subject=What%E2%80%99s%20in%20the%20way) · [Find your situation](#what-has-started-to-hold-you-back)
 
