@@ -17,7 +17,7 @@ We shape dependable software around the way your business actually works—conne
 We work with what already serves the business, then shape the smallest sound change that moves it forward.
 
 * **Since 2007** — building web software
-* **17 years** — evolving software in daily commercial use
+* **17 years with one client** — [evolving the system behind laptop.bg’s daily operations](/work/laptop-bg/)
 * **A few clients at a time** — senior attention by design
 * **Yours from day one** — code, accounts and infrastructure
 
