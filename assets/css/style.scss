@@ -10,7 +10,7 @@ $white: #ffffff;
 $white-offset: #434343;   // rules and borders
 $steel: #f0e7d5;          // body text
 $muted: #b6b6b6;
-$faint: #666;
+$faint: #999;        // quiet text, still above 4.5:1 on cards
 $card-bg: rgba(255, 255, 255, 0.03);
 $card-border: rgba(255, 255, 255, 0.08);
 $page-dark: #1c1c1c;
@@ -95,8 +95,8 @@ $sub-footer-text-color: $faint;
 @import "components/strip";
 
 body {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.6;
   font-family: $font-family-base;
   color: $steel;
   background: linear-gradient(#2a2a29, $page-dark);
@@ -117,7 +117,7 @@ strong {
 
 .main-menu > ul > li > a {
   color: $black;
-  font-weight: 300;
+  font-weight: 400;
 
   &:hover {
     color: $primary;
@@ -153,7 +153,7 @@ strong {
 
   ul li a {
     color: $black;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   ul li.menu-button a {
@@ -185,15 +185,34 @@ strong {
 }
 
 .content {
+  // links are underlined so they do not rely on colour alone
   a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 204, 0, 0.45);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 
-    &:hover { color: $primary-light; }
+    &:hover {
+      color: $primary-light;
+      text-decoration-color: currentColor;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $primary;
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
   }
 
   p,
   li {
     color: $steel;
+  }
+
+  // keep lines to roughly 75 characters
+  p:not(.cta),
+  > ul {
+    max-width: 38em;
   }
 
   h1,
@@ -235,7 +254,7 @@ strong {
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-style: normal;
-    font-size: 13px;
+    font-size: 14px;
     color: $muted;
   }
 }
@@ -317,7 +336,7 @@ strong {
     &::before {
       content: "0" counter(answer);
       display: block;
-      font-size: 12px;
+      font-size: 14px;
       color: $faint;
     }
   }
@@ -362,7 +381,7 @@ strong {
     &::before {
       content: "0" counter(situation);
       display: block;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 18px;
       color: $faint;
     }
@@ -485,7 +504,7 @@ h1 + .stage {
 
     em {
       font-style: normal;
-      font-size: 12px;
+      font-size: 15px;
       color: $primary;
       border: 1px solid rgba(255, 204, 0, 0.4);
       border-radius: 12px;
@@ -530,6 +549,7 @@ h1 + .stage {
 .content p.cta a {
   display: inline-block;
   padding: 6px 16px;
+  text-decoration: none;
   border: 1px solid $primary;
   border-radius: 4px;
 
@@ -560,7 +580,7 @@ h1 + .stage {
 }
 
 .content p.note {
-  font-size: 13px;
+  font-size: 15px;
   color: $muted;
 }
 
