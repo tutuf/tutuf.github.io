@@ -172,16 +172,17 @@ For software that keeps changing, you get continuity, priority and senior judgme
 
 # A useful first conversation
 
-## What is your business trying to make possible?
+**What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
 
-Tell us what you need, what is getting in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
-
-1. **You write** — A few lines about the situation are enough.
-2. **We reply** — One of the product engineers who would be involved reads and replies. If a conversation would be useful, we send you a link to choose a time.
-3. **We talk** — A focused first conversation about the problem, the constraints and the soundest next step.
+1. **You write** A few lines about the situation are enough.
+2. **We reply** One of the product engineers who would be involved reads and replies. If a conversation would be useful, we send you a link to choose a time.
+3. **We talk** A focused first conversation about the problem, the constraints and the soundest next step.
+{: .steps}
 
 [Write to hi@tutuf.com](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
+{: .cta .primary}
 
 We reply personally within two working days.
+{: .note}
 
 <footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>

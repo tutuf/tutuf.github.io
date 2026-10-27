@@ -93,7 +93,28 @@ section {
   }
 }
 
-// Stages as numbered steps along a gold line
+// Numbered steps along a gold line, shared by the stages and the contact steps
+%step-number {
+  position: absolute;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #ffcc00;
+  border-radius: 50%;
+  color: #ffcc00;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+}
+
+%step-line {
+  content: "";
+  position: absolute;
+  left: 15px;
+  width: 2px;
+  background: rgba(255, 204, 0, 0.35);
+}
+
 h1 + .stage {
   margin-top: 20px;
 }
@@ -106,13 +127,9 @@ h1 + .stage {
 
   // the line down to the next step
   &:has(+ .stage)::after {
-    content: "";
-    position: absolute;
-    left: 15px;
+    @extend %step-line;
     top: 34px;
     bottom: -2px;
-    width: 2px;
-    background: rgba(255, 204, 0, 0.35);
   }
 
   h3 {
@@ -120,18 +137,9 @@ h1 + .stage {
     margin-bottom: 6px;
 
     &::before {
+      @extend %step-number;
       content: counter(stage);
-      position: absolute;
-      left: 0;
       top: -4px;
-      width: 28px;
-      height: 28px;
-      border: 2px solid #ffcc00;
-      border-radius: 50%;
-      color: #ffcc00;
-      font-size: 14px;
-      line-height: 28px;
-      text-align: center;
     }
   }
 
@@ -149,6 +157,40 @@ h1 + .stage {
   }
 }
 
+ol.steps {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  counter-reset: step;
+
+  li {
+    counter-increment: step;
+    position: relative;
+    padding: 0 0 16px 48px;
+
+    &::before {
+      @extend %step-number;
+      content: counter(step);
+      top: -2px;
+    }
+
+    &:not(:last-child)::after {
+      @extend %step-line;
+      top: 32px;
+      bottom: 0;
+    }
+  }
+
+  // same weight as the stage titles (the theme sets strong with !important)
+  strong {
+    display: block;
+    color: #e8e8e8;
+    font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+}
+
 p.cta a {
   display: inline-block;
   padding: 4px 14px;
@@ -161,6 +203,24 @@ p.cta a {
     background: #ffcc00;
     color: #1c1c1c;
   }
+}
+
+p.cta.primary {
+  margin-bottom: 8px;
+
+  a {
+    padding: 10px 22px;
+    font-size: 16px;
+    background: #ffcc00;
+    color: #1c1c1c;
+
+    &:hover { background: #ffeb9b; }
+  }
+}
+
+p.note {
+  font-size: 12px;
+  color: #b6b6b6;
 }
 
 @media (max-width: 480px) {
