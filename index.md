@@ -8,7 +8,7 @@ image: /images/og-image.png
 
 **The engineering partner for the business behind the software**
 
-Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to keep, what to connect and what to build—and we stay to look after it. You bring the context; we bring the engineering judgment and continuity.
+Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to use, connect, build or remove—and we stay to look after it. You bring the context; we bring the engineering judgment and continuity.
 
 * **Since 2007** — building and caring for web software
 * **17 years with one client** — [evolving the system behind laptop.bg’s daily operations](/work/laptop-bg/)
@@ -107,18 +107,6 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 ---
 
-# We should probably talk if…
-
-* A process or system already matters to daily operations.
-* There is a real cost to leaving it as it is.
-* You want a partner who will question the solution, not just execute it.
-
-**Probably not if** a ready-made ERP, accounting or CRM product solves the need well, the product is still searching for product-market fit, or you need one supplier to cover an entire technology and design organisation.
-
-We are also selective about the work we take. [See what we will not build](/how-we-work/#some-work-is-not-ours-to-take).
-
----
-
 # Four legitimate answers. Only one of them is “build”.
 
 Every custom line can create value—and becomes something that must be understood, changed and cared for.
@@ -132,8 +120,6 @@ Every custom line can create value—and becomes something that must be understo
 AI made writing code cheaper. That makes the judgment behind what to write, what not to write and what to remove more valuable.
 
 [See how we approach a decision](/how-we-work/)
-
-**Make a product our clients could use?** We often recommend and connect proven products instead of building. If you make one—or work alongside teams like ours—[we would like to hear from you](mailto:hi@tutuf.com?subject=Partnership).
 
 ---
 
@@ -190,6 +176,18 @@ For software that keeps changing, you get continuity, priority and senior judgme
 
 ---
 
+# We should probably talk if…
+
+* A process or system already matters to daily operations.
+* There is a real cost to leaving it as it is.
+* You want a partner who will question the solution, not just execute it.
+
+**Probably not if** a ready-made ERP, accounting or CRM product solves the need well, the product is still searching for product-market fit, or you need one supplier to cover an entire technology and design organisation.
+
+We are also selective about the work we take. [See what we will not build](/how-we-work/#some-work-is-not-ours-to-take).
+
+---
+
 # A useful first conversation
 
 **What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change. You do not need a specification or a proposed solution.
@@ -205,3 +203,6 @@ For software that keeps changing, you get continuity, priority and senior judgme
 We reply personally within two working days.
 {: .note}
 
+---
+
+**Make a product our clients could use?** We often recommend and connect proven products instead of building. If you make one—or work alongside teams like ours—[we would like to hear from you](mailto:hi@tutuf.com?subject=Partnership).
