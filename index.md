@@ -126,17 +126,13 @@ AI made writing code cheaper. That makes the judgment behind what to write, what
 
 # Seventeen years with one growing business.
 
-[laptop.bg](https://laptop.bg) started as an online store and grew into the production system behind its daily commercial operations. Along the way, the business gained product categories it could define itself, one stable model over many supplier feeds, and new sales channels without a second commerce system—all without discarding the knowledge already built in.
+laptop.bg started as an online store. For seventeen years, the system we evolved with them ran their daily commercial operations—catalogue, suppliers, payments and sales channels. When smartphones became a major category, their team added it themselves, without new development. Dozens of supplier formats fed one stable model, and new channels arrived without a second commerce system.
 
-> “We’ve worked with tutuf for 17 years, and they know how to look past the feature we’ve asked for to the business problem underneath. They are straightforward about the trade-offs and will tell us when a quick solution is likely to cost us later. Just as importantly, they understand when to build something specific and when to connect what already exists. The result is a system that has kept adapting as our business has changed—and a team we trust to think beyond the immediate request.”
+> “They know how to look past the feature we’ve asked for to the business problem underneath… and will tell us when a quick solution is likely to cost us later.”
 >
 > — **Dimitar Raykov**, Deputy Executive Director, [laptop.bg](https://laptop.bg)
 
-That experience taught us to judge a decision not only by launch day, but by whether it remains understandable and useful after years of business change.
-
-[Read how the system kept up with the business](/work/laptop-bg/) · [Meet the product engineers behind the work](/team/)
-
-**A stronger system. More room to evolve.** Not a promise to stay forever. A way of working that creates continuity without lock-in.
+[Read the full story](/work/laptop-bg/)
 
 ---
 
