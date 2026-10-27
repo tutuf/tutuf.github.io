@@ -177,13 +177,17 @@ For software that keeps changing, you get continuity, priority and senior judgme
 
 # We should probably talk if…
 
-* A process or system already matters to daily operations.
-* There is a real cost to leaving it as it is.
+* A process or system already matters to your daily operations.
+* Leaving it as it is has a real cost.
+* Someone on your side knows the business and can make decisions with us.
 * You want a partner who will question the solution, not just execute it.
 
-**Probably not if** a ready-made ERP, accounting or CRM product solves the need well, the product is still searching for product-market fit, or you need one supplier to cover an entire technology and design organisation.
+**Probably not if…**
 
-We are also selective about the work we take. [See what we will not build](/how-we-work/#some-work-is-not-ours-to-take).
+* you want custom software where an affordable ready-made product already does the job—we would recommend the product instead,
+* you need one supplier for all of your technology and design.
+
+We are also selective about the work we take. [See the work we do not take](/how-we-work/#some-work-is-not-ours-to-take).
 
 ---
 
