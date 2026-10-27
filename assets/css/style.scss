@@ -130,12 +130,34 @@ strong {
   font-weight: 400;
 }
 
+// Contact as the one gold button in the nav
+.main-menu > ul > li.menu-button {
+  margin-left: 12px;
+
+  > a {
+    padding: 7px 16px;
+    border-radius: 4px;
+    background: $primary;
+    color: $page-dark;
+    font-weight: 400;
+
+    &:hover {
+      background: $primary-light;
+      color: $page-dark;
+    }
+  }
+}
+
 .main-menu-mobile {
   background: $page-dark;
 
   ul li a {
     color: $black;
     font-weight: 300;
+  }
+
+  ul li.menu-button a {
+    color: $primary;
   }
 }
 
