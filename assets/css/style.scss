@@ -1,30 +1,260 @@
 ---
 ---
 
-@import "jekyll-theme-midnight";
+// Serif's layout in Midnight's colours and type
+$primary: #ffcc00;
+$primary-light: #ffeb9b;
+$secondary: rgba(255, 204, 0, 0.35);
+$black: #e8e8e8;          // headings
+$white: #ffffff;
+$white-offset: #434343;   // rules and borders
+$steel: #f0e7d5;          // body text
+$muted: #b6b6b6;
+$faint: #666;
+$card-bg: rgba(255, 255, 255, 0.03);
+$card-border: rgba(255, 255, 255, 0.08);
+$page-dark: #1c1c1c;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: $primary-light;
+$link-hover-decoration: none;
+
+// Fonts (Open Sans, self-hosted as in Midnight)
+$font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-heading: $font-family-base;
+
+// Footer
+$footer-background-color: #2a2a29;
+$footer-text-color: $black;
+$sub-footer-background-color: #151515;
+$sub-footer-text-color: $faint;
+
+@each $weight, $file in (300: Light, 400: Regular, 600: Semibold, 700: Bold) {
+  @font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-#{$file}-webfont.woff") format("woff");
+    font-weight: $weight;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Italic-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Bootstrap 5.3.2
+
+// 1. Include Bootstrap functions first
+@import "bootstrap/functions";
+
+// 2. Include our variable overrides here
+@import "bootstrap-variables";
+
+// 3. Include main bootstrap variables and functions
+@import "bootstrap/variables";
+@import "bootstrap/variables-dark";
+@import "bootstrap/maps";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+
+// 4. Include optional Bootstrap components
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+
+// 5. Include Bootstrap helpers and utilities
+@import "bootstrap/helpers";
+@import "bootstrap/utilities/api";
+
+// Libraries
+@import "libraries/hamburgers/hamburgers";
+
+// Components
+@import "components/type";
+@import "components/page";
+@import "components/header";
+@import "components/footer";
+@import "components/sub-footer";
+@import "components/logo";
+@import "components/main-menu";
+@import "components/main-menu-mobile";
+@import "components/hamburger";
+@import "components/buttons";
+@import "components/title";
+@import "components/content";
+@import "components/strip";
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: $font-family-base;
+  color: $steel;
+  background: linear-gradient(#2a2a29, $page-dark);
+  background-color: $page-dark;
+  background-attachment: fixed;
+}
+
+strong {
+  font-weight: 700;
+}
+
+// Header: Midnight's textured bar
+.header {
+  background: url("../images/nav-bg.gif") #353535;
+  border-bottom: 4px solid $white-offset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.main-menu > ul > li > a {
+  color: $black;
+  font-weight: 300;
+
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
+}
+
+.main-menu > ul > li.active > a {
+  color: $primary;
+  font-weight: 400;
+}
+
+.main-menu-mobile {
+  background: $page-dark;
+
+  ul li a {
+    color: $black;
+    font-weight: 300;
+  }
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo-text {
+  color: $black;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.footer .footer-title {
+  color: $black;
+  font-weight: 300;
+}
+
+.footer ul li a:hover {
+  color: $primary;
+  text-decoration: none;
+}
+
+.content {
+  a {
+    text-decoration: none;
+
+    &:hover { color: $primary-light; }
+  }
+
+  p,
+  li {
+    color: $steel;
+  }
+
+  h1,
+  h2 {
+    color: $black;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  h3 {
+    color: $black;
+    font-weight: 400;
+  }
+
+  ul {
+    list-style-image: url("../images/bullet.png");
+  }
+
+  // Midnight's grooved rule between sections
+  hr {
+    height: 3px;
+    border: 0;
+    opacity: 1;
+    background: transparent url("../images/hr.gif") center center repeat-x;
+    margin: 56px 0;
+  }
+
+  blockquote {
+    margin: 30px 0;
+    padding: 0 0 0 20px;
+    border-left: 3px solid $primary;
+
+    p { font-style: italic; }
+    p:last-child { font-style: normal; }
+  }
+
+  // eyebrow lines such as "*How we work*" above a page heading
+  > p:first-child > em:only-child {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-style: normal;
+    font-size: 13px;
+    color: $muted;
+  }
+}
+
+// The home page opens with a larger headline
+.page-home .content > h1:first-child {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.15;
+
+  @include media-breakpoint-up(md) {
+    font-size: 48px;
+  }
+
+  + p strong {
+    font-size: 19px;
+    color: $black;
+  }
+}
 
 // Questions we start from: stacked, with a gold rail like the blockquote
-ul.lenses {
+.content ul.lenses {
   list-style: none;
-  padding: 0;
 
   li {
-    border-left: 3px solid #ffcc00;
+    margin-left: 0;
+    border-left: 3px solid $primary;
     padding: 2px 0 2px 20px;
     margin-bottom: 16px;
+    color: $muted;
   }
 
   strong {
     display: block;
-    color: #e8e8e8;
-    font-size: 16px;
+    color: $black;
   }
 }
 
 // Use / Connect / Build / Remove as a 2×2 grid, with Build set apart
-ol.answers {
+.content ol.answers {
   list-style: none;
-  padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
@@ -32,50 +262,51 @@ ol.answers {
 
   li {
     counter-increment: answer;
+    margin: 0;
     padding: 14px 16px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: $card-bg;
+    border: 1px solid $card-border;
     border-radius: 4px;
-    color: #b6b6b6;
+    color: $muted;
 
     &::before {
       content: "0" counter(answer);
       display: block;
       font-size: 12px;
-      color: #666;
+      color: $faint;
     }
   }
 
   strong {
     display: block;
-    color: #e8e8e8;
+    color: $black;
     font-size: 18px;
     margin-bottom: 4px;
   }
 
   li.build {
-    border-color: #ffcc00;
-    color: #f0e7d5;
+    border-color: $primary;
+    color: $steel;
 
-    strong { color: #ffcc00; }
+    strong { color: $primary; }
   }
 }
 
 // Situations as numbered cards, in the same style as the answer tiles
-section {
+.content {
   counter-reset: situation stage;
 }
 
 .situation {
   counter-increment: situation;
-  padding: 18px 20px 4px;
+  padding: 20px 24px 4px;
   margin-bottom: 16px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: $card-bg;
+  border: 1px solid $card-border;
   border-radius: 4px;
 
   h3 {
-    color: #e8e8e8;
+    margin-top: 0;
     margin-bottom: 8px;
 
     &::before {
@@ -83,12 +314,12 @@ section {
       display: block;
       font-size: 12px;
       line-height: 18px;
-      color: #666;
+      color: $faint;
     }
   }
 
   ul {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid $card-border;
     padding-top: 12px;
   }
 }
@@ -97,32 +328,32 @@ section {
 %step-number {
   position: absolute;
   left: 0;
-  width: 28px;
-  height: 28px;
-  border: 2px solid #ffcc00;
+  width: 30px;
+  height: 30px;
+  border: 2px solid $primary;
   border-radius: 50%;
-  color: #ffcc00;
+  color: $primary;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 26px;
   text-align: center;
 }
 
 %step-line {
   content: "";
   position: absolute;
-  left: 15px;
+  left: 14px;
   width: 2px;
-  background: rgba(255, 204, 0, 0.35);
+  background: $secondary;
 }
 
 h1 + .stage {
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .stage {
   counter-increment: stage;
   position: relative;
-  padding-left: 48px;
+  padding-left: 50px;
   padding-bottom: 4px;
 
   // the line down to the next step
@@ -133,13 +364,13 @@ h1 + .stage {
   }
 
   h3 {
-    color: #e8e8e8;
+    margin-top: 0;
     margin-bottom: 6px;
 
     &::before {
       @extend %step-number;
       content: counter(stage);
-      top: -4px;
+      top: -2px;
     }
   }
 
@@ -149,7 +380,7 @@ h1 + .stage {
     em {
       font-style: normal;
       font-size: 12px;
-      color: #ffcc00;
+      color: $primary;
       border: 1px solid rgba(255, 204, 0, 0.4);
       border-radius: 12px;
       padding: 2px 10px;
@@ -157,16 +388,16 @@ h1 + .stage {
   }
 }
 
-ol.steps {
+.content ol.steps {
   list-style: none;
-  padding: 0;
   margin: 24px 0;
   counter-reset: step;
 
   li {
     counter-increment: step;
     position: relative;
-    padding: 0 0 16px 48px;
+    margin: 0;
+    padding: 0 0 16px 50px;
 
     &::before {
       @extend %step-number;
@@ -181,48 +412,52 @@ ol.steps {
     }
   }
 
-  // same weight as the stage titles (the theme sets strong with !important)
   strong {
     display: block;
-    color: #e8e8e8;
-    font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: $black;
     font-size: 18px;
+    font-weight: 400;
     margin-bottom: 2px;
   }
 }
 
-p.cta a {
+.content p.cta a {
   display: inline-block;
-  padding: 4px 14px;
-  border: 1px solid #ffcc00;
+  padding: 6px 16px;
+  border: 1px solid $primary;
   border-radius: 4px;
 
   &::after { content: " →"; }
 
   &:hover {
-    background: #ffcc00;
-    color: #1c1c1c;
+    background: $primary;
+    color: $page-dark;
   }
 }
 
-p.cta.primary {
+.content p.cta.primary {
   margin-bottom: 8px;
 
   a {
-    padding: 10px 22px;
+    padding: 0 22px;
+    height: 46px;
+    line-height: 46px;
     font-size: 16px;
-    background: #ffcc00;
-    color: #1c1c1c;
+    background: $primary;
+    color: $page-dark;
 
-    &:hover { background: #ffeb9b; }
+    &:hover {
+      background: $primary-light;
+      transform: translateY(-1px);
+    }
   }
 }
 
-p.note {
-  font-size: 12px;
-  color: #b6b6b6;
+.content p.note {
+  font-size: 13px;
+  color: $muted;
 }
 
 @media (max-width: 480px) {
-  ol.answers { grid-template-columns: 1fr; }
+  .content ol.answers { grid-template-columns: 1fr; }
 }

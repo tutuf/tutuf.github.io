@@ -5,8 +5,6 @@ image: /images/og-image.png
 permalink: /work/laptop-bg/
 ---
 
-[Home](/) · [How we work](/how-we-work/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
-
 *Client story · [laptop.bg](https://laptop.bg)*
 
 # Built for the business it became
@@ -39,4 +37,3 @@ None of this means these capabilities should always be custom-built. Mature plat
 We reply within two working days.
 {: .note}
 
-<footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>

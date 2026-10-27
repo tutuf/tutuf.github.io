@@ -5,8 +5,6 @@ image: /images/og-image.png
 permalink: /team/
 ---
 
-[Home](/) · [How we work](/how-we-work/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
-
 # A small team of product engineers who think beyond the next release.
 
 Since 2007, we have been building, evolving and caring for software that businesses depend on. The same people who ask the questions shape the solution, build and test it, and remain accountable for what follows.
@@ -120,4 +118,3 @@ We keep learning across product engineering, leadership, facilitation and AI-ass
 We reply within two working days.
 {: .note}
 
-<footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>

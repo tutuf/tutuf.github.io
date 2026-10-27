@@ -5,8 +5,6 @@ image: /images/og-image.png
 permalink: /how-we-work/
 ---
 
-[Home](/) · [How we work](/how-we-work/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
-
 *How we work*
 
 # Not a clean slate. A sound next step.
@@ -42,4 +40,3 @@ In our own work, we keep hardware in use for as long as it remains reliable and 
 We reply within two working days.
 {: .note}
 
-<footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>

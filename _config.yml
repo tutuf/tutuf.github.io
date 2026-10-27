@@ -1,7 +1,31 @@
 title: tutuf
+permalink: pretty
+
 logo: images/tutuf_logo.png
-show_downloads: false
-remote_theme: pages-themes/midnight@v0.2.0
-gems:
+
+header_logo:
+  mobile: "images/tutuf_logo_transparent.png"
+  mobile_height: "35px"
+  mobile_width: "40px"
+  desktop: "images/tutuf_logo_transparent.png"
+  desktop_height: "35px"
+  desktop_width: "40px"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+sass:
+  style: compressed
+
+plugins:
   - jekyll-mentions
-  - jekyll-remote-theme 
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/

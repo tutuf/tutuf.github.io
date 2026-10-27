@@ -1,0 +1,27 @@
+main:
+  - name: "How we work"
+    url: "/how-we-work/"
+    weight: 1
+  - name: "Client story"
+    url: "/work/laptop-bg/"
+    weight: 2
+  - name: "Team"
+    url: "/team/"
+    weight: 3
+  - name: "Contact"
+    url: "#a-useful-first-conversation"
+    weight: 4
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "How we work"
+    url: "/how-we-work/"
+    weight: 2
+  - name: "Client story"
+    url: "/work/laptop-bg/"
+    weight: 3
+  - name: "Team"
+    url: "/team/"
+    weight: 4

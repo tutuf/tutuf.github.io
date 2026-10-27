@@ -4,8 +4,6 @@ description: "Engineering partnership for established businesses: connecting pro
 image: /images/og-image.png
 ---
 
-[Home](/) · [How we work](/how-we-work/) · [Client story](/work/laptop-bg/) · [Team](/team/) · [Contact](#a-useful-first-conversation)
-
 # Care for what works. Shape what comes next.
 
 **The engineering partner for the business behind the software**
@@ -187,4 +185,3 @@ For software that keeps changing, you get continuity, priority and senior judgme
 We reply personally within two working days.
 {: .note}
 
-<footer style="text-align:center;">tutuf · Sofia, Bulgaria · © 2026</footer>
