@@ -12,14 +12,12 @@ image: /images/og-image.png
 
 We shape dependable software around the way your business actually works—connecting proven tools, strengthening existing systems and building the focused custom layer ready-made products cannot provide. You bring the context; we bring the engineering judgment and continuity.
 
-[Tell us what’s in the way](mailto:hi@tutuf.com) · [See the questions we ask](#what-is-getting-in-the-way)
-
-We work with what already serves the business, then shape the smallest sound change that moves it forward.
-
 * **Since 2007** — building web software
 * **17 years with one client** — [evolving the system behind laptop.bg’s daily operations](/work/laptop-bg/)
 * **A few clients at a time** — senior attention by design
 * **Yours from day one** — code, accounts and infrastructure
+
+[Tell us what’s in the way](mailto:hi@tutuf.com?subject=What%E2%80%99s%20in%20the%20way) · [See the questions we ask](#what-is-getting-in-the-way)
 
 ---
 
