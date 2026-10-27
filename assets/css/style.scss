@@ -95,7 +95,7 @@ $sub-footer-text-color: $faint;
 @import "components/strip";
 
 body {
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.6;
   font-family: $font-family-base;
   color: $steel;
@@ -170,7 +170,7 @@ strong {
 
 .logo-text {
   color: $black;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
@@ -254,7 +254,7 @@ strong {
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-style: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: $muted;
   }
 }
@@ -262,28 +262,28 @@ strong {
 // Home hero: headline, gold tagline, then the explanation in softer, larger text
 .content .hero {
   h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 300;
     line-height: 1.15;
     margin-bottom: 16px;
 
     // each sentence on its own line where both fit
     @include media-breakpoint-up(md) {
-      font-size: 48px;
+      font-size: 3rem;
 
       span { display: block; }
     }
   }
 
   p.tagline {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.35;
     color: $primary;
     margin-bottom: 24px;
   }
 
   p:not(.tagline):not(.hero-links) {
-    font-size: 19px;
+    font-size: 1.1875rem;
     line-height: 1.6;
     color: $muted;
 
@@ -294,7 +294,7 @@ strong {
   }
 
   p.hero-links {
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
 }
 
@@ -336,7 +336,7 @@ strong {
     &::before {
       content: "0" counter(answer);
       display: block;
-      font-size: 14px;
+      font-size: 0.875rem;
       color: $faint;
     }
   }
@@ -344,7 +344,7 @@ strong {
   strong {
     display: block;
     color: $black;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-bottom: 4px;
   }
 
@@ -381,8 +381,8 @@ strong {
     &::before {
       content: "0" counter(situation);
       display: block;
-      font-size: 14px;
-      line-height: 18px;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
       color: $faint;
     }
   }
@@ -408,7 +408,7 @@ details.questions {
     list-style: none;
     cursor: pointer;
     color: $primary;
-    font-size: 15px;
+    font-size: 0.9375rem;
 
     &::-webkit-details-marker { display: none; }
 
@@ -504,7 +504,7 @@ h1 + .stage {
 
     em {
       font-style: normal;
-      font-size: 15px;
+      font-size: 0.9375rem;
       color: $primary;
       border: 1px solid rgba(255, 204, 0, 0.4);
       border-radius: 12px;
@@ -540,7 +540,7 @@ h1 + .stage {
   strong {
     display: block;
     color: $black;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     margin-bottom: 2px;
   }
@@ -566,9 +566,9 @@ h1 + .stage {
 
   a {
     padding: 0 22px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 16px;
+    height: 2.875rem;
+    line-height: 2.875rem;
+    font-size: 1rem;
     background: $primary;
     color: $page-dark;
 
@@ -580,7 +580,7 @@ h1 + .stage {
 }
 
 .content p.note {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: $muted;
 }
 
