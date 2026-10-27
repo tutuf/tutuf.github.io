@@ -15,11 +15,11 @@ We shape dependable software around the way your business actually works—conne
 * **A few clients at a time** — senior attention by design
 * **Yours from day one** — code, accounts and infrastructure
 
-[Tell us what’s in the way](mailto:hi@tutuf.com?subject=What%E2%80%99s%20in%20the%20way) · [Find your situation](#what-is-getting-in-the-way)
+[Tell us what’s in the way](mailto:hi@tutuf.com?subject=What%E2%80%99s%20in%20the%20way) · [Find your situation](#what-has-started-to-hold-you-back)
 
 ---
 
-# What is getting in the way?
+# What has started to hold you back?
 
 You do not need a specification to start. Find the situation that feels closest and open its questions to see it more clearly.
 

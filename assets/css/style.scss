@@ -381,6 +381,10 @@ details.questions {
   }
 }
 
+details.questions p.cta {
+  text-align: right;
+}
+
 // Numbered steps along a gold line, shared by the stages and the contact steps
 %step-number {
   position: absolute;
