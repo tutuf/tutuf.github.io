@@ -21,6 +21,8 @@ We work with what already serves the business, then shape the smallest sound cha
 * **A few clients at a time** — senior attention by design
 * **Yours from day one** — code, accounts and infrastructure
 
+---
+
 # What is getting in the way?
 
 You do not need a specification to start. Choose the situation that feels closest and use the questions to see it more clearly.
@@ -67,6 +69,8 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 [Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
 
+---
+
 # We should probably talk if…
 
 * A process or system already matters to daily operations.
@@ -74,6 +78,8 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 * You want a partner who will question the solution, not just execute it.
 
 **Probably not if** a ready-made ERP, accounting or CRM product solves the need well, the product is still searching for product-market fit, or you need one supplier to cover an entire technology and design organisation.
+
+---
 
 # Not a clean slate. A sound next step.
 
@@ -85,6 +91,8 @@ Every business already has a system. Sometimes it is software. Sometimes it is a
 
 You know the business. We bring the engineering judgment. The important decisions are made together.
 
+---
+
 # Four legitimate answers. Only one of them is “build”.
 
 Every custom line can create value—and becomes something that must be understood, changed and cared for.
@@ -95,6 +103,8 @@ Every custom line can create value—and becomes something that must be understo
 4. **Remove** — Take away code, steps and dependencies that no longer earn their place.
 
 AI made writing code cheaper. That makes the judgment behind what to write, what not to write and what to remove more valuable.
+
+---
 
 # Seventeen years with one growing business.
 
@@ -109,6 +119,8 @@ That experience taught us to judge a decision not only by launch day, but by whe
 [Read how the system kept up with the business](/work/laptop-bg/) · [Meet the product engineers behind the work](/team/)
 
 **A stronger system. More room to evolve.** Not a promise to stay forever. A way of working that creates continuity without lock-in.
+
+---
 
 # A clear decision at every stage.
 
@@ -130,6 +142,8 @@ We make uncertainty visible, deliver working change and decide together whether 
 
 For software that keeps changing, you get continuity, priority and senior judgment without building a full internal engineering team.
 
+---
+
 # Some work is not ours to take.
 
 We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.
@@ -137,6 +151,8 @@ We do not work with companies whose business involves gambling, tobacco or weapo
 If a company asks us to build dark patterns, manipulate people or hide material information, we do not take work from that company—even when its industry would otherwise be a fit.
 
 In our own work, we keep hardware in use for as long as it remains reliable and prefer durable systems over needless replacement.
+
+---
 
 # A useful first conversation
 

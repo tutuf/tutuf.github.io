@@ -27,6 +27,8 @@ None of this means these capabilities should always be custom-built. Mature plat
 >
 > — **Dimitar Raykov**, Deputy Executive Director, [laptop.bg](https://laptop.bg)
 
+---
+
 # A useful first conversation
 
 ## Is your system carrying more than it was built for?

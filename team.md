@@ -16,6 +16,8 @@ Since 2007, we have been building, evolving and caring for software that busines
 * **Since 2015** — our current team working together
 * **3 product engineers** — different strengths, shared responsibility
 
+---
+
 # The people who stay close to the work.
 
 We share responsibility while bringing different kinds of depth to the product, the system and the decisions around it.
@@ -59,6 +61,8 @@ Her strength is combining development with the conversations, documentation, tes
 
 **Focus:** Product logic · Feature delivery · Team practices
 
+---
+
 # One team, not three silos.
 
 All three of us work across product thinking, software development and client conversations. Our different lenses make the work stronger; shared context keeps it continuous.
@@ -69,6 +73,8 @@ All three of us work across product thinking, software development and client co
 
 We use the capacity AI creates not only to build more, but to spend more time on the judgment, edge cases and human consequences around what we build.
 
+---
+
 # Small by design. Specific about responsibility.
 
 We work with only a few clients at a time, so senior attention stays close to the work.
@@ -76,6 +82,8 @@ We work with only a few clients at a time, so senior attention stays close to th
 Before an engagement begins, you know who will lead it, who else will contribute, and how much capacity is reserved for your work.
 
 The people you meet are the people who do the thinking and the work.
+
+---
 
 # Continuity is designed, not promised.
 
@@ -88,6 +96,8 @@ A small team should not depend on one irreplaceable person. We build continuity 
 
 You should stay with tutuf because the partnership works—not because your software cannot leave with us.
 
+---
+
 # Shared roots. Room to grow.
 
 We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at [Sofia University](https://uni-sofia.bg/index.php/eng). That shared foundation still shapes how we reason about systems, learn together and challenge one another’s decisions.
@@ -97,6 +107,8 @@ Beyond commissioned projects, we have mentored developers through initiatives in
 We are a remote company. We value autonomy and focused work, and we make time to meet in person because long partnerships need human connection too.
 
 We keep learning across product engineering, leadership, facilitation and AI-assisted development—then turn what proves useful into better ways of working.
+
+---
 
 # A useful first conversation
 
