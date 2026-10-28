@@ -119,6 +119,24 @@ summary {
   }
 }
 
+// Lets keyboard users jump past the menu; shown only when focused
+.skip-link {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 40;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: $primary;
+  color: $page-dark;
+  transform: translateY(-200%);
+
+  &:focus {
+    transform: none;
+    color: $page-dark;
+  }
+}
+
 // No movement for readers who ask for less of it
 @media (prefers-reduced-motion: reduce) {
   *,

@@ -11,10 +11,13 @@
 </head>
 
 <body class='page {{ layout.bodyClass }}{% if page.url == "/" %} page-home{% endif %}'>
+  <a class="skip-link" href="#main">Skip to content</a>
   {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
     {% include header.html %}
-    {{ content }}
+    <main id="main">
+      {{ content }}
+    </main>
   </div>
   {% include footer.html %}
   {% include sub-footer.html %}

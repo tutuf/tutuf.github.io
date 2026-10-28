@@ -1,4 +1,4 @@
-<div id="main-menu-mobile" class="main-menu-mobile">
+<nav id="main-menu-mobile" class="main-menu-mobile" aria-label="Main">
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
   <ul>
     {% for item in mainmenu %}
@@ -7,4 +7,4 @@
     </li>
     {% endfor %}
   </ul>
-</div>
+</nav>
