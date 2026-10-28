@@ -412,19 +412,15 @@ summary {
   }
 }
 
-// Situations as a numbered list of rows to scan; the whole row opens
-// the description, our questions and the call to action underneath.
-// The summary is stretched over the row so the title stays a real heading.
-$situation-indent: 56px;
-
+// Situations as a list of rows to scan: title and description stay
+// visible, and our questions and the call to action open underneath
 .content {
-  counter-reset: situation stage;
+  counter-reset: stage;
 }
 
 .situation {
-  counter-increment: situation;
-  position: relative;
   border-bottom: 1px solid $white-offset;
+  padding: 20px 40px 8px 0;
 
   // rules between the rows, and one above the first
   :not(.situation) + & {
@@ -436,46 +432,38 @@ $situation-indent: 56px;
   }
 
   h3 {
-    position: relative;
-    margin: 0;
-    padding: 18px 40px 18px $situation-indent;
+    margin: 0 0 6px;
     font-size: 1.375rem;
-    transition: color 0.2s ease;
-
-    &::before {
-      content: "0" counter(situation);
-      position: absolute;
-      left: 0;
-      top: 20px;
-      font-size: 1.25rem;
-      font-weight: 300;
-      color: $primary;
-    }
   }
 
-  &:has(summary:hover) h3,
-  &:has(details[open]) h3 {
-    color: $primary;
+  > p {
+    margin-bottom: 4px;
   }
 
   summary {
-    position: absolute;
-    inset: 0;
+    position: relative;
+    display: inline-block;
+    padding: 8px 26px 10px 0;
     list-style: none;
     cursor: pointer;
+    color: $primary;
+    font-size: 0.9375rem;
 
     &::-webkit-details-marker { display: none; }
 
-    // plus that turns into a minus when the row opens
+    &:hover { color: $primary-light; }
+
+    // plus that turns into a minus when the questions open
     &::before,
     &::after {
       content: "";
       position: absolute;
-      right: 4px;
-      top: 33px;
-      width: 14px;
+      right: 2px;
+      top: 50%;
+      width: 12px;
       height: 2px;
-      background: $primary;
+      margin-top: -2px;
+      background: currentColor;
       transition: transform 0.2s ease;
     }
 
@@ -487,17 +475,8 @@ $situation-indent: 56px;
   }
 }
 
-// above the stretched summary, so text can be selected and links clicked
 .situation-body {
-  position: relative;
-  z-index: 1;
-  padding: 0 40px 20px $situation-indent;
-
-  p.lead-in {
-    margin: 0 0 8px;
-    font-size: 0.9375rem;
-    color: $faint;
-  }
+  padding-top: 4px;
 
   ul {
     list-style: none;
@@ -513,12 +492,7 @@ $situation-indent: 56px;
 }
 
 @media (max-width: 480px) {
-  .situation h3,
-  .situation-body {
-    padding-left: 40px;
-  }
-
-  .situation-body {
+  .situation {
     padding-right: 0;
   }
 }

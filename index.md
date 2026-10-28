@@ -28,15 +28,12 @@ The right next step depends on how your business actually works, so we start wit
 
 ### A proven process has outgrown spreadsheets and workarounds
 
-<details markdown="1">
-<summary aria-describedby="a-proven-process-has-outgrown-spreadsheets-and-workarounds"><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
-
-<div class="situation-body" markdown="1">
-
 The business model works and your team knows how the process should run. But ready-made products do not fit the part specific to your business, and manual work is beginning to limit growth.
 
-Before suggesting anything, we would ask…
-{: .lead-in}
+<details markdown="1">
+<summary aria-describedby="a-proven-process-has-outgrown-spreadsheets-and-workarounds">Before suggesting anything, we would ask…</summary>
+
+<div class="situation-body" markdown="1">
 
 * Which part of the process is already proven?
 * Where does the work depend on a person, spreadsheet or workaround?
@@ -55,15 +52,12 @@ Before suggesting anything, we would ask…
 
 ### Useful systems still need people to bridge the gaps
 
-<details markdown="1">
-<summary aria-describedby="useful-systems-still-need-people-to-bridge-the-gaps"><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
-
-<div class="situation-body" markdown="1">
-
 ERP, accounting, payments, suppliers and sales channels each do their job, while somebody on your team has quietly become the integration between them.
 
-Before suggesting anything, we would ask…
-{: .lead-in}
+<details markdown="1">
+<summary aria-describedby="useful-systems-still-need-people-to-bridge-the-gaps">Before suggesting anything, we would ask…</summary>
+
+<div class="situation-body" markdown="1">
 
 * Where is information entered or checked twice?
 * Which system should remain the source of truth?
@@ -82,15 +76,12 @@ Before suggesting anything, we would ask…
 
 ### A useful prototype has become real software
 
-<details markdown="1">
-<summary aria-describedby="a-useful-prototype-has-become-real-software"><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
-
-<div class="situation-body" markdown="1">
-
 It was built quickly - perhaps partly with AI - and proved the idea. Now customers, data and daily work are beginning to depend on it.
 
-Before suggesting anything, we would ask…
-{: .lead-in}
+<details markdown="1">
+<summary aria-describedby="a-useful-prototype-has-become-real-software">Before suggesting anything, we would ask…</summary>
+
+<div class="situation-body" markdown="1">
 
 * Which parts are already used in real work?
 * What kind of failure would matter to the business?
@@ -109,15 +100,12 @@ Before suggesting anything, we would ask…
 
 ### An important system needs a responsible team again
 
-<details markdown="1">
-<summary aria-describedby="an-important-system-needs-a-responsible-team-again"><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
-
-<div class="situation-body" markdown="1">
-
 A freelancer disappeared, an agency dissolved, or the person who held the context moved on. The system still works, but the next decision no longer feels safe.
 
-Before suggesting anything, we would ask…
-{: .lead-in}
+<details markdown="1">
+<summary aria-describedby="an-important-system-needs-a-responsible-team-again">Before suggesting anything, we would ask…</summary>
+
+<div class="situation-body" markdown="1">
 
 * Where does the system’s knowledge live today?
 * Which change are you least comfortable approving?
