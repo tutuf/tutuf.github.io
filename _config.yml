@@ -4,9 +4,6 @@ permalink: pretty
 logo: images/tutuf_logo.png
 
 header_logo:
-  mobile: "images/tutuf_logo_transparent.png"
-  mobile_height: "35px"
-  mobile_width: "40px"
   desktop: "images/tutuf_logo_transparent.png"
   desktop_height: "35px"
   desktop_width: "40px"

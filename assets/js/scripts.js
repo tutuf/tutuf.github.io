@@ -2,7 +2,7 @@ var body = document.querySelector('body')
 var menuTrigger = document.querySelector('#toggle-main-menu-mobile');
 var menuContainer = document.querySelector('#main-menu-mobile');
 // Everything the open menu covers; made inert so Tab stays in the menu
-var coveredByMenu = document.querySelectorAll('.skip-link, .logo, .logo-mobile, #main, .footer, .sub-footer');
+var coveredByMenu = document.querySelectorAll('.skip-link, .logo, #main, .footer, .sub-footer');
 
 function setMenuOpen(open) {
     menuContainer.classList.toggle('open', open);
