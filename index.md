@@ -22,16 +22,21 @@ Your business already runs on systems, tools and knowledge that work. When they 
 
 ## What has started to hold you back?
 
-The right next step depends on how your business actually works, so we start with your situation - not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open its questions to see it more clearly.
+The right next step depends on how your business actually works, so we start with your situation - not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open it to see what we would ask.
 
 <div class="situation" markdown="1">
 
 ### A proven process has outgrown spreadsheets and workarounds
 
+<details markdown="1">
+<summary><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
+
+<div class="situation-body" markdown="1">
+
 The business model works and your team knows how the process should run. But ready-made products do not fit the part specific to your business, and manual work is beginning to limit growth.
 
-<details class="questions" markdown="1">
-<summary>Before suggesting anything, we would ask…</summary>
+Before suggesting anything, we would ask…
+{: .lead-in}
 
 * Which part of the process is already proven?
 * Where does the work depend on a person, spreadsheet or workaround?
@@ -40,6 +45,7 @@ The business model works and your team knows how the process should run. But rea
 [Talk these through with us](mailto:hi@tutuf.com?subject=A%20proven%20process%20has%20outgrown%20spreadsheets%20and%20workarounds)
 {: .cta}
 
+</div>
 </details>
 
 </div>
@@ -48,10 +54,15 @@ The business model works and your team knows how the process should run. But rea
 
 ### Useful systems still need people to bridge the gaps
 
+<details markdown="1">
+<summary><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
+
+<div class="situation-body" markdown="1">
+
 ERP, accounting, payments, suppliers and sales channels each do their job, while somebody on your team has quietly become the integration between them.
 
-<details class="questions" markdown="1">
-<summary>Before suggesting anything, we would ask…</summary>
+Before suggesting anything, we would ask…
+{: .lead-in}
 
 * Where is information entered or checked twice?
 * Which system should remain the source of truth?
@@ -60,6 +71,7 @@ ERP, accounting, payments, suppliers and sales channels each do their job, while
 [Talk these through with us](mailto:hi@tutuf.com?subject=Useful%20systems%20still%20need%20people%20to%20bridge%20the%20gaps)
 {: .cta}
 
+</div>
 </details>
 
 </div>
@@ -68,10 +80,15 @@ ERP, accounting, payments, suppliers and sales channels each do their job, while
 
 ### A useful prototype has become real software
 
+<details markdown="1">
+<summary><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
+
+<div class="situation-body" markdown="1">
+
 It was built quickly - perhaps partly with AI - and proved the idea. Now customers, data and daily work are beginning to depend on it.
 
-<details class="questions" markdown="1">
-<summary>Before suggesting anything, we would ask…</summary>
+Before suggesting anything, we would ask…
+{: .lead-in}
 
 * Which parts are already used in real work?
 * What kind of failure would matter to the business?
@@ -80,6 +97,7 @@ It was built quickly - perhaps partly with AI - and proved the idea. Now custome
 [Talk these through with us](mailto:hi@tutuf.com?subject=A%20useful%20prototype%20has%20become%20real%20software)
 {: .cta}
 
+</div>
 </details>
 
 </div>
@@ -88,10 +106,15 @@ It was built quickly - perhaps partly with AI - and proved the idea. Now custome
 
 ### An important system needs a responsible team again
 
+<details markdown="1">
+<summary><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
+
+<div class="situation-body" markdown="1">
+
 A freelancer disappeared, an agency dissolved, or the person who held the context moved on. The system still works, but the next decision no longer feels safe.
 
-<details class="questions" markdown="1">
-<summary>Before suggesting anything, we would ask…</summary>
+Before suggesting anything, we would ask…
+{: .lead-in}
 
 * Where does the system’s knowledge live today?
 * Which change are you least comfortable approving?
@@ -100,6 +123,7 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 [Talk these through with us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again)
 {: .cta}
 
+</div>
 </details>
 
 </div>

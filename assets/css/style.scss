@@ -420,95 +420,118 @@ summary {
   }
 }
 
-// Situations as numbered cards, in the same style as the answer tiles;
-// each card's questions open on demand
+// Situations as a numbered list of rows to scan; the whole row opens
+// the description, our questions and the call to action underneath.
+// The summary is stretched over the row so the title stays a real heading.
+$situation-indent: 56px;
+
 .content {
   counter-reset: situation stage;
 }
 
 .situation {
   counter-increment: situation;
-  padding: 20px 24px 0;
-  margin-bottom: 16px;
-  background: $card-bg;
-  border: 1px solid $card-border;
-  border-radius: 4px;
+  position: relative;
+  border-bottom: 1px solid $white-offset;
 
-  &:has(details[open]) {
-    border-color: $secondary;
+  // rules between the rows, and one above the first
+  :not(.situation) + & {
+    border-top: 1px solid $white-offset;
+  }
+
+  + :not(.situation) {
+    margin-top: 24px;
   }
 
   h3 {
-    margin-top: 0;
-    margin-bottom: 8px;
+    position: relative;
+    margin: 0;
+    padding: 18px 40px 18px $situation-indent;
+    font-size: 1.375rem;
+    transition: color 0.2s ease;
 
     &::before {
       content: "0" counter(situation);
-      display: block;
-      font-size: 0.875rem;
-      line-height: 1.125rem;
-      color: $faint;
+      position: absolute;
+      left: 0;
+      top: 20px;
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: $primary;
     }
   }
 
-  > p {
-    margin-bottom: 14px;
-  }
-}
-
-details.questions {
-  border-top: 1px solid $card-border;
-  margin: 0 -24px;
-  padding: 0 24px;
-
-  &[open] {
-    padding-bottom: 4px;
+  &:has(summary:hover) h3,
+  &:has(details[open]) h3 {
+    color: $primary;
   }
 
   summary {
-    position: relative;
-    display: inline-block;
-    padding: 12px 22px 14px 0;
+    position: absolute;
+    inset: 0;
     list-style: none;
     cursor: pointer;
-    color: $primary;
-    font-size: 0.9375rem;
 
     &::-webkit-details-marker { display: none; }
 
-    &:hover { color: $primary-light; }
-
-    // chevron that turns when the questions open
+    // plus that turns into a minus when the row opens
+    &::before,
     &::after {
       content: "";
       position: absolute;
-      right: 2px;
-      top: 50%;
-      width: 8px;
-      height: 8px;
-      margin-top: -7px;
-      border-right: 2px solid currentColor;
-      border-bottom: 2px solid currentColor;
-      transform: rotate(45deg);
+      right: 4px;
+      top: 33px;
+      width: 14px;
+      height: 2px;
+      background: $primary;
       transition: transform 0.2s ease;
     }
+
+    &::after { transform: rotate(90deg); }
   }
 
-  &[open] summary {
-    padding-bottom: 8px;
-
-    &::after {
-      margin-top: -3px;
-      transform: rotate(-135deg);
-    }
+  details[open] summary::after {
+    transform: rotate(0deg);
   }
 }
 
-details.questions p.cta {
-  text-align: right;
+// above the stretched summary, so text can be selected and links clicked
+.situation-body {
+  position: relative;
+  z-index: 1;
+  padding: 0 40px 20px $situation-indent;
+
+  p.lead-in {
+    margin: 0 0 8px;
+    font-size: 0.9375rem;
+    color: $faint;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0 0 18px;
+    padding-left: 16px;
+    border-left: 2px solid $secondary;
+  }
+
+  li {
+    margin: 0 0 6px;
+    color: $black;
+  }
 }
 
-// People on the Team page, set apart like the situation cards
+@media (max-width: 480px) {
+  .situation h3,
+  .situation-body {
+    padding-left: 40px;
+  }
+
+  .situation-body {
+    padding-right: 0;
+  }
+}
+
+// People on the Team page, set apart as cards
 .person {
   padding: 20px 24px 4px;
   margin-bottom: 16px;
