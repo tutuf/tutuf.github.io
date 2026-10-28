@@ -24,6 +24,8 @@ Your business already runs on systems, tools and knowledge that work. When they 
 
 The right next step depends on how your business actually works, so we start with your situation - not with a solution. Most of our work begins in one of these four.
 
+<div class="situations" markdown="1">
+
 <div class="situation" markdown="1">
 
 ### A proven process has outgrown spreadsheets and workarounds
@@ -65,6 +67,8 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 <span>We would first ask</span> Which change are you least comfortable approving?
 {: .question}
+
+</div>
 
 </div>
 

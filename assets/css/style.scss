@@ -412,32 +412,31 @@ summary {
   }
 }
 
-// Situations as a list of rows to scan: what it looks like and the
-// first question we would ask, on a gold rail
+// Situations as stacked cards, so each reads as its own thing: what it
+// looks like, and the first question we would ask
 .content {
   counter-reset: stage;
 }
 
+.situations {
+  display: grid;
+  gap: 12px;
+  margin: 24px 0;
+}
+
 .situation {
-  border-bottom: 1px solid $white-offset;
-  padding: 20px 40px 2px 0;
-
-  // rules between the rows, and one above the first
-  :not(.situation) + & {
-    border-top: 1px solid $white-offset;
-  }
-
-  + :not(.situation) {
-    margin-top: 24px;
-  }
+  padding: 18px 24px 2px;
+  background: $card-bg;
+  border: 1px solid $card-border;
+  border-radius: 4px;
 
   h3 {
-    margin: 0 0 6px;
-    font-size: 1.375rem;
+    margin: 0 0 8px;
+    font-size: 1.25rem;
   }
 
   p.question {
-    padding-left: 16px;
+    padding-left: 14px;
     border-left: 2px solid $secondary;
     color: $black;
 
@@ -452,7 +451,7 @@ summary {
 
 @media (max-width: 480px) {
   .situation {
-    padding-right: 0;
+    padding: 16px 16px 2px;
   }
 }
 
