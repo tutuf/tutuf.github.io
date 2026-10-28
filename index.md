@@ -13,7 +13,7 @@ The engineering partner for the business behind the software
 
 Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to **use**, **connect**, **build** or **remove**—and we stay to look after it.
 
-[Tell us what’s in the way](mailto:hi@tutuf.com?subject=What%E2%80%99s%20in%20the%20way) · [Find your situation](#what-has-started-to-hold-you-back)
+[Tell us what’s in the way](#a-useful-first-conversation) · [Find your situation](#what-has-started-to-hold-you-back)
 {: .hero-links}
 
 </div>
@@ -105,6 +105,9 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 </div>
 
 [Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
+
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
+{: .note}
 
 ---
 
@@ -208,4 +211,4 @@ You can write in English or Bulgarian.
 
 ---
 
-**Make a product our clients could use?** We often recommend and connect proven products instead of building. If you make one—or work alongside teams like ours—[we would like to hear from you](mailto:hi@tutuf.com?subject=Partnership).
+**Make a product our clients could use?** We often recommend and connect proven products instead of building. If you make one—or work alongside teams like ours—we would like to hear from you at [hi@tutuf.com](mailto:hi@tutuf.com?subject=Partnership).
