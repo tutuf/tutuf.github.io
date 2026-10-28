@@ -203,10 +203,10 @@ We are also selective about the work we take. [See the work we do not take](/how
 3. **We talk** A free, focused first conversation about the problem, the constraints and the best next step, even if that is not working with us.
 {: .steps role="list"}
 
-[Write to hi@tutuf.com](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
+[Start the conversation](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
 {: .cta .primary}
 
-You can write in English or Bulgarian.
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. You can write in English or Bulgarian.
 {: .note}
 
 ---
