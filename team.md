@@ -53,14 +53,14 @@ We are a remote company and value focused work. We still make a point of meeting
 
 ## Continuity is built in, not promised.
 
-A small team should not depend on one irreplaceable person. We build continuity into the way the work is understood, recorded and owned.
+Your software should not depend on one irreplaceable person. We build continuity into the way the work is understood, recorded and owned.
 
-1. **Decisions with reasons** — We record not only what was decided, but why, so future changes can respect the original trade-offs or revisit them deliberately.
-2. **Knowledge that outlasts any one of us** — Automated tests record how the system should behave; technical and user documentation explain the rest.
-3. **Yours from day one** — The code, repositories, documentation and access needed to run the system are yours, not held by us.
-4. **A continuity plan, agreed up front** — Before we start, we make clear how responsibility and context will be handled if someone’s availability—or the team itself—changes.
+* **Decisions with reasons** — We record not only what was decided, but why, so future changes can respect the original trade-offs or revisit them deliberately.
+* **Knowledge that outlasts any one of us** — Automated tests capture how the system should behave; technical and user documentation explain the rest.
+* **Yours from day one** — The code, repositories, documentation and access needed to run the system are yours, not ours.
+* **A continuity plan, agreed up front** — We agree who would take over, and how they would get up to speed, if one of us becomes unavailable—or if the team itself changes.
 
-You should stay with tutuf because the partnership works—not because your software cannot leave with us.
+We want you to stay because the partnership works—not because your software cannot leave with us.
 
 ---
 
