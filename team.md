@@ -43,17 +43,15 @@ She presents clearly to clients, to the team and at conferences. Through trainin
 
 ---
 
-## Small by design. Specific about responsibility.
+## Small by design. Clear about who does what.
 
-We work with only a few clients at a time, so senior attention stays close to the work. If we cannot give your work that attention, we tell you before we start—not halfway through.
+We work with only a few clients at a time, so each one gets the attention its work needs. If we cannot give yours that, we say so up front—not halfway through.
 
-Before an engagement begins, you know who will lead it, who else will contribute, and how much capacity is reserved for your work.
+Before an engagement begins, you know who will lead it, who else will contribute, and how much of our time is reserved for you.
 
-We are a remote company. We value autonomy and focused work, and we make time to meet in person because long partnerships need human connection too.
+We are a remote company and value focused work. We still make a point of meeting in person, with each other and with clients, because long partnerships need human connection too.
 
----
-
-## Continuity is designed, not promised.
+## Continuity is built in, not promised.
 
 A small team should not depend on one irreplaceable person. We build continuity into the way the work is understood, recorded and owned.
 
