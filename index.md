@@ -22,7 +22,7 @@ Your business already runs on systems, tools and knowledge that work. When they 
 
 ## What has started to hold you back?
 
-The right next step depends on how your business actually works, so we start with your situation - not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open it to see what we would ask.
+The right next step depends on how your business actually works, so we start with your situation - not with a solution. Most of our work begins in one of these four.
 
 <div class="situation" markdown="1">
 
@@ -30,21 +30,8 @@ The right next step depends on how your business actually works, so we start wit
 
 The business model works and your team knows how the process should run. But ready-made products do not fit the part specific to your business, and manual work is beginning to limit growth.
 
-<details markdown="1">
-<summary aria-describedby="a-proven-process-has-outgrown-spreadsheets-and-workarounds">Before suggesting anything, we would ask…</summary>
-
-<div class="situation-body" markdown="1">
-
-* Which part of the process is already proven?
-* Where does the work depend on a person, spreadsheet or workaround?
-* What could the business do if that constraint disappeared?
-{: role="list"}
-
-[Talk these through with us](mailto:hi@tutuf.com?subject=A%20proven%20process%20has%20outgrown%20spreadsheets%20and%20workarounds)
-{: .cta}
-
-</div>
-</details>
+<span>We would first ask</span> Where does the work depend on a person, spreadsheet or workaround?
+{: .question}
 
 </div>
 
@@ -54,21 +41,8 @@ The business model works and your team knows how the process should run. But rea
 
 ERP, accounting, payments, suppliers and sales channels each do their job, while somebody on your team has quietly become the integration between them.
 
-<details markdown="1">
-<summary aria-describedby="useful-systems-still-need-people-to-bridge-the-gaps">Before suggesting anything, we would ask…</summary>
-
-<div class="situation-body" markdown="1">
-
-* Where is information entered or checked twice?
-* Which system should remain the source of truth?
-* What becomes possible when the handoffs disappear?
-{: role="list"}
-
-[Talk these through with us](mailto:hi@tutuf.com?subject=Useful%20systems%20still%20need%20people%20to%20bridge%20the%20gaps)
-{: .cta}
-
-</div>
-</details>
+<span>We would first ask</span> Where is information entered or checked twice?
+{: .question}
 
 </div>
 
@@ -78,21 +52,8 @@ ERP, accounting, payments, suppliers and sales channels each do their job, while
 
 It was built quickly - perhaps partly with AI - and proved the idea. Now customers, data and daily work are beginning to depend on it.
 
-<details markdown="1">
-<summary aria-describedby="a-useful-prototype-has-become-real-software">Before suggesting anything, we would ask…</summary>
-
-<div class="situation-body" markdown="1">
-
-* Which parts are already used in real work?
-* What kind of failure would matter to the business?
-* What should the system be able to change next?
-{: role="list"}
-
-[Talk these through with us](mailto:hi@tutuf.com?subject=A%20useful%20prototype%20has%20become%20real%20software)
-{: .cta}
-
-</div>
-</details>
+<span>We would first ask</span> What kind of failure would matter to the business?
+{: .question}
 
 </div>
 
@@ -102,29 +63,12 @@ It was built quickly - perhaps partly with AI - and proved the idea. Now custome
 
 A freelancer disappeared, an agency dissolved, or the person who held the context moved on. The system still works, but the next decision no longer feels safe.
 
-<details markdown="1">
-<summary aria-describedby="an-important-system-needs-a-responsible-team-again">Before suggesting anything, we would ask…</summary>
-
-<div class="situation-body" markdown="1">
-
-* Where does the system’s knowledge live today?
-* Which change are you least comfortable approving?
-* What must keep working while context is rebuilt?
-{: role="list"}
-
-[Talk these through with us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again)
-{: .cta}
-
-</div>
-</details>
+<span>We would first ask</span> Which change are you least comfortable approving?
+{: .question}
 
 </div>
 
-[Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
-{: .cta}
-
-Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
-{: .note}
+Recognise one of these, or none quite fits? [Tell us what is in the way](mailto:hi@tutuf.com?subject=What%20is%20in%20the%20way) - or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
 
 ---
 

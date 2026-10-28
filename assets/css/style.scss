@@ -412,15 +412,15 @@ summary {
   }
 }
 
-// Situations as a list of rows to scan: title and description stay
-// visible, and our questions and the call to action open underneath
+// Situations as a list of rows to scan: what it looks like and the
+// first question we would ask, on a gold rail
 .content {
   counter-reset: stage;
 }
 
 .situation {
   border-bottom: 1px solid $white-offset;
-  padding: 20px 40px 8px 0;
+  padding: 20px 40px 2px 0;
 
   // rules between the rows, and one above the first
   :not(.situation) + & {
@@ -436,58 +436,17 @@ summary {
     font-size: 1.375rem;
   }
 
-  > p {
-    margin-bottom: 4px;
-  }
-
-  summary {
-    position: relative;
-    display: inline-block;
-    padding: 8px 26px 10px 0;
-    list-style: none;
-    cursor: pointer;
-    color: $primary;
-    font-size: 0.9375rem;
-
-    &::-webkit-details-marker { display: none; }
-
-    &:hover { color: $primary-light; }
-
-    // plus that turns into a minus when the questions open
-    &::before,
-    &::after {
-      content: "";
-      position: absolute;
-      right: 2px;
-      top: 50%;
-      width: 12px;
-      height: 2px;
-      margin-top: -2px;
-      background: currentColor;
-      transition: transform 0.2s ease;
-    }
-
-    &::after { transform: rotate(90deg); }
-  }
-
-  details[open] summary::after {
-    transform: rotate(0deg);
-  }
-}
-
-.situation-body {
-  padding-top: 4px;
-
-  ul {
-    list-style: none;
-    margin: 0 0 18px;
+  p.question {
     padding-left: 16px;
     border-left: 2px solid $secondary;
-  }
-
-  li {
-    margin: 0 0 6px;
     color: $black;
+
+    // whose question it is, quieter than the question itself
+    span {
+      display: block;
+      font-size: 0.875rem;
+      color: $faint;
+    }
   }
 }
 
