@@ -126,7 +126,7 @@ AI made writing code cheaper. That makes the judgment behind what to write, what
 
 ## Seventeen years with one growing business.
 
-laptop.bg started as an online store. For seventeen years, the system we evolved with them ran their daily commercial operations—catalogue, suppliers, payments and sales channels. When smartphones became a major category, their team added it themselves, without new development. Dozens of supplier formats fed one stable model, and new channels arrived without a second commerce system.
+laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations—catalogue, suppliers, payments and sales channels. When smartphones became an important category, the business introduced it without new category-specific development from us. Many supplier formats. One stable model. New channels without a second commerce system.
 
 > “They know how to look past the feature we’ve asked for to the business problem underneath… and will tell us when a quick solution is likely to cost us later.”
 >
