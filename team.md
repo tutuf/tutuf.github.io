@@ -21,8 +21,6 @@ She has led work from the first client conversation to long-term care, and still
 
 She looks past whether software works to whether the people using it understand it—and whether it makes their work easier. She shares that care with the team through mentoring, feedback and reusable review workflows.
 
-**Focus:** Business discovery · Engineering leadership · Long-term delivery
-
 ## Sava Lachezarov
 
 *Co-founder · Systems design · 25 years in software*
@@ -33,19 +31,15 @@ He notices the friction others have learned to live with—a step repeated by ha
 
 His background in journalism and facilitation shapes the way he asks questions, explains technical choices and navigates difficult conversations.
 
-**Focus:** Systems architecture · Automation and tooling · Integrations
-
 ## Gabriela Velinova
 
 *Product engineer · Delivery and team practices · With tutuf since 2015*
 
-Gabriela turns incomplete requirements into software that people can use, test and support.
+Gabriela brings order to complex work. She plans it, keeps the people involved coordinated and makes sure decisions are written down.
 
-She designed and built the promotion-code system for a long-running e-commerce business. When its loyalty programme was still only an idea, she helped define the business rules and turn them into working software. She also delivered a supplier integration that opened an entirely new channel for the business.
+When an idea is still taking shape, she asks the questions that turn it into clear business rules, then builds those rules into working software. For a long-running e-commerce business, she designed and built the promotion-code system and delivered a supplier integration that opened an entirely new channel for the business.
 
-Her strength is combining development with the conversations, documentation, testing and coordination around it. She also mentors developers and improves the practices that help a team deliver good work together.
-
-**Focus:** Product logic · Feature delivery · Team practices
+She presents clearly to clients, to the team and at conferences. Through trainings and mentoring, she helps developers grow and the whole team get better at the work.
 
 ---
 
