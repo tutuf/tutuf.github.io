@@ -1,6 +1,6 @@
 ---
 title: How we work
-description: "How we decide what should change, what should stay and what should become software—how we work together, what we build with and the work we do not take."
+description: "How we decide what should change, what should stay and what should become software, and how we work together, use AI, choose our tools and choose the work we take."
 image: /images/og-image.png
 permalink: /how-we-work/
 ---
@@ -16,7 +16,7 @@ Sometimes it is software. Sometimes it is a spreadsheet, a manual handoff or kno
 * **What already works and should stay?** We preserve useful products, processes and knowledge instead of replacing them with custom code.
 {: .lenses}
 
-You know the business. We bring the engineering judgment. The important decisions are made together.
+You know the business. We bring the engineering judgment. We think it through together, and the final call is yours.
 
 ---
 
@@ -24,7 +24,7 @@ You know the business. We bring the engineering judgment. The important decision
 
 What we learn points to a next step: **use** a proven product, **connect** systems you already trust, **build** what is specific to your business, or **remove** what no longer earns its place. Often it is a combination. We reach for building last, not first.
 
-We lay out the options with their trade-offs and recommend one. The decision is yours.
+We lay out the options with their trade-offs and recommend one.
 
 When we do build, we aim for software that makes the business less dependent on us, not more. If your team keeps needing a new product type, pricing rule or report, the most useful custom work is often not the next one—it is the ability for your team to add it themselves, without new development.
 
@@ -39,7 +39,7 @@ Every engagement starts with a [focused assessment](/#a-clear-decision-at-every-
 * **Change stays safe and affordable.** We automate tests, so the system can keep changing without breaking what already works.
 {: .lenses}
 
-At the end of each increment, we review the result together and decide whether to continue, adjust or stop.
+At the end of each increment, we review the result together and decide whether to continue, adjust or stop. When the software keeps changing, we can stay on to look after it and develop it further.
 
 ---
 
@@ -47,9 +47,9 @@ At the end of each increment, we review the result together and decide whether t
 
 The work goes best when the people who know the business stay close to it.
 
-* **A decision-maker.** Someone on your side who can make decisions with us.
+* **A decision-maker.** Someone on your side with the authority to set priorities and the time to stay involved.
 * **Access to the people who do the work.** They often know where the real problem is.
-* **Timely answers.** When a decision is yours, the work should not have to wait for it.
+* **Timely answers.** When the next step depends on you, a quick reply keeps the work moving.
 * **Honest feedback, including about us.** Early, while it is still easy to act on.
 {: .lenses}
 
@@ -57,7 +57,7 @@ The work goes best when the people who know the business stay close to it.
 
 # We delegate coding to AI agents. Never the thinking.
 
-AI agents write, test and change much of our code. That frees our time for understanding your business, thinking through edge cases and caring about the people who will use the software. The questions, the trade-offs and the decision about what should exist at all stay with people—with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
+AI agents write, test and change much of our code. That frees our time for understanding your business, thinking through edge cases and caring about the people who will use the software. The questions, the trade-offs and the judgment about what should exist at all stay with people—with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
 
 ---
 
@@ -68,6 +68,8 @@ We build web applications with [Ruby on Rails](https://rubyonrails.org/) and [Po
 **Ruby** was designed for people, not machines—and after all these years, working with it still makes us happy. AI agents are remarkably good at it, and the code stays easy for us to read and review. The Ruby community is lively, friendly and full of good engineering and fresh ideas.
 
 **PostgreSQL** has served us for many years without surprises. It keeps the fundamentals of a good relational database steady while bringing new advances in the field within reach.
+
+If your system is built with something else, we are still open to it. Whatever the stack, good software rests on the same principles and practices.
 
 We have experience in event-driven architectures, API design, distributed systems and integration with external services, and we maintain several open-source [Ruby gems](https://github.com/tutuf/).
 
