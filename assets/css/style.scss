@@ -263,6 +263,11 @@ summary {
     font-weight: 400;
   }
 
+  // a section heading without a rule above it still needs room to start
+  > :is(p, ul, ol, div) + h2 {
+    margin-top: 48px;
+  }
+
   ul {
     list-style-image: url("../images/bullet.png");
   }
@@ -494,6 +499,28 @@ details.questions {
 
 details.questions p.cta {
   text-align: right;
+}
+
+// People on the Team page, set apart like the situation cards
+.person {
+  padding: 20px 24px 4px;
+  margin-bottom: 16px;
+  background: $card-bg;
+  border: 1px solid $card-border;
+  border-radius: 4px;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+  }
+
+  // role and years at a glance, under the name
+  p.role {
+    font-size: 0.9375rem;
+    color: $muted;
+    margin-bottom: 14px;
+  }
 }
 
 // Numbered steps along a gold line, shared by the stages and the contact steps
