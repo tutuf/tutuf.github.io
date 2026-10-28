@@ -148,6 +148,12 @@ summary {
   .content p.cta.primary a:hover {
     transform: none;
   }
+
+  // the menu links fade in from transparent, so show them without the animation
+  .main-menu-mobile.open li {
+    animation: none;
+    opacity: 1;
+  }
 }
 
 // Header: Midnight's textured bar
@@ -219,6 +225,7 @@ summary {
 .footer .footer-title {
   color: $black;
   font-weight: 300;
+  line-height: 1.2;
 }
 
 .footer ul li a:hover {
