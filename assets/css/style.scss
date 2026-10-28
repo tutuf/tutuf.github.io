@@ -281,8 +281,19 @@ summary {
     padding: 0 0 0 20px;
     border-left: 3px solid $primary;
 
-    p { font-style: italic; }
-    p:last-child { font-style: normal; }
+    // the client's words, upright and a step larger than the body text
+    p {
+      font-size: 1.1875rem;
+      line-height: 1.55;
+      color: $black;
+    }
+
+    p:last-child {
+      font-size: 1rem;
+      color: $muted;
+
+      strong { color: $black; }
+    }
   }
 
   // eyebrow lines such as "*How we work*" above a page heading

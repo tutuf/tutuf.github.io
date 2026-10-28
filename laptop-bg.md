@@ -19,11 +19,17 @@ From early on, the laptop.bg team could define product categories and their tech
 
 ## Many supplier formats. One stable model.
 
-Suppliers provided data in their own XML and JSON formats. We created the original concept and architecture for a mediation layer, then built its first version. It translated those different feeds into one shared format. We also built and maintained the integration that allowed the core system to depend on that format alone. We implemented laptop.bg’s commercial rules for choosing the best offer when the same product was available from more than one supplier.
+Suppliers provided data in their own XML and JSON formats. We created the original concept and architecture for a mediation layer, then built its first version. It translated those different feeds into one shared format. We also built and maintained the integration that allowed the core system to depend on that format alone.
+
+We implemented laptop.bg’s commercial rules for choosing the best offer when the same product was available from more than one supplier.
 
 ## New channels without a second commerce system.
 
-The same catalogue and order flow came to serve demand that did not arrive through laptop.bg’s own storefront. We built a dropshipping API that let partner stores and B2B customers place orders against the existing system. Once the API was in place, a new partner could be added without writing new code in the core system. When international sales became relevant, we made the necessary changes in the core application and connected it to easySales rather than building a second storefront. The first integration was designed so that adding another supported market would require only a small, bounded code change and a few configuration updates. Both allowed laptop.bg to reach new customers through the system it already had, without building a separate commerce system for every new channel.
+The same catalogue and order flow came to serve demand that did not arrive through laptop.bg’s own storefront. We built a dropshipping API that let partner stores and B2B customers place orders against the existing system. Once the API was in place, a new partner could be added without writing new code in the core system.
+
+When international sales became relevant, we made the necessary changes in the core application and connected it to easySales rather than building a second storefront. The first integration was designed so that adding another supported market would require only a small, bounded code change and a few configuration updates.
+
+Both allowed laptop.bg to reach new customers through the system it already had, without building a separate commerce system for every new channel.
 
 ---
 
