@@ -11,7 +11,12 @@ permalink: /work/laptop-bg/
 
 laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations—catalogue, suppliers, payments and sales channels. We changed it repeatedly without discarding the business knowledge already built into it.
 
-The recurring question was rarely, “How do we add this feature?” It was: what should be configurable, what should be connected to something that already exists, and what was specific enough to deserve custom software?
+The recurring question was rarely, “How do we add this feature?” It was:
+
+- **What should be configurable?**
+- **What should be connected to something that already exists?**
+- **What was specific enough to deserve custom software?**
+{: .lenses role="list"}
 
 ## A product model the business could reshape.
 

@@ -361,6 +361,11 @@ summary {
     display: block;
     color: $black;
   }
+
+  // the rails end abruptly, so give a following heading more room
+  + h2 {
+    margin-top: 32px;
+  }
 }
 
 // Use / Connect / Build / Remove as a 2×2 grid, with Build set apart
