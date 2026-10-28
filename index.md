@@ -116,7 +116,7 @@ Every line of custom code can create value—and becomes something that must be 
 2. **Connect** Make trusted systems work together around the actual business process.
 3. {:.build} **Build** Create the focused custom layer specific to the way your business works.
 4. **Remove** Take away code, steps and dependencies that no longer earn their place.
-{: .answers}
+{: .answers role="list"}
 
 AI made writing code cheaper. That makes the judgment behind what to write, what not to write and what to remove more valuable.
 
@@ -198,7 +198,7 @@ We are also selective about the work we take. [See the work we do not take](/how
 1. **You write** A few lines about the situation are enough.
 2. **We reply** One of the [product engineers](/team/) who would be involved reads and replies. If a conversation would be useful, we send you a link to choose a time. If we are not the right fit, we say so.
 3. **We talk** A free, focused first conversation about the problem, the constraints and the best next step, even if that is not working with us.
-{: .steps}
+{: .steps role="list"}
 
 [Write to hi@tutuf.com](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
 {: .cta .primary}

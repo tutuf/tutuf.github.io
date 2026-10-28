@@ -584,7 +584,11 @@ h2 + .stage {
   border: 1px solid $primary;
   border-radius: 4px;
 
-  &::after { content: " →"; }
+  // decorative, so screen readers skip it where alt text is supported
+  &::after {
+    content: " →";
+    content: " →" / "";
+  }
 
   &:hover {
     background: $primary;

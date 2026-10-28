@@ -1,6 +1,6 @@
 ---
 title: How we work
-description: "How we decide what should change, what should stay and what should become software, and how we work together, use AI, choose our tools and choose the work we take."
+description: "How we decide what should change, what should stay and what should become software, and how we work together, choose the work we take, use AI and choose our tools."
 image: /images/og-image.png
 permalink: /how-we-work/
 ---
@@ -14,7 +14,7 @@ Sometimes it is software. Sometimes it is a spreadsheet, a manual handoff or kno
 * **What should become possible?** We begin with what the business, its customers or its team should be able to do differently—not with a feature.
 * **What happens today instead?** We look for the real delay, risk, manual work or missed opportunity—and who carries it.
 * **What already works and should stay?** We preserve useful products, processes and knowledge instead of replacing them with custom code.
-{: .lenses}
+{: .lenses role="list"}
 
 You know the business. We bring the engineering judgment. We think it through together, and the final call is yours.
 
@@ -42,7 +42,7 @@ Every engagement starts with a [focused assessment](/#a-clear-decision-at-every-
 * **You see it early.** We deploy often to a test environment, so you can see the software taking shape and adjust its direction while that is still cheap.
 * **Your feedback shapes it.** We refine the work based on what your team notices when using it—not only on what was specified at the start.
 * **Change stays safe and affordable.** We automate tests, so the system can keep changing without breaking what already works.
-{: .lenses}
+{: .lenses role="list"}
 
 At the end of each increment, we review the result together and decide whether to continue, adjust or stop. When the software keeps changing, we can stay on to look after it and develop it further.
 
