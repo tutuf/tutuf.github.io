@@ -3,6 +3,12 @@ permalink: pretty
 
 logo: images/tutuf_logo.png
 
+# Listed as tutuf's profiles by jekyll-seo-tag; the first is linked in the sub-footer
+social:
+  name: tutuf
+  links:
+    - https://www.linkedin.com/company/tutuf
+
 header_logo:
   desktop: "images/tutuf_logo_transparent.png"
   desktop_height: "35px"
