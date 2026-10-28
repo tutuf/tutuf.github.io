@@ -22,11 +22,9 @@ You know the business. We bring the engineering judgment. We think it through to
 
 # From questions to a decision.
 
-What we learn points to a next step: **use** a proven product, **connect** systems you already trust, **build** what is specific to your business, or **remove** what no longer earns its place. Often it is a combination. We reach for building last, not first.
+What we learn points to a next step: **use** a proven product, **connect** systems you already trust, **build** what is specific to your business, or **remove** what no longer earns its place. Often it is a combination. We lay out the options with their trade-offs and recommend one. We reach for building last, not first.
 
-We lay out the options with their trade-offs and recommend one.
-
-When we do build, we aim for software that makes the business less dependent on us, not more. If your team keeps needing a new product type, pricing rule or report, the most useful custom work is often not the next one—it is the ability for your team to add it themselves, without new development.
+When we do build, we aim for software that makes the business less dependent on us, not more. If your team keeps needing a new product type, pricing rule or report, we build the ability for your team to add it themselves, without new development.
 
 ---
 
@@ -57,7 +55,7 @@ The work goes best when the people who know the business stay close to it.
 
 # We delegate coding to AI agents. Never the thinking.
 
-AI agents write, test and change much of our code. That frees our time for understanding your business, thinking through edge cases and caring about the people who will use the software. The questions, the trade-offs and the judgment about what should exist at all stay with people—with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
+AI agents write, test and change much of our code. That gives us more time to understand your business and to care about the people who will use the software. The questions, the trade-offs and the judgment about what should exist at all stay with people—with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
 
 ---
 
@@ -69,9 +67,7 @@ We build web applications with [Ruby on Rails](https://rubyonrails.org/) and [Po
 
 **PostgreSQL** has served us for many years without surprises. It keeps the fundamentals of a good relational database steady while bringing new advances in the field within reach.
 
-If your system is built with something else, we are still open to it. Whatever the stack, good software rests on the same principles and practices.
-
-We have experience in event-driven architectures, API design, distributed systems and integration with external services, and we maintain several open-source [Ruby gems](https://github.com/tutuf/).
+We have experience in event-driven architectures, API design, distributed systems and integration with external services, and we maintain several open-source [Ruby gems](https://github.com/tutuf/). If your system is built with something else, we are still open to it. Whatever the stack, good software rests on the same principles and practices.
 
 ---
 
