@@ -5,15 +5,22 @@ image: /images/og-image.png
 permalink: /team/
 ---
 
+*Team*
+
 # A small team of product engineers who think beyond the next release.
 
 Since 2007, we have built, evolved and looked after software that businesses depend on. The people who ask the questions also shape the solution, build and test it, and stay accountable for what follows.
 
 Each of us works across product thinking, software development and client conversations. We each bring a different strength, and shared context means any of us can pick up where another left off.
 
-## Denitsa Belogusheva
+<h2 class="visually-hidden">Our team</h2>
 
-*Co-founder · Engineering lead · 19 years in software*
+<div class="person" markdown="1">
+
+### Denitsa Belogusheva
+
+Co-founder · Engineering lead · 19 years in software
+{: .role}
 
 Denitsa keeps the whole system in view: the business need, the technical consequences, the people doing the work, and the software that will live with the decision.
 
@@ -21,9 +28,14 @@ She has led work from the first client conversation to long-term care, and still
 
 She looks past whether software works to whether the people using it understand it—and whether it makes their work easier. She shares that care with the team through mentoring, feedback and reusable review workflows.
 
-## Sava Lachezarov
+</div>
 
-*Co-founder · Systems design · 25 years in software*
+<div class="person" markdown="1">
+
+### Sava Lachezarov
+
+Co-founder · Systems design · 25 years in software
+{: .role}
 
 Sava thinks in systems. Having worked across product development, architecture, infrastructure and developer tooling, he looks at how the parts connect, where a change in one place will be felt in another, and which solution addresses the cause rather than the symptom.
 
@@ -31,15 +43,22 @@ He notices the friction others have learned to live with—a step repeated by ha
 
 His background in journalism and facilitation shapes the way he asks questions, explains technical choices and navigates difficult conversations.
 
-## Gabriela Velinova
+</div>
 
-*Product engineer · Delivery and team practices · With tutuf since 2015*
+<div class="person" markdown="1">
+
+### Gabriela Velinova
+
+Product engineer · Delivery and team practices · With tutuf since 2015
+{: .role}
 
 Gabriela brings order to complex work. She plans it, keeps the people involved coordinated and makes sure decisions are written down.
 
 When an idea is still taking shape, she asks the questions that turn it into clear business rules, then builds those rules into working software. For a long-running e-commerce business, she designed and built the promotion-code system and delivered a supplier integration that opened an entirely new channel for the business.
 
 She presents clearly to clients, to the team and at conferences. Through trainings and mentoring, she helps developers grow and the whole team get better at the work.
+
+</div>
 
 ---
 
@@ -55,10 +74,11 @@ We are a remote company and value focused work. We still make a point of meeting
 
 Your software should not depend on one irreplaceable person. We build continuity into the way the work is understood, recorded and owned.
 
-* **Decisions with reasons** — We record not only what was decided, but why, so future changes can respect the original trade-offs or revisit them deliberately.
-* **Knowledge that outlasts any one of us** — Automated tests capture how the system should behave; technical and user documentation explain the rest.
-* **Yours from day one** — The code, repositories, documentation and access needed to run the system are yours, not ours.
-* **A continuity plan, agreed up front** — We agree who would take over, and how they would get up to speed, if one of us becomes unavailable—or if the team itself changes.
+* **Decisions with reasons.** We record not only what was decided, but why, so future changes can respect the original trade-offs or revisit them deliberately.
+* **Knowledge that outlasts any one of us.** Automated tests capture how the system should behave; technical and user documentation explain the rest.
+* **Yours from day one.** The code, repositories, documentation and access needed to run the system are yours, not ours.
+* **A continuity plan, agreed up front.** We agree who would take over, and how they would get up to speed, if one of us becomes unavailable—or if the team itself changes.
+{: .lenses role="list"}
 
 We want you to stay because the partnership works—not because your software cannot leave with us.
 
