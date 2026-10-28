@@ -6,7 +6,7 @@ image: /images/og-image.png
 
 <div class="hero" markdown="1">
 
-# <span>Care for what works.</span> <span>Shape what comes next</span>
+# <span>Care for what works.</span> <span>Shape what comes next.</span>
 
 The engineering partner for the business behind the software
 {: .tagline}
@@ -185,10 +185,10 @@ For software that keeps changing, you get continuity, priority and senior judgme
 * Someone on your side knows the business and can make decisions with us.
 * You want a partner who will question the solution, not just execute it.
 
-**Probably not if…**
+### Probably not if…
 
-* you want custom software where an affordable ready-made product already does the job—we would recommend the product instead,
-* you need one supplier for all of your technology and design.
+* You want custom software where an affordable ready-made product already does the job. We would recommend the product instead.
+* You need one supplier for all of your technology and design.
 
 We are also selective about the work we take. [See the work we do not take](/how-we-work/#some-work-is-not-ours-to-take).
 
