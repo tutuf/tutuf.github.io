@@ -254,7 +254,7 @@ summary {
 
   // keep lines to roughly 75 characters
   p:not(.cta):not(.note),
-  > ul {
+  > ul:not(.answers) {
     max-width: 38em;
   }
 
@@ -380,29 +380,21 @@ summary {
   }
 }
 
-// Use / Connect / Build / Remove as a 2×2 grid, with Build set apart
-.content ol.answers {
+// Use / Connect / Build / Remove as a 2×2 grid, with Build set apart;
+// unnumbered, since the four answers have no order
+.content ul.answers {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
-  counter-reset: answer;
 
   li {
-    counter-increment: answer;
     margin: 0;
     padding: 14px 16px;
     background: $card-bg;
     border: 1px solid $card-border;
     border-radius: 4px;
     color: $muted;
-
-    &::before {
-      content: "0" counter(answer);
-      display: block;
-      font-size: 0.875rem;
-      color: $faint;
-    }
   }
 
   strong {
@@ -693,5 +685,5 @@ h2 + .stage {
 }
 
 @media (max-width: 480px) {
-  .content ol.answers { grid-template-columns: 1fr; }
+  .content ul.answers { grid-template-columns: 1fr; }
 }

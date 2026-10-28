@@ -144,10 +144,10 @@ Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
 
 Every line of custom code can create value - and becomes something that must be understood, changed and cared for.
 
-1. **Use** Choose a proven product where it already solves the common need well.
-2. **Connect** Make trusted systems work together around the actual business process.
-3. {:.build} **Build** Create the focused custom layer specific to the way your business works.
-4. **Remove** Take away code, steps and dependencies that no longer earn their place.
+* **Use** Choose a proven product where it already solves the common need well.
+* **Connect** Make trusted systems work together around the actual business process.
+* {:.build} **Build** Create the focused custom layer specific to the way your business works.
+* **Remove** Take away code, steps and dependencies that no longer earn their place.
 {: .answers role="list"}
 
 AI made writing code cheaper. That makes the judgment behind what to write, what not to write and what to remove more valuable.
