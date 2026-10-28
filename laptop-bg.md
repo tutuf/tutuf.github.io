@@ -9,7 +9,7 @@ permalink: /work/laptop-bg/
 
 # Built for the business it became
 
-laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations—catalogue, suppliers, payments and sales channels. We changed it repeatedly without discarding the business knowledge already built into it.
+laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations - catalogue, suppliers, payments and sales channels. We changed it repeatedly without discarding the business knowledge already built into it.
 
 The recurring question was rarely, “How do we add this feature?” It was:
 
@@ -40,13 +40,13 @@ Both allowed laptop.bg to reach new customers through the system it already had,
 
 ---
 
-None of this means these capabilities should always be custom-built. Mature platforms cover many common needs, and we use them where they fit. Custom work belongs where the business is genuinely specific—and complexity should be removed when it stops earning its place.
+None of this means these capabilities should always be custom-built. Mature platforms cover many common needs, and we use them where they fit. Custom work belongs where the business is genuinely specific - and complexity should be removed when it stops earning its place.
 
 Over seventeen years, the system grew with a real business. Some parts were built by us, some connected the system to software made by others, and some were later developed further by other teams. Throughout, the business kept the system, the knowledge and the freedom to decide what came next.
 
-> “We’ve worked with tutuf for 17 years, and they know how to look past the feature we’ve asked for to the business problem underneath. They are straightforward about the trade-offs and will tell us when a quick solution is likely to cost us later. Just as importantly, they understand when to build something specific and when to connect what already exists. The result is a system that has kept adapting as our business has changed—and a team we trust to think beyond the immediate request.”
+> “We’ve worked with tutuf for 17 years, and they know how to look past the feature we’ve asked for to the business problem underneath. They are straightforward about the trade-offs and will tell us when a quick solution is likely to cost us later. Just as importantly, they understand when to build something specific and when to connect what already exists. The result is a system that has kept adapting as our business has changed - and a team we trust to think beyond the immediate request.”
 >
-> — **Dimitar Raykov**, Deputy Executive Director, [laptop.bg](https://laptop.bg)
+> \- **Dimitar Raykov**, Deputy Executive Director, [laptop.bg](https://laptop.bg)
 
 ---
 

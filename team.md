@@ -26,7 +26,7 @@ Denitsa keeps the whole system in view: the business need, the technical consequ
 
 She has led work from the first client conversation to long-term care, and still writes and reviews code. When requirements are complex, she works directly with clients and partners.
 
-She looks past whether software works to whether the people using it understand it—and whether it makes their work easier. She shares that care with the team through mentoring, feedback and reusable review workflows.
+She looks past whether software works to whether the people using it understand it - and whether it makes their work easier. She shares that care with the team through mentoring, feedback and reusable review workflows.
 
 </div>
 
@@ -39,7 +39,7 @@ Co-founder · Systems design · 25 years in software
 
 Sava thinks in systems. Having worked across product development, architecture, infrastructure and developer tooling, he looks at how the parts connect, where a change in one place will be felt in another, and which solution addresses the cause rather than the symptom.
 
-He notices the friction others have learned to live with—a step repeated by hand, a detail people have to remember—and proposes the tool that takes it away, easing both the work and the mental load. He also removes code when the simpler system is the stronger one.
+He notices the friction others have learned to live with - a step repeated by hand, a detail people have to remember - and proposes the tool that takes it away, easing both the work and the mental load. He also removes code when the simpler system is the stronger one.
 
 His background in journalism and facilitation shapes the way he asks questions, explains technical choices and navigates difficult conversations.
 
@@ -64,7 +64,7 @@ She presents clearly to clients, to the team and at conferences. Through trainin
 
 ## Small by design. Clear about who does what
 
-We work with only a few clients at a time, so each one gets the attention its work needs. If we cannot give yours that, we say so up front—not halfway through.
+We work with only a few clients at a time, so each one gets the attention its work needs. If we cannot give yours that, we say so up front - not halfway through.
 
 Before an engagement begins, you know who will lead it, who else will contribute, and how much of our time is reserved for you.
 
@@ -77,10 +77,10 @@ Your software should not depend on one irreplaceable person. We build continuity
 * **Decisions with reasons.** We record not only what was decided, but why, so future changes can respect the original trade-offs or revisit them deliberately.
 * **Knowledge that outlasts any one of us.** Automated tests capture how the system should behave; technical and user documentation explain the rest.
 * **Yours from day one.** The code, repositories, documentation and access needed to run the system are yours, not ours.
-* **A continuity plan, agreed up front.** We agree who would take over, and how they would get up to speed, if one of us becomes unavailable—or if the team itself changes.
+* **A continuity plan, agreed up front.** We agree who would take over, and how they would get up to speed, if one of us becomes unavailable - or if the team itself changes.
 {: .lenses role="list"}
 
-We want you to stay because the partnership works—not because your software cannot leave with us.
+We want you to stay because the partnership works - not because your software cannot leave with us.
 
 ---
 

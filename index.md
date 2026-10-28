@@ -1,6 +1,6 @@
 ---
 title: Care for what works. Shape what comes next.
-description: "The engineering partner for the business behind the software. We help established businesses decide what to use, connect, build or remove—and stay to look after it."
+description: "The engineering partner for the business behind the software. We help established businesses decide what to use, connect, build or remove - and stay to look after it."
 image: /images/og-image.png
 ---
 
@@ -11,7 +11,7 @@ image: /images/og-image.png
 The engineering partner for the business behind the software
 {: .tagline}
 
-Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to **use**, **connect**, **build** or **remove**—and we stay to look after it.
+Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to **use**, **connect**, **build** or **remove** - and we stay to look after it.
 
 [Tell us what’s in the way](#a-useful-first-conversation) · [Find your situation](#what-has-started-to-hold-you-back)
 {: .hero-links}
@@ -22,7 +22,7 @@ Your business already runs on systems, tools and knowledge that work. When they 
 
 ## What has started to hold you back?
 
-The right next step depends on how your business actually works, so we start with your situation—not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open its questions to see it more clearly.
+The right next step depends on how your business actually works, so we start with your situation - not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open its questions to see it more clearly.
 
 <div class="situation" markdown="1">
 
@@ -68,7 +68,7 @@ ERP, accounting, payments, suppliers and sales channels each do their job, while
 
 ### A useful prototype has become real software
 
-It was built quickly—perhaps partly with AI—and proved the idea. Now customers, data and daily work are beginning to depend on it.
+It was built quickly - perhaps partly with AI - and proved the idea. Now customers, data and daily work are beginning to depend on it.
 
 <details class="questions" markdown="1">
 <summary>Before suggesting anything, we would ask…</summary>
@@ -113,7 +113,7 @@ Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
 
 ## Four legitimate answers. Only one of them is “build”
 
-Every line of custom code can create value—and becomes something that must be understood, changed and cared for.
+Every line of custom code can create value - and becomes something that must be understood, changed and cared for.
 
 1. **Use** Choose a proven product where it already solves the common need well.
 2. **Connect** Make trusted systems work together around the actual business process.
@@ -129,11 +129,11 @@ AI made writing code cheaper. That makes the judgment behind what to write, what
 
 ## Seventeen years with one growing business
 
-laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations—catalogue, suppliers, payments and sales channels. When smartphones became an important category, the business introduced it without new category-specific development from us.
+laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations - catalogue, suppliers, payments and sales channels. When smartphones became an important category, the business introduced it without new category-specific development from us.
 
 > “They know how to look past the feature we’ve asked for to the business problem underneath… and will tell us when a quick solution is likely to cost us later.”
 >
-> — **Dimitar Raykov**, Deputy Executive Director, [laptop.bg](https://laptop.bg)
+> \- **Dimitar Raykov**, Deputy Executive Director, [laptop.bg](https://laptop.bg)
 
 [Read the full story](/work/laptop-bg/)
 
@@ -211,4 +211,4 @@ You can write in English or Bulgarian.
 
 ---
 
-**Make a product our clients could use?** We often recommend and connect proven products instead of building. If you make one—or work alongside teams like ours—we would like to hear from you at [hi@tutuf.com](mailto:hi@tutuf.com?subject=Partnership).
+**Make a product our clients could use?** We often recommend and connect proven products instead of building. If you make one - or work alongside teams like ours - we would like to hear from you at [hi@tutuf.com](mailto:hi@tutuf.com?subject=Partnership).
