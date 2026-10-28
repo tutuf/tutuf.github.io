@@ -6,7 +6,7 @@ image: /images/og-image.png
 
 <div class="hero" markdown="1">
 
-# <span>Care for what works.</span> <span>Shape what comes next.</span>
+# <span>Care for what works.</span> <span>Shape what comes next</span>
 
 The engineering partner for the business behind the software
 {: .tagline}
@@ -108,7 +108,7 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 ---
 
-## Four legitimate answers. Only one of them is “build”.
+## Four legitimate answers. Only one of them is “build”
 
 Every line of custom code can create value—and becomes something that must be understood, changed and cared for.
 
@@ -124,7 +124,7 @@ AI made writing code cheaper. That makes the judgment behind what to write, what
 
 ---
 
-## Seventeen years with one growing business.
+## Seventeen years with one growing business
 
 laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations—catalogue, suppliers, payments and sales channels. When smartphones became an important category, the business introduced it without new category-specific development from us. Many supplier formats. One stable model. New channels without a second commerce system.
 
@@ -136,7 +136,7 @@ laptop.bg started as an online store. Over seventeen years, it grew into the pro
 
 ---
 
-## A clear decision at every stage.
+## A clear decision at every stage
 
 It starts with a free conversation, before either of us commits to anything. After that, you commit to one step at a time, and each one ends with something useful in your hands and a decision that is yours.
 
@@ -203,7 +203,7 @@ We are also selective about the work we take. [See the work we do not take](/how
 [Write to hi@tutuf.com](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
 {: .cta .primary}
 
-We reply personally within two working days. You can write in English or Bulgarian.
+You can write in English or Bulgarian.
 {: .note}
 
 ---

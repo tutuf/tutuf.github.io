@@ -7,7 +7,7 @@ permalink: /team/
 
 *Team*
 
-# A small team of product engineers who think beyond the next release.
+# A small team of product engineers who think beyond the next release
 
 Since 2007, we have built, evolved and looked after software that businesses depend on. The people who ask the questions also shape the solution, build and test it, and stay accountable for what follows.
 
@@ -62,7 +62,7 @@ She presents clearly to clients, to the team and at conferences. Through trainin
 
 ---
 
-## Small by design. Clear about who does what.
+## Small by design. Clear about who does what
 
 We work with only a few clients at a time, so each one gets the attention its work needs. If we cannot give yours that, we say so up front—not halfway through.
 
@@ -70,7 +70,7 @@ Before an engagement begins, you know who will lead it, who else will contribute
 
 We are a remote company and value focused work. We still make a point of meeting in person, with each other and with clients, because long partnerships need human connection too.
 
-## Continuity is built in, not promised.
+## Continuity is built in, not promised
 
 Your software should not depend on one irreplaceable person. We build continuity into the way the work is understood, recorded and owned.
 
@@ -84,7 +84,7 @@ We want you to stay because the partnership works—not because your software ca
 
 ---
 
-## Shared roots. Room to grow.
+## Shared roots. Room to grow
 
 We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at [Sofia University](https://uni-sofia.bg/index.php/eng). That shared foundation still shapes how we reason about systems, learn together and challenge one another’s decisions.
 
@@ -92,13 +92,13 @@ We keep learning across product engineering, leadership and facilitation. Beyond
 
 ---
 
-## Talk to the people who would do the work.
+## Talk to the people who would do the work
 
 Tell us what your business needs, where the software gets in the way, or what has become difficult to change. A few lines are enough; you do not need a specification. The first conversation is free, and if we are not the right fit, we say so.
 
 [Start the conversation](mailto:hi@tutuf.com?subject=A%20first%20conversation)
 {: .cta .primary}
 
-Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. We reply personally within two working days. You can write in English or Bulgarian.
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. You can write in English or Bulgarian.
 {: .note}
 
