@@ -22,7 +22,14 @@ You know the business. We bring the engineering judgment. We think it through to
 
 ## From questions to a decision.
 
-What we learn points to a next step: **use** a proven product, **connect** systems you already trust, **build** what is specific to your business, or **remove** what no longer earns its place. Often it is a combination. We lay out the options with their trade-offs and recommend one. We reach for building last, not first.
+What we learn points to one of four next steps—often a combination:
+
+* **Use** a proven product.
+* **Connect** systems you already trust.
+* **Build** what is specific to your business.
+* **Remove** what no longer earns its place.
+
+We lay out the options with their trade-offs and recommend one. We reach for building last, not first.
 
 When we do build, we aim for software that makes the business less dependent on us, not more. If your team keeps needing a new product type, pricing rule or report, we build the ability for your team to add it themselves, without new development.
 
@@ -45,17 +52,24 @@ At the end of each increment, we review the result together and decide whether t
 
 The work goes best when the people who know the business stay close to it.
 
-* **A decision-maker.** Someone on your side with the authority to set priorities and the time to stay involved.
-* **Access to the people who do the work.** They often know where the real problem is.
-* **Timely answers.** When the next step depends on you, a quick reply keeps the work moving.
-* **Honest feedback, including about us.** Early, while it is still easy to act on.
-{: .lenses}
+* **A decision-maker** — someone on your side with the authority to set priorities and the time to stay involved.
+* **Access to the people who do the work** — they often know where the real problem is.
+* **Timely answers** — when the next step depends on you, a quick reply keeps the work moving.
+* **Honest feedback, including about us** — early, while it is still easy to act on.
+
+---
+
+## Some work is not ours to take.
+
+We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.
+
+We also turn down companies that ask us to build dark patterns, manipulate people or hide material information—whatever their industry.
 
 ---
 
 ## We delegate coding to AI agents. Never the thinking.
 
-AI agents write, test and change much of our code. That gives us more time to understand your business and to care about the people who will use the software. The questions, the trade-offs and the judgment about what should exist at all stay with people—with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
+AI agents write, test and change much of our code. That gives us more time to understand your business and to talk with the people who will use the software. The questions, the trade-offs and the judgment about what should exist at all stay with people—with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
 
 ---
 
@@ -65,17 +79,9 @@ We build web applications with [Ruby on Rails](https://rubyonrails.org/) and [Po
 
 **Ruby** was designed for people, not machines—and after all these years, working with it still makes us happy. AI agents are remarkably good at it, and the code stays easy for us to read and review. The Ruby community is lively, friendly and full of good engineering and fresh ideas.
 
-**PostgreSQL** has served us for many years without surprises. It keeps the fundamentals of a good relational database steady while bringing new advances in the field within reach.
+**PostgreSQL** has served us for many years without surprises, and each new release brings features we put to use.
 
-We have experience in event-driven architectures, API design, distributed systems and integration with external services, and we maintain several open-source [Ruby gems](https://github.com/tutuf/). If your system is built with something else, we are still open to it. Whatever the stack, good software rests on the same principles and practices.
-
----
-
-## Some work is not ours to take.
-
-We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.
-
-We also turn down companies that ask us to build dark patterns, manipulate people or hide material information—whatever their industry.
+We are comfortable with event-driven architectures, API design and distributed systems, and with connecting your system to the services around it—payment providers, supplier feeds, marketplaces. We also maintain several open-source [Ruby gems](https://github.com/tutuf/). If your system is built with something else, we are still open to it. Whatever the stack, good software rests on the same principles and practices.
 
 ---
 
