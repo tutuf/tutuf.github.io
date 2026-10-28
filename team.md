@@ -16,11 +16,11 @@ Since 2007, we have been building, evolving and caring for software that busines
 
 ---
 
-# The people who stay close to the work.
+## The people who stay close to the work.
 
 We share responsibility while bringing different kinds of depth to the product, the system and the decisions around it.
 
-## Denitsa Belogusheva
+### Denitsa Belogusheva
 
 *Product engineer · Engineering lead*
 *Co-founder · 19+ years in software*
@@ -33,7 +33,7 @@ In a recent internal financial workflow, she kept working past technical complet
 
 **Focus:** Business discovery · Engineering leadership · Long-term delivery
 
-## Sava Lachezarov
+### Sava Lachezarov
 
 *Product engineer · Systems design*
 *Co-founder · 25 years in software*
@@ -46,7 +46,7 @@ His background in journalism and facilitation also shapes the way he asks questi
 
 **Focus:** Systems architecture · Reusable capabilities · Infrastructure and integrations
 
-## Gabriela Velinova
+### Gabriela Velinova
 
 *Product engineer · Delivery and team practices*
 *Senior developer · With tutuf since 2015*
@@ -61,7 +61,7 @@ Her strength is combining development with the conversations, documentation, tes
 
 ---
 
-# One team, not three silos.
+## One team, not three silos.
 
 All three of us work across product thinking, software development and client conversations. Our different lenses make the work stronger; shared context keeps it continuous.
 
@@ -73,7 +73,7 @@ We use the capacity AI creates not only to build more, but to spend more time on
 
 ---
 
-# Small by design. Specific about responsibility.
+## Small by design. Specific about responsibility.
 
 We work with only a few clients at a time, so senior attention stays close to the work.
 
@@ -83,7 +83,7 @@ The people you meet are the people who do the thinking and the work.
 
 ---
 
-# Continuity is designed, not promised.
+## Continuity is designed, not promised.
 
 A small team should not depend on one irreplaceable person. We build continuity into the way the work is understood, recorded and owned.
 
@@ -96,7 +96,7 @@ You should stay with tutuf because the partnership works—not because your soft
 
 ---
 
-# Shared roots. Room to grow.
+## Shared roots. Room to grow.
 
 We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at [Sofia University](https://uni-sofia.bg/index.php/eng). That shared foundation still shapes how we reason about systems, learn together and challenge one another’s decisions.
 
@@ -108,13 +108,13 @@ We keep learning across product engineering, leadership, facilitation and AI-ass
 
 ---
 
-# Talk to the people who would do the work.
+## Talk to the people who would do the work.
 
 Tell us what the business needs, where the software gets in the way, or what has become difficult to change. Your first conversation will be with the same senior people who would shape the work and remain responsible for it. It is free, and if we are not the right fit, we say so.
 
 [Start the conversation](mailto:hi@tutuf.com?subject=Talking%20to%20the%20people%20who%20would%20do%20the%20work)
 {: .cta .primary}
 
-We reply personally within two working days. You can write in English or Bulgarian.
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. We reply personally within two working days. You can write in English or Bulgarian.
 {: .note}
 

@@ -20,7 +20,7 @@ Your business already runs on systems, tools and knowledge that work. When they 
 
 ---
 
-# What has started to hold you back?
+## What has started to hold you back?
 
 The right next step depends on how your business actually works, so we start with your situation—not with a solution. Most of our work begins in one of these four. Find the one that feels closest and open its questions to see it more clearly.
 
@@ -108,7 +108,7 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 ---
 
-# Four legitimate answers. Only one of them is “build”.
+## Four legitimate answers. Only one of them is “build”.
 
 Every line of custom code can create value—and becomes something that must be understood, changed and cared for.
 
@@ -124,7 +124,7 @@ AI made writing code cheaper. That makes the judgment behind what to write, what
 
 ---
 
-# Seventeen years with one growing business.
+## Seventeen years with one growing business.
 
 laptop.bg started as an online store. For seventeen years, the system we evolved with them ran their daily commercial operations—catalogue, suppliers, payments and sales channels. When smartphones became a major category, their team added it themselves, without new development. Dozens of supplier formats fed one stable model, and new channels arrived without a second commerce system.
 
@@ -136,7 +136,7 @@ laptop.bg started as an online store. For seventeen years, the system we evolved
 
 ---
 
-# A clear decision at every stage.
+## A clear decision at every stage.
 
 It starts with a free conversation, before either of us commits to anything. After that, you commit to one step at a time, and each one ends with something useful in your hands and a decision that is yours.
 
@@ -175,7 +175,7 @@ For software that keeps changing, you get continuity, priority and senior judgme
 
 ---
 
-# We should probably talk if…
+## We should probably talk if…
 
 * A process or system already matters to your daily operations.
 * Leaving it as it is has a real cost.
@@ -191,7 +191,7 @@ We are also selective about the work we take. [See the work we do not take](/how
 
 ---
 
-# A useful first conversation
+## A useful first conversation
 
 **What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change. If one of the four situations sounds familiar, start there. You do not need a specification or a proposed solution.
 
