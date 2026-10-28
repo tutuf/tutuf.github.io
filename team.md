@@ -19,7 +19,7 @@ Each of us works across product thinking, software development and client conver
 
 ### Denitsa Belogusheva
 
-Co-founder · Engineering lead · 19 years in software
+Co-founder · Engineering lead · 19 years in software · [LinkedIn](https://www.linkedin.com/in/denitsa-belogusheva/){: aria-label="Denitsa Belogusheva on LinkedIn"}
 {: .role}
 
 Denitsa keeps the whole system in view: the business need, the technical consequences, the people doing the work, and the software that will live with the decision.
@@ -34,7 +34,7 @@ She looks past whether software works to whether the people using it understand 
 
 ### Sava Lachezarov
 
-Co-founder · Systems design · 25 years in software
+Co-founder · Systems design · 25 years in software · [LinkedIn](https://www.linkedin.com/in/sava-lachezarov-0834b2275/){: aria-label="Sava Lachezarov on LinkedIn"}
 {: .role}
 
 Sava thinks in systems. Having worked across product development, architecture, infrastructure and developer tooling, he looks at how the parts connect, where a change in one place will be felt in another, and which solution addresses the cause rather than the symptom.
@@ -49,7 +49,7 @@ His background in journalism and facilitation shapes the way he asks questions, 
 
 ### Gabriela Velinova
 
-Product engineer · Delivery and team practices · With tutuf since 2015
+Product engineer · Delivery and team practices · With tutuf since 2015 · [LinkedIn](https://www.linkedin.com/in/gabriela-luhova/){: aria-label="Gabriela Velinova on LinkedIn"}
 {: .role}
 
 Gabriela brings order to complex work. She plans it, keeps the people involved coordinated and makes sure decisions are written down.
