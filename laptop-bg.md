@@ -27,9 +27,9 @@ None of this means these capabilities should always be custom-built. Mature plat
 
 ---
 
-# A useful first conversation
+# Is your system carrying more than it was built for?
 
-**Is your system carrying more than it was built for?** Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution. The first conversation is free, and if we are not the right fit, we say so.
+Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution. The first conversation is free, and if we are not the right fit, we say so.
 
 [Start the conversation](mailto:hi@tutuf.com?subject=After%20reading%20the%20laptop.bg%20story)
 {: .cta .primary}
