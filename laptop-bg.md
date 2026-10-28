@@ -18,6 +18,8 @@ The recurring question was rarely, “How do we add this feature?” It was:
 - **What was specific enough to deserve custom software?**
 {: .lenses role="list"}
 
+---
+
 ## A product model the business could reshape
 
 From early on, the laptop.bg team could define product categories and their technical characteristics themselves, then choose which characteristics customers saw as filters. When smartphones became an important category, the business introduced it without new category-specific development from us. The same foundation later supported the catalogue for laptop.bg’s own G:RIGS brand.

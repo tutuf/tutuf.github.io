@@ -1,6 +1,6 @@
 ---
 title: How we work
-description: "How we decide what should change, what should stay and what should become software, and how we work together, choose the work we take, use AI and choose our tools."
+description: "How we decide what should change, what should stay and what should become software, and how we work together, what we ask of you, which work we take, how we use AI and which tools we choose."
 image: /images/og-image.png
 permalink: /how-we-work/
 ---
