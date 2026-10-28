@@ -20,7 +20,7 @@ You know the business. We bring the engineering judgment. We think it through to
 
 ---
 
-# From questions to a decision.
+## From questions to a decision.
 
 What we learn points to a next step: **use** a proven product, **connect** systems you already trust, **build** what is specific to your business, or **remove** what no longer earns its place. Often it is a combination. We lay out the options with their trade-offs and recommend one. We reach for building last, not first.
 
@@ -28,7 +28,7 @@ When we do build, we aim for software that makes the business less dependent on 
 
 ---
 
-# Working together, one step at a time.
+## Working together, one step at a time.
 
 Every engagement starts with a [focused assessment](/#a-clear-decision-at-every-stage) and continues in useful increments. Within each increment:
 
@@ -41,7 +41,7 @@ At the end of each increment, we review the result together and decide whether t
 
 ---
 
-# What we ask of you.
+## What we ask of you.
 
 The work goes best when the people who know the business stay close to it.
 
@@ -53,13 +53,13 @@ The work goes best when the people who know the business stay close to it.
 
 ---
 
-# We delegate coding to AI agents. Never the thinking.
+## We delegate coding to AI agents. Never the thinking.
 
 AI agents write, test and change much of our code. That gives us more time to understand your business and to care about the people who will use the software. The questions, the trade-offs and the judgment about what should exist at all stay with people—with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
 
 ---
 
-# What we build with.
+## What we build with.
 
 We build web applications with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/).
 
@@ -71,7 +71,7 @@ We have experience in event-driven architectures, API design, distributed system
 
 ---
 
-# Some work is not ours to take.
+## Some work is not ours to take.
 
 We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.
 
@@ -79,12 +79,12 @@ We also turn down companies that ask us to build dark patterns, manipulate peopl
 
 ---
 
-# Have a decision in front of you?
+## Have a decision in front of you?
 
 Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution. The first conversation is free, and if we are not the right fit, we say so.
 
 [Start the conversation](mailto:hi@tutuf.com?subject=A%20decision%20in%20front%20of%20us)
 {: .cta .primary}
 
-We reply personally within two working days. You can write in English or Bulgarian.
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. We reply personally within two working days. You can write in English or Bulgarian.
 {: .note}
