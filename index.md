@@ -29,7 +29,7 @@ The right next step depends on how your business actually works, so we start wit
 ### A proven process has outgrown spreadsheets and workarounds
 
 <details markdown="1">
-<summary><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
+<summary aria-describedby="a-proven-process-has-outgrown-spreadsheets-and-workarounds"><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
 
 <div class="situation-body" markdown="1">
 
@@ -41,6 +41,7 @@ Before suggesting anything, we would ask…
 * Which part of the process is already proven?
 * Where does the work depend on a person, spreadsheet or workaround?
 * What could the business do if that constraint disappeared?
+{: role="list"}
 
 [Talk these through with us](mailto:hi@tutuf.com?subject=A%20proven%20process%20has%20outgrown%20spreadsheets%20and%20workarounds)
 {: .cta}
@@ -55,7 +56,7 @@ Before suggesting anything, we would ask…
 ### Useful systems still need people to bridge the gaps
 
 <details markdown="1">
-<summary><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
+<summary aria-describedby="useful-systems-still-need-people-to-bridge-the-gaps"><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
 
 <div class="situation-body" markdown="1">
 
@@ -67,6 +68,7 @@ Before suggesting anything, we would ask…
 * Where is information entered or checked twice?
 * Which system should remain the source of truth?
 * What becomes possible when the handoffs disappear?
+{: role="list"}
 
 [Talk these through with us](mailto:hi@tutuf.com?subject=Useful%20systems%20still%20need%20people%20to%20bridge%20the%20gaps)
 {: .cta}
@@ -81,7 +83,7 @@ Before suggesting anything, we would ask…
 ### A useful prototype has become real software
 
 <details markdown="1">
-<summary><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
+<summary aria-describedby="a-useful-prototype-has-become-real-software"><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
 
 <div class="situation-body" markdown="1">
 
@@ -93,6 +95,7 @@ Before suggesting anything, we would ask…
 * Which parts are already used in real work?
 * What kind of failure would matter to the business?
 * What should the system be able to change next?
+{: role="list"}
 
 [Talk these through with us](mailto:hi@tutuf.com?subject=A%20useful%20prototype%20has%20become%20real%20software)
 {: .cta}
@@ -107,7 +110,7 @@ Before suggesting anything, we would ask…
 ### An important system needs a responsible team again
 
 <details markdown="1">
-<summary><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
+<summary aria-describedby="an-important-system-needs-a-responsible-team-again"><span class="visually-hidden">Show what this looks like and what we would ask</span></summary>
 
 <div class="situation-body" markdown="1">
 
@@ -119,6 +122,7 @@ Before suggesting anything, we would ask…
 * Where does the system’s knowledge live today?
 * Which change are you least comfortable approving?
 * What must keep working while context is rebuilt?
+{: role="list"}
 
 [Talk these through with us](mailto:hi@tutuf.com?subject=An%20important%20system%20needs%20a%20responsible%20team%20again)
 {: .cta}
@@ -129,6 +133,7 @@ Before suggesting anything, we would ask…
 </div>
 
 [Something else is getting in the way](mailto:hi@tutuf.com?subject=Something%20else%20is%20getting%20in%20the%20way)
+{: .cta}
 
 Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
 {: .note}
