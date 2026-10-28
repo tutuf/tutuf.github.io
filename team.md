@@ -68,9 +68,7 @@ We want you to stay because the partnership works—not because your software ca
 
 We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at [Sofia University](https://uni-sofia.bg/index.php/eng). That shared foundation still shapes how we reason about systems, learn together and challenge one another’s decisions.
 
-Beyond client work, we have mentored developers through initiatives including Rails Girls, contributed to open-source software and supported the local Ruby community.
-
-We keep learning across product engineering, leadership and facilitation. We spend the time AI-assisted development saves on the judgment, edge cases and human consequences around what we build.
+We keep learning across product engineering, leadership and facilitation. Beyond client work, we have mentored developers through initiatives including Rails Girls, published open-source [Ruby gems](https://github.com/tutuf/) and supported the local Ruby community.
 
 ---
 
