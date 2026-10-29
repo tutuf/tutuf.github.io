@@ -384,6 +384,13 @@ summary {
     margin-top: 0;
   }
 
+  // lines of even length, so no heading ends on a word or two alone
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
   // section headings clearly larger than the card and stage titles inside them
   h2 {
     font-size: 1.75rem;
@@ -392,7 +399,9 @@ summary {
   }
 
   // each section's opening paragraph carries its point, so skimming the
-  // headings and these leads still gives the whole argument
+  // headings and these leads still gives the whole argument; the page's
+  // own introduction under its title reads the same way
+  > h1 + p,
   > h2 + p {
     font-size: 1.25rem;
     line-height: 1.55;
