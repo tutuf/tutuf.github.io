@@ -2,9 +2,10 @@
 ---
 
 // Serif's layout in Midnight's colours and type
-$primary: #ffcc00;
-$primary-light: #ffeb9b;
-$secondary: rgba(255, 204, 0, 0.35);
+// honey rather than Midnight's gold: warmer beside the logo's orange; 9.7:1 on the page
+$primary: #ffb54d;
+$primary-light: #ffc670;
+$secondary: rgba(255, 181, 77, 0.35);
 $heading: #e8e8e8;        // headings; not $black, which Bootstrap needs for contrast
 $white-offset: #434343;   // rules and borders
 $steel: #f0e7d5;          // body text
@@ -94,9 +95,9 @@ $font-family-heading: $font-family-base;
   --accent: #{$primary};
   --accent-light: #{$primary-light};
   --accent-soft: #{$secondary};
-  --accent-underline: rgba(255, 204, 0, 0.45);
-  --accent-rail: rgba(255, 204, 0, 0.6);
-  --fill: #{$primary};          // gold buttons
+  --accent-underline: rgba(255, 181, 77, 0.45);
+  --accent-rail: rgba(255, 181, 77, 0.6);
+  --fill: #{$primary};          // honey buttons, dark text 9.7:1
   --fill-hover: #{$primary-light};
   --on-accent: #{$page-dark};   // text on the button fills
   --rule: #{$white-offset};
@@ -106,11 +107,11 @@ $font-family-heading: $font-family-base;
   --page-bg-top: #2a2a29;
   --footer-bg: #2a2a29;
   --sub-footer-bg: #151515;
-  --bs-link-color-rgb: 255, 204, 0;
-  --bs-link-hover-color-rgb: 255, 235, 155;
+  --bs-link-color-rgb: 255, 181, 77;
+  --bs-link-hover-color-rgb: 255, 198, 112;
 }
 
-// Gold is unreadable on white, and a yellow dark enough to read turns
+// Honey is unreadable on white, and a yellow dark enough to read turns
 // olive, so links and accents take the logo's orange, deepened to burnt
 // orange; every text colour here keeps at least 4.5:1 on the page and cards
 @mixin light-colours {
@@ -153,16 +154,9 @@ $font-family-heading: $font-family-base;
   .footer,
   .sub-footer {
     @include dark-colours;
-
-    // the bars' accents take a honey between dark mode's gold and the page's
-    // orange, softer on the dark stripe than full orange; 7:1 on the header,
-    // dark text on the buttons 9.7:1
-    --accent: #ffb54d;
-    --fill: #ffb54d;
-    --fill-hover: #ffc670;
   }
 
-  // a gold link would stand alone among the page's orange, so LinkedIn takes
+  // a honey link would stand alone among the page's orange, so LinkedIn takes
   // the footer menu's grey; the underline still marks it as a link
   .sub-footer a.social {
     color: var(--heading);
@@ -278,7 +272,7 @@ summary {
   font-weight: 400;
 }
 
-// Contact as the one gold button in the nav
+// Contact as the one accent button in the nav
 .main-menu > ul > li.menu-button {
   margin-left: 0.75rem;
 
@@ -480,7 +474,7 @@ summary {
   }
 }
 
-// Home hero: headline, gold tagline, then the explanation in softer, larger text
+// Home hero: headline, accent tagline, then the explanation in softer, larger text
 .content .hero {
   h1 {
     font-size: 2.5rem;
@@ -537,7 +531,7 @@ summary {
   }
 }
 
-// Questions we start from: stacked, with a gold rail like the blockquote
+// Questions we start from: stacked, with an accent rail like the blockquote
 .content ul.lenses {
   list-style: none;
 
@@ -696,7 +690,7 @@ summary {
   }
 }
 
-// Numbered steps along a gold line
+// Numbered steps along an accent line
 %step-number {
   position: absolute;
   left: 0;
@@ -747,7 +741,7 @@ summary {
     }
   }
 
-  // grey, so gold in this section means only the sequence
+  // grey, so the accent in this section means only the sequence
   p.meta {
     margin-bottom: $space-s;
 
