@@ -156,6 +156,18 @@ $font-family-heading: $font-family-base;
   .sub-footer {
     @include dark-colours;
   }
+
+  // a gold link would stand alone among the page's amber, so LinkedIn takes
+  // the footer menu's grey; the underline still marks it as a link
+  .sub-footer a.social {
+    color: var(--heading);
+    text-decoration-color: rgba(232, 232, 232, 0.4);
+
+    &:hover {
+      color: var(--accent);
+      text-decoration-color: currentColor;
+    }
+  }
 }
 
 // Libraries
