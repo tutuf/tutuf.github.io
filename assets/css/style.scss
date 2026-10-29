@@ -88,7 +88,8 @@ $font-family-heading: $font-family-base;
 
 // Colours as custom properties, so the browser can switch them with the
 // reader's light or dark setting; Bootstrap's own variables stay in Sass
-:root {
+@mixin dark-colours {
+  color-scheme: dark;
   --text: #{$steel};
   --heading: #{$black};
   --muted: #{$muted};
@@ -98,6 +99,8 @@ $font-family-heading: $font-family-base;
   --accent-soft: #{$secondary};
   --accent-underline: rgba(255, 204, 0, 0.45);
   --accent-rail: rgba(255, 204, 0, 0.6);
+  --fill: #{$primary};          // gold buttons, the same in both themes
+  --fill-hover: #{$primary-light};
   --on-accent: #{$page-dark};   // text on gold fills
   --rule: #{$white-offset};
   --card-bg: #{$card-bg};
@@ -106,6 +109,49 @@ $font-family-heading: $font-family-base;
   --page-bg-top: #2a2a29;
   --footer-bg: #2a2a29;
   --sub-footer-bg: #151515;
+  --bs-link-color-rgb: 255, 204, 0;
+  --bs-link-hover-color-rgb: 255, 235, 155;
+}
+
+// Gold is unreadable on white, so links and accents turn dark amber;
+// every text colour here keeps at least 4.5:1 on the page and the cards
+@mixin light-colours {
+  color-scheme: light;
+  --text: #2b2722;
+  --heading: #1c1c1c;
+  --muted: #555049;
+  --faint: #6b665e;
+  --accent: #8a6400;
+  --accent-light: #6b4d00;
+  --accent-soft: rgba(138, 100, 0, 0.35);
+  --accent-underline: rgba(138, 100, 0, 0.45);
+  --accent-rail: rgba(138, 100, 0, 0.6);
+  --rule: #d9d5cb;
+  --card-bg: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.1);
+  --page-bg: #f6f4ee;
+  --page-bg-top: #fdfcf9;
+  --bs-link-color-rgb: 138, 100, 0;
+  --bs-link-hover-color-rgb: 107, 77, 0;
+}
+
+:root {
+  @include dark-colours;
+}
+
+// Readers whose system is set to light get a light page; the header, menu
+// and footers stay dark bars in both, so the logo and texture keep working
+@media (prefers-color-scheme: light) {
+  :root {
+    @include light-colours;
+  }
+
+  .header,
+  .main-menu-mobile,
+  .footer,
+  .sub-footer {
+    @include dark-colours;
+  }
 }
 
 // Libraries
@@ -160,7 +206,7 @@ summary {
   z-index: 40;
   padding: $space-s $space-m;
   border-radius: 4px;
-  background: var(--accent);
+  background: var(--fill);
   color: var(--on-accent);
   transform: translateY(-200%);
 
@@ -218,12 +264,12 @@ summary {
   > a {
     padding: 0.4375rem $space-m;
     border-radius: 4px;
-    background: var(--accent);
+    background: var(--fill);
     color: var(--on-accent);
     font-weight: 400;
 
     &:hover {
-      background: var(--accent-light);
+      background: var(--fill-hover);
       color: var(--on-accent);
     }
   }
@@ -330,7 +376,12 @@ summary {
   }
 
   ul {
-    list-style-image: url("../images/bullet.png");
+    list-style-type: "» ";
+
+    // in the theme's colour, where the old bullet image was light grey only
+    li::marker {
+      color: var(--muted);
+    }
   }
 
   // a faint hairline between sections; the space around it does the separating
@@ -694,7 +745,7 @@ summary {
   }
 
   &:hover {
-    background: var(--accent);
+    background: var(--fill);
     color: var(--on-accent);
   }
 }
@@ -707,11 +758,11 @@ summary {
     height: 2.875rem;
     line-height: 2.875rem;
     font-size: 1rem;
-    background: var(--accent);
+    background: var(--fill);
     color: var(--on-accent);
 
     &:hover {
-      background: var(--accent-light);
+      background: var(--fill-hover);
       transform: translateY(-1px);
     }
   }
