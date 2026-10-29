@@ -97,7 +97,9 @@ We keep learning across product engineering, leadership and facilitation. Beyond
 ## Talk to the people who would do the work
 {: #contact}
 
-Tell us what your business needs, where the software gets in the way, or what has become difficult to change. A few lines are enough; you do not need a specification. The first conversation is free, and if we are not the right fit, we say so.
+Tell us what your business needs, where the software gets in the way, or what has become difficult to change.
+
+A few lines are enough; you do not need a specification. The first conversation is free, and if we are not the right fit, we say so.
 
 [Start the conversation](mailto:hi@tutuf.com?subject=A%20first%20conversation)
 {: .cta .primary}

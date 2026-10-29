@@ -69,7 +69,9 @@ We also turn down companies that ask us to build dark patterns, manipulate peopl
 
 ## We delegate coding to AI agents. Never the thinking
 
-AI agents write, test and change much of our code. That gives us more time to understand your business and to talk with the people who will use the software. The questions, the trade-offs and the judgment about what should exist at all stay with people - with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
+AI agents write, test and change much of our code. That gives us more time to understand your business and to talk with the people who will use the software.
+
+The questions, the trade-offs and the judgment about what should exist at all stay with people - with us and with you. Every change that reaches your system is reviewed by one of us, and we remain responsible for it.
 
 ---
 
@@ -88,7 +90,9 @@ We are comfortable with event-driven architectures, API design and distributed s
 ## Have a decision in front of you?
 {: #contact}
 
-Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution. The first conversation is free, and if we are not the right fit, we say so.
+Tell us what the business needs, where the software gets in the way, or what has become difficult to change.
+
+You do not need a specification or a proposed solution. The first conversation is free, and if we are not the right fit, we say so.
 
 [Start the conversation](mailto:hi@tutuf.com?subject=A%20decision%20in%20front%20of%20us)
 {: .cta .primary}

@@ -94,7 +94,9 @@ AI made writing code cheaper. That makes the judgment behind what to write, what
 
 ## Seventeen years with one growing business
 
-laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations - catalogue, suppliers, payments and sales channels. When smartphones became an important category, the business introduced it without new category-specific development from us.
+laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations - catalogue, suppliers, payments and sales channels.
+
+When smartphones became an important category, the business introduced it without new category-specific development from us.
 
 > “They know how to look past the feature we’ve asked for to the business problem underneath… and will tell us when a quick solution is likely to cost us later.”
 >
@@ -162,7 +164,9 @@ We are also selective about the work we take. [See the work we do not take](/how
 ## A useful first conversation
 {: #contact}
 
-**What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change. If one of the four situations sounds familiar, start there. You do not need a specification or a proposed solution.
+**What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change.
+
+If one of the four situations sounds familiar, start there. You do not need a specification or a proposed solution.
 
 1. **You write** A few lines about the situation are enough.
 2. **We reply** One of the [product engineers](/team/) who would be involved reads and replies. If a conversation would be useful, we send you a link to choose a time. If we are not the right fit, we say so.
