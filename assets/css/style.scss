@@ -113,30 +113,31 @@ $font-family-heading: $font-family-base;
   --bs-link-hover-color-rgb: 255, 235, 155;
 }
 
-// Gold is unreadable on white, so links and accents turn dark amber;
-// every text colour here keeps at least 4.5:1 on the page and the cards
+// Gold is unreadable on white, and a yellow dark enough to read turns
+// olive, so links and accents take the logo's orange, deepened to burnt
+// orange; every text colour here keeps at least 4.5:1 on the page and cards
 @mixin light-colours {
   color-scheme: light;
   --text: #2b2722;
   --heading: #1c1c1c;
   --muted: #555049;
   --faint: #6b665e;
-  --accent: #8a6400;
-  --accent-light: #6b4d00;
-  --accent-soft: rgba(138, 100, 0, 0.35);
-  --accent-underline: rgba(138, 100, 0, 0.45);
-  --accent-rail: rgba(138, 100, 0, 0.6);
-  // amber buttons with white text, 5.4:1
-  --fill: #8a6400;
-  --fill-hover: #6b4d00;
-  --on-accent: #ffffff;
+  --accent: #ad4f05;
+  --accent-light: #8f4206;
+  --accent-soft: rgba(244, 130, 40, 0.45);
+  --accent-underline: rgba(173, 79, 5, 0.45);
+  --accent-rail: rgba(244, 130, 40, 0.8);
+  // buttons in the logo's orange with dark text, 6.6:1
+  --fill: #f48228;
+  --fill-hover: #f59a3c;
+  --on-accent: #1c1c1c;
   --rule: #d9d5cb;
   --card-bg: #ffffff;
   --card-border: rgba(0, 0, 0, 0.16);
-  --page-bg: #f6f4ee;
-  --page-bg-top: #fdfcf9;
-  --bs-link-color-rgb: 138, 100, 0;
-  --bs-link-hover-color-rgb: 107, 77, 0;
+  --page-bg: #faf7f0;
+  --page-bg-top: #fffdf9;
+  --bs-link-color-rgb: 173, 79, 5;
+  --bs-link-hover-color-rgb: 143, 66, 6;
 }
 
 :root {
@@ -157,7 +158,7 @@ $font-family-heading: $font-family-base;
     @include dark-colours;
   }
 
-  // a gold link would stand alone among the page's amber, so LinkedIn takes
+  // a gold link would stand alone among the page's orange, so LinkedIn takes
   // the footer menu's grey; the underline still marks it as a link
   .sub-footer a.social {
     color: var(--heading);
