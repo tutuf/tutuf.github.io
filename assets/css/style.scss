@@ -6,7 +6,6 @@ $primary: #ffcc00;
 $primary-light: #ffeb9b;
 $secondary: rgba(255, 204, 0, 0.35);
 $black: #e8e8e8;          // headings
-$white: #ffffff;
 $white-offset: #434343;   // rules and borders
 $steel: #f0e7d5;          // body text
 $muted: #b6b6b6;
@@ -191,10 +190,7 @@ $font-family-heading: $font-family-base;
 @import "components/main-menu";
 @import "components/main-menu-mobile";
 @import "components/hamburger";
-@import "components/buttons";
-@import "components/title";
 @import "components/content";
-@import "components/strip";
 
 body {
   // 18px at the default size: easier on readers who tire or lose their place

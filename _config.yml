@@ -24,7 +24,6 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-mentions
   - jekyll-seo-tag
 
 exclude:
