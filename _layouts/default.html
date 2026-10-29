@@ -9,6 +9,12 @@
   <link rel="shortcut icon" href="/images/favicon-16x16.png">
   {% seo %}
   <link href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet">
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-EK9ZHgzabPa3wNkD4pMto.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
 </head>
 
 <body class='page {{ layout.bodyClass }}{% if page.url == "/" %} page-home{% endif %}'>
