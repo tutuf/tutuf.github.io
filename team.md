@@ -41,7 +41,7 @@ Sava thinks in systems.
 
 Having worked across product development, architecture, infrastructure and developer tooling, he looks at how the parts connect, where a change in one place will be felt in another, and which solution addresses the cause rather than the symptom.
 
-He notices the friction others have learned to live with - a step repeated by hand, a detail people have to remember - and proposes the tool that takes it away, easing both the work and the mental load. He also removes code when the simpler system is the stronger one.
+He notices the friction others have learned to live with - a step repeated by hand, a detail people have to remember - and proposes the tool that takes it away, easing both the work and the mental load.
 
 His background in journalism and facilitation shapes the way he asks questions, explains technical choices and navigates difficult conversations.
 
