@@ -37,7 +37,9 @@ She looks past whether software works to whether the people using it understand 
 Co-founder · Systems design · 25 years in software · [LinkedIn](https://www.linkedin.com/in/sava-lachezarov-0834b2275/){: aria-label="Sava Lachezarov on LinkedIn"}
 {: .role}
 
-Sava thinks in systems. Having worked across product development, architecture, infrastructure and developer tooling, he looks at how the parts connect, where a change in one place will be felt in another, and which solution addresses the cause rather than the symptom.
+Sava thinks in systems.
+
+Having worked across product development, architecture, infrastructure and developer tooling, he looks at how the parts connect, where a change in one place will be felt in another, and which solution addresses the cause rather than the symptom.
 
 He notices the friction others have learned to live with - a step repeated by hand, a detail people have to remember - and proposes the tool that takes it away, easing both the work and the mental load. He also removes code when the simpler system is the stronger one.
 
