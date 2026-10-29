@@ -2,15 +2,6 @@
   a {
     text-decoration: underline;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-top: $space-p;
-    margin-bottom: $space-p;
-  }
-  strong {
-    font-width: bold;
-  }
   em {
     font-style: italic;
   }
@@ -27,13 +18,6 @@
     margin-top: $space-xl;
     margin-bottom: $space-p;
   }
-  h2 {
-    font-family: $font-family-base;
-    font-size: 1.625rem;
-    font-weight: normal;
-    line-height: 1.4;
-    margin-top: $space-xl;
-  }
   h3 {
     font-family: $font-family-base;
     font-size: 1.25rem;
@@ -49,9 +33,6 @@
       margin-bottom: 0;
     }
   }
-  ul {
-    list-style: disc;
-  }
   ol {
     list-style: decimal;
   }
@@ -60,34 +41,5 @@
     line-height: 1.56;
     margin-left: 1.25em;
     color: var(--text);
-  }
-  hr {
-    border: none;
-    border-bottom: 1px solid var(--rule);
-  }
-  table {
-    width: 100%;
-    margin-top: $space-xl;
-    margin-bottom: $space-xl;
-    th,
-    td {
-      padding: $space-xs;
-      vertical-align: top;
-      border-top: 1px solid var(--rule);
-    }
-    thead th {
-      vertical-align: bottom;
-      border-bottom: 1px solid var(--rule);
-      text-align: left;
-      font-weight: bold;
-    }
-    tbody + tbody {
-      border-top: 1px solid var(--rule);
-    }
-  }
-  blockquote {
-    padding: 0 1em;
-    color: var(--text);
-    border-left: .25em solid var(--accent-soft);
   }
 }

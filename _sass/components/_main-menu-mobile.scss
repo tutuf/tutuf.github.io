@@ -1,6 +1,5 @@
 .main-menu-mobile {
   position: fixed;
-  background: var(--accent);
   top: 0;
   left: 0;
   width: 100%;
@@ -49,7 +48,6 @@
       a {
         display: block;
         position: relative;
-        color: #ffffff;
         text-decoration: none;
         overflow: hidden;
         &:hover {
