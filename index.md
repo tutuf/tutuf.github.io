@@ -102,7 +102,7 @@ When smartphones became an important category, the business introduced it withou
 >
 > \- **Dimitar Raykov**, Deputy Executive Director, [laptop.bg](https://laptop.bg)
 
-[Read the full story](/work/laptop-bg/)
+[Read the client story](/work/laptop-bg/)
 
 ---
 
