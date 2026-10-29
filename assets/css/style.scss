@@ -5,7 +5,7 @@
 $primary: #ffcc00;
 $primary-light: #ffeb9b;
 $secondary: rgba(255, 204, 0, 0.35);
-$black: #e8e8e8;          // headings
+$heading: #e8e8e8;        // headings; not $black, which Bootstrap needs for contrast
 $white-offset: #434343;   // rules and borders
 $steel: #f0e7d5;          // body text
 $muted: #b6b6b6;
@@ -88,7 +88,7 @@ $font-family-heading: $font-family-base;
 @mixin dark-colours {
   color-scheme: dark;
   --text: #{$steel};
-  --heading: #{$black};
+  --heading: #{$heading};
   --muted: #{$muted};
   --faint: #{$faint};
   --accent: #{$primary};
