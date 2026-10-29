@@ -391,11 +391,9 @@ summary {
     text-wrap: balance;
   }
 
-  // a headline of two sentences puts each on its own line where both fit
+  // a headline of two sentences starts each on its own line
   h1 span {
-    @include media-breakpoint-up(md) {
-      display: block;
-    }
+    display: block;
   }
 
   // section headings clearly larger than the card and stage titles inside them

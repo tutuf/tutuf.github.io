@@ -12,9 +12,10 @@
 
 <body class='page {{ layout.bodyClass }}{% if page.url == "/" %} page-home{% endif %}'>
   <a class="skip-link" href="#main">Skip to content</a>
-  {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
     {% include header.html %}
+    {% comment %}After the header's menu button, so Tab goes from the button into the open menu{% endcomment %}
+    {% include main-menu-mobile.html %}
     <main id="main">
       {{ content }}
     </main>
