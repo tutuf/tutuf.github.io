@@ -51,7 +51,7 @@ His background in journalism and facilitation shapes the way he asks questions, 
 
 ### Gabriela Velinova
 
-Product engineer · Delivery and team practices · With tutuf since 2015 · [{% include linkedin-icon.html %}LinkedIn](https://www.linkedin.com/in/gabriela-luhova/){: aria-label="Gabriela Velinova on LinkedIn"}
+Product engineer · Delivery and team practices · 11 years in software · [{% include linkedin-icon.html %}LinkedIn](https://www.linkedin.com/in/gabriela-luhova/){: aria-label="Gabriela Velinova on LinkedIn"}
 {: .role}
 
 Gabriela brings order to complex work. She plans it, keeps the people involved coordinated and makes sure decisions are written down.
