@@ -37,7 +37,7 @@ When we do build, we aim for software that makes the business less dependent on 
 
 ## Working together, one step at a time
 
-Every engagement starts with a [focused assessment](/#a-clear-decision-at-every-stage) and continues in useful increments. Within each increment:
+Every engagement starts with a focused assessment, usually 1–2 weeks at a fixed price, and continues in useful increments. Within each increment:
 
 * **You see it early.** We deploy often to a test environment, so you can see the software taking shape and adjust its direction while that is still cheap.
 * **Your feedback shapes it.** We refine the work based on what your team notices when using it - not only on what was specified at the start.
