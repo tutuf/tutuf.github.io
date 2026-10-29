@@ -99,9 +99,9 @@ $font-family-heading: $font-family-base;
   --accent-soft: #{$secondary};
   --accent-underline: rgba(255, 204, 0, 0.45);
   --accent-rail: rgba(255, 204, 0, 0.6);
-  --fill: #{$primary};          // gold buttons, the same in both themes
+  --fill: #{$primary};          // gold buttons
   --fill-hover: #{$primary-light};
-  --on-accent: #{$page-dark};   // text on gold fills
+  --on-accent: #{$page-dark};   // text on the button fills
   --rule: #{$white-offset};
   --card-bg: #{$card-bg};
   --card-border: #{$card-border};
@@ -126,6 +126,10 @@ $font-family-heading: $font-family-base;
   --accent-soft: rgba(138, 100, 0, 0.35);
   --accent-underline: rgba(138, 100, 0, 0.45);
   --accent-rail: rgba(138, 100, 0, 0.6);
+  // amber buttons with white text, 5.4:1
+  --fill: #8a6400;
+  --fill-hover: #6b4d00;
+  --on-accent: #ffffff;
   --rule: #d9d5cb;
   --card-bg: #ffffff;
   --card-border: rgba(0, 0, 0, 0.1);
