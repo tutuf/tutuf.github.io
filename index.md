@@ -13,7 +13,7 @@ The engineering partner for the business behind the software
 
 Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to **use**, **connect**, **build** or **remove** - and we stay to look after it.
 
-[Tell us what’s in the way](#contact) · [Find your situation](#what-has-started-to-hold-you-back)
+[Tell us what’s in the way](#contact)
 {: .hero-links}
 
 </div>
@@ -156,8 +156,6 @@ For software that keeps changing, you get continuity, priority and senior judgme
 
 * You want custom software where an affordable ready-made product already does the job. We would recommend the product instead.
 * You need one supplier for all of your technology and design.
-
-We are also selective about the work we take. [See the work we do not take](/how-we-work/#some-work-is-not-ours-to-take).
 
 ---
 
