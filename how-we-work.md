@@ -86,6 +86,7 @@ We are comfortable with event-driven architectures, API design and distributed s
 ---
 
 ## Have a decision in front of you?
+{: #contact}
 
 Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution. The first conversation is free, and if we are not the right fit, we say so.
 

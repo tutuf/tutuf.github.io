@@ -51,6 +51,7 @@ Over seventeen years, the system grew with a real business. Some parts were buil
 ---
 
 ## Is your system carrying more than it was built for?
+{: #contact}
 
 Tell us what the business needs, where the software gets in the way, or what has become difficult to change. You do not need a specification or a proposed solution. The first conversation is free, and if we are not the right fit, we say so.
 

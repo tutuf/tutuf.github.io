@@ -13,7 +13,7 @@ The engineering partner for the business behind the software
 
 Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to **use**, **connect**, **build** or **remove** - and we stay to look after it.
 
-[Tell us what’s in the way](#a-useful-first-conversation) · [Find your situation](#what-has-started-to-hold-you-back)
+[Tell us what’s in the way](#contact) · [Find your situation](#what-has-started-to-hold-you-back)
 {: .hero-links}
 
 </div>
@@ -160,6 +160,7 @@ We are also selective about the work we take. [See the work we do not take](/how
 ---
 
 ## A useful first conversation
+{: #contact}
 
 **What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change. If one of the four situations sounds familiar, start there. You do not need a specification or a proposed solution.
 
