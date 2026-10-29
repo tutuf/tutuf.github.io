@@ -15,6 +15,21 @@ $card-bg: rgba(255, 255, 255, 0.03);
 $card-border: rgba(255, 255, 255, 0.08);
 $page-dark: #1c1c1c;
 
+// Spacing in rem, so it grows with the reader's font size and zoom;
+// borders, outlines and hairlines stay in px to stay crisp
+$space-xs: 0.25rem;   // 4px at the default size
+$space-s: 0.5rem;     // 8px
+$space-m: 1rem;       // 16px
+$space-p: 1.25rem;    // 20px, between paragraphs
+$space-l: 1.5rem;     // 24px
+$space-xl: 2rem;      // 32px
+// between sections: 56px on phones, growing to 80px on wide screens
+// (unquoted so Ruby Sass passes the mixed units through to the browser)
+$space-section: unquote("clamp(3.5rem, 2.25rem + 4vw, 5rem)");
+
+// Breakpoints in em, so they follow the reader's font size too
+$phone: 30em;         // 480px
+
 // Links
 $link-color: $primary;
 $link-decoration: none;
@@ -122,10 +137,10 @@ summary {
 // Lets keyboard users jump past the menu; shown only when focused
 .skip-link {
   position: absolute;
-  top: 8px;
-  left: 8px;
+  top: $space-s;
+  left: $space-s;
   z-index: 40;
-  padding: 8px 16px;
+  padding: $space-s $space-m;
   border-radius: 4px;
   background: $primary;
   color: $page-dark;
@@ -180,10 +195,10 @@ summary {
 
 // Contact as the one gold button in the nav
 .main-menu > ul > li.menu-button {
-  margin-left: 12px;
+  margin-left: 0.75rem;
 
   > a {
-    padding: 7px 16px;
+    padding: 0.4375rem $space-m;
     border-radius: 4px;
     background: $primary;
     color: $page-dark;
@@ -212,7 +227,7 @@ summary {
 .logo a {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   text-decoration: none;
 }
 
@@ -239,7 +254,7 @@ summary {
     text-decoration: underline;
     text-decoration-color: rgba(255, 204, 0, 0.45);
     text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    text-underline-offset: 0.2em;
 
     &:hover {
       color: $primary-light;
@@ -265,6 +280,20 @@ summary {
     margin-top: 0;
   }
 
+  // section headings clearly larger than the card and stage titles inside them
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-bottom: $space-m;
+  }
+
+  // each section's opening paragraph carries its point, so skimming the
+  // headings and these leads still gives the whole argument
+  > h2 + p {
+    font-size: 1.125rem;
+    line-height: 1.55;
+  }
+
   h3 {
     color: $black;
     font-weight: 400;
@@ -272,25 +301,25 @@ summary {
 
   // a section heading without a rule above it still needs room to start
   > :is(p, ul, ol, div) + h2 {
-    margin-top: 48px;
+    margin-top: $space-section;
   }
 
   ul {
     list-style-image: url("../images/bullet.png");
   }
 
-  // Midnight's grooved rule between sections
+  // a faint hairline between sections; the space around it does the separating
   hr {
-    height: 3px;
+    height: 0;
     border: 0;
+    border-top: 1px solid $card-border;
     opacity: 1;
-    background: transparent url("../images/hr.gif") center center repeat-x;
-    margin: 56px 0;
+    margin: $space-section 0;
   }
 
   blockquote {
-    margin: 30px 0;
-    padding: 0 0 0 20px;
+    margin: $space-xl 0;
+    padding: 0 0 0 $space-p;
     border-left: 3px solid $primary;
 
     // the client's words, upright and a step larger than the body text
@@ -324,7 +353,7 @@ summary {
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 1.15;
-    margin-bottom: 16px;
+    margin-bottom: $space-m;
 
     // each sentence on its own line where both fit
     @include media-breakpoint-up(md) {
@@ -338,7 +367,7 @@ summary {
     font-size: 1.25rem;
     line-height: 1.35;
     color: $primary;
-    margin-bottom: 24px;
+    margin-bottom: $space-l;
   }
 
   p:not(.tagline):not(.hero-links) {
@@ -364,8 +393,8 @@ summary {
   li {
     margin-left: 0;
     border-left: 3px solid $primary;
-    padding: 2px 0 2px 20px;
-    margin-bottom: 16px;
+    padding: 0.125rem 0 0.125rem $space-p;
+    margin-bottom: $space-m;
     color: $muted;
   }
 
@@ -376,7 +405,7 @@ summary {
 
   // the rails end abruptly, so give a following heading more room
   + h2 {
-    margin-top: 32px;
+    margin-top: $space-xl;
   }
 }
 
@@ -386,11 +415,12 @@ summary {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: $space-m;
+  margin: $space-xl 0 $space-l;
 
   li {
     margin: 0;
-    padding: 14px 16px;
+    padding: 0.875rem $space-m;
     background: $card-bg;
     border: 1px solid $card-border;
     border-radius: 4px;
@@ -401,7 +431,7 @@ summary {
     display: block;
     color: $black;
     font-size: 1.125rem;
-    margin-bottom: 4px;
+    margin-bottom: $space-xs;
   }
 
   li.build {
@@ -420,18 +450,18 @@ summary {
 
 .situations {
   display: grid;
-  gap: 12px;
-  margin: 24px 0;
+  gap: $space-m;
+  margin: $space-xl 0 $space-l;
 }
 
 .situation {
-  padding: 18px 24px 2px;
+  padding: 1.125rem $space-l 0.125rem;
   background: $card-bg;
   border: 1px solid $card-border;
   border-radius: 4px;
 
   h3 {
-    margin: 0 0 8px;
+    margin: 0 0 $space-s;
     font-size: 1.25rem;
   }
 
@@ -441,7 +471,7 @@ summary {
   }
 
   p.question {
-    padding-left: 14px;
+    padding-left: 0.875rem;
     border-left: 2px solid rgba(255, 204, 0, 0.6);
     color: $black;
 
@@ -454,23 +484,23 @@ summary {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: $phone) {
   .situation {
-    padding: 16px 16px 2px;
+    padding: $space-m $space-m 0.125rem;
   }
 }
 
 // People on the Team page, set apart as cards
 .person {
-  padding: 20px 24px 4px;
-  margin-bottom: 16px;
+  padding: $space-p $space-l $space-xs;
+  margin-bottom: $space-m;
   background: $card-bg;
   border: 1px solid $card-border;
   border-radius: 4px;
 
   h3 {
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: $space-xs;
     font-size: 1.5rem;
   }
 
@@ -478,7 +508,7 @@ summary {
   p.role {
     font-size: 0.9375rem;
     color: $muted;
-    margin-bottom: 14px;
+    margin-bottom: 0.875rem;
   }
 }
 
@@ -486,86 +516,88 @@ summary {
 %step-number {
   position: absolute;
   left: 0;
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   border: 2px solid $primary;
   border-radius: 50%;
   color: $primary;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 0.875rem;
+  line-height: calc(1.875rem - 4px);
   text-align: center;
 }
 
 %step-line {
   content: "";
   position: absolute;
-  left: 14px;
+  left: calc(0.9375rem - 1px);
   width: 2px;
   background: $secondary;
 }
 
-h2 + .stage {
-  margin-top: 24px;
+// room between a section's lead and its first stage
+:is(h2, p) + .stage {
+  margin-top: $space-xl;
 }
 
 .stage {
   counter-increment: stage;
   position: relative;
-  padding-left: 50px;
-  padding-bottom: 4px;
+  padding-left: 3.125rem;
+  padding-bottom: $space-xs;
 
   // the line down to the next step
   &:has(+ .stage)::after {
     @extend %step-line;
-    top: 34px;
-    bottom: -2px;
+    top: 2.125rem;
+    bottom: -0.125rem;
   }
 
   h3 {
     margin-top: 0;
-    margin-bottom: 6px;
+    margin-bottom: 0.375rem;
 
     &::before {
       @extend %step-number;
       content: counter(stage);
-      top: -2px;
+      top: -0.125rem;
     }
   }
 
+  // grey, so gold in this section means only the sequence
   p.meta {
-    margin-bottom: 8px;
+    margin-bottom: $space-s;
 
     em {
       font-style: normal;
       font-size: 0.9375rem;
-      color: $primary;
-      border: 1px solid rgba(255, 204, 0, 0.4);
-      border-radius: 12px;
-      padding: 2px 10px;
+      color: $muted;
+      border: 1px solid $white-offset;
+      border-radius: 1em;
+      padding: 0.125rem 0.625rem;
     }
   }
 }
 
 .content ol.steps {
   list-style: none;
-  margin: 24px 0;
+  margin: $space-xl 0;
   counter-reset: step;
 
   li {
     counter-increment: step;
     position: relative;
     margin: 0;
-    padding: 0 0 16px 50px;
+    padding: 0 0 $space-m 3.125rem;
 
     &::before {
       @extend %step-number;
       content: counter(step);
-      top: -2px;
+      top: -0.125rem;
     }
 
     &:not(:last-child)::after {
       @extend %step-line;
-      top: 32px;
+      top: $space-xl;
       bottom: 0;
     }
   }
@@ -575,13 +607,13 @@ h2 + .stage {
     color: $black;
     font-size: 1.125rem;
     font-weight: 400;
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
   }
 }
 
 .content p.cta a {
   display: inline-block;
-  padding: 6px 16px;
+  padding: 0.375rem $space-m;
   text-decoration: none;
   border: 1px solid $primary;
   border-radius: 4px;
@@ -599,10 +631,10 @@ h2 + .stage {
 }
 
 .content p.cta.primary {
-  margin-bottom: 8px;
+  margin-bottom: $space-s;
 
   a {
-    padding: 0 22px;
+    padding: 0 1.375rem;
     height: 2.875rem;
     line-height: 2.875rem;
     font-size: 1rem;
@@ -621,6 +653,6 @@ h2 + .stage {
   color: $muted;
 }
 
-@media (max-width: 480px) {
+@media (max-width: $phone) {
   .content ul.answers { grid-template-columns: 1fr; }
 }

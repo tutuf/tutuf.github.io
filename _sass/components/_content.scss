@@ -5,8 +5,8 @@
   img {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: $space-p;
+    margin-bottom: $space-p;
   }
   strong {
     font-width: bold;
@@ -24,26 +24,26 @@
     font-size: 2.125rem;
     line-height: 1.26;
     font-weight: normal;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: $space-xl;
+    margin-bottom: $space-p;
   }
   h2 {
     font-family: $font-family-base;
     font-size: 1.625rem;
     font-weight: normal;
     line-height: 1.4;
-    margin-top: 30px;
+    margin-top: $space-xl;
   }
   h3 {
     font-family: $font-family-base;
     font-size: 1.25rem;
     line-height: 1.4;
     font-weight: normal;
-    margin-top: 30px;
+    margin-top: $space-xl;
   }
   ul,
   ol {
-    margin-bottom: 20px;
+    margin-bottom: $space-p;
     ul,
     ol {
       margin-bottom: 0;
@@ -56,9 +56,9 @@
     list-style: decimal;
   }
   li {
-    margin-bottom: 5px;
+    margin-bottom: $space-s;
     line-height: 1.56;
-    margin-left: 20px;
+    margin-left: 1.25em;
     color: $steel;
   }
   hr {
@@ -67,11 +67,11 @@
   }
   table {
     width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: $space-xl;
+    margin-bottom: $space-xl;
     th,
     td {
-      padding: 5px;
+      padding: $space-xs;
       vertical-align: top;
       border-top: 1px solid $white-offset;
     }
