@@ -145,17 +145,15 @@ For software that keeps changing, you get continuity, priority and senior judgme
 
 ---
 
-## We should probably talk if…
+## Who we work best with
 
-* A process or system already matters to your daily operations.
-* Leaving it as it is has a real cost.
-* Someone on your side knows the business and can make decisions with us.
-* You want a partner who will question the solution, not just execute it.
+We are not the right team if you need one supplier for all of your technology and design. And when an affordable ready-made product already does the job, we will recommend it instead of building.
 
-### Probably not if…
+We should probably talk if:
 
-* You want custom software where an affordable ready-made product already does the job. We would recommend the product instead.
-* You need one supplier for all of your technology and design.
+* Leaving an important process or system as it is has **a real cost**.
+* Someone on your side **knows the business and can make decisions** with us.
+* You want a partner who will **question the solution**, not just execute&nbsp;it.
 
 ---
 
