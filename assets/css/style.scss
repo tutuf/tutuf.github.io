@@ -394,6 +394,27 @@ summary {
   }
 }
 
+// A quiet line of jumps to a long page's sections, under its introduction
+.content .on-this-page p {
+  font-size: 1rem;
+  line-height: 2;   // room to tap one link without hitting the next
+  color: $muted;
+
+  // quiet, so the line points the way without competing with the text;
+  // the underline still marks them as links
+  a {
+    color: $muted;
+    text-decoration-color: $faint;
+    white-space: nowrap;   // each label wraps whole, never across two lines
+
+    &:hover,
+    &:focus-visible {
+      color: $primary;
+      text-decoration-color: currentColor;
+    }
+  }
+}
+
 // Questions we start from: stacked, with a gold rail like the blockquote
 .content ul.lenses {
   list-style: none;
