@@ -156,6 +156,13 @@ $font-family-heading: $font-family-base;
   .footer,
   .sub-footer {
     @include dark-colours;
+
+    // the bars' accents take a honey between dark mode's gold and the page's
+    // orange, softer on the dark stripe than full orange; 7:1 on the header,
+    // dark text on the buttons 9.7:1
+    --accent: #ffb54d;
+    --fill: #ffb54d;
+    --fill-hover: #ffc670;
   }
 
   // a gold link would stand alone among the page's orange, so LinkedIn takes
