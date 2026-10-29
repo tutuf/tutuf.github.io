@@ -18,6 +18,12 @@ Sometimes it is software. Sometimes it is a spreadsheet, a manual handoff or kno
 
 You know the business. We bring the engineering judgment. We think it through together, and the final call is yours.
 
+<nav class="on-this-page" aria-label="On this page" markdown="1">
+
+Also on this page: [Working together](#working-together-one-step-at-a-time) · [How we use AI](#we-delegate-coding-to-ai-agents-never-the-thinking) · [What we build with](#what-we-build-with)
+
+</nav>
+
 ---
 
 ## From questions to a decision
@@ -36,6 +42,7 @@ When we do build, we aim for software that makes the business less dependent on 
 ---
 
 ## Working together, one step at a time
+{: #working-together-one-step-at-a-time}
 
 Every engagement starts with a focused assessment, usually 1–2 weeks at a fixed price, and continues in useful increments. Within each increment:
 
@@ -60,6 +67,7 @@ The work goes best when the people who know the business stay close to it.
 ---
 
 ## Some work is not ours to take
+{: #some-work-is-not-ours-to-take}
 
 We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.
 
@@ -68,6 +76,7 @@ We also turn down companies that ask us to build dark patterns, manipulate peopl
 ---
 
 ## We delegate coding to AI agents. Never the thinking
+{: #we-delegate-coding-to-ai-agents-never-the-thinking}
 
 AI agents write, test and change much of our code. That gives us more time to understand your business and to talk with the people who will use the software.
 
@@ -76,6 +85,7 @@ The questions, the trade-offs and the judgment about what should exist at all st
 ---
 
 ## What we build with
+{: #what-we-build-with}
 
 We build web applications with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/).
 
