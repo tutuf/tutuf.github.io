@@ -1,0 +1,23 @@
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <div class="logo footer-logo">
+            <a href="{{ '/' | relative_url }}"><img width="{{ site.header_logo.desktop_width }}" height="{{ site.header_logo.desktop_height }}" alt="" src="{{ site.header_logo.desktop | relative_url }}" /><span class="logo-text">{{ site.title }}</span></a>
+          </div>
+          <nav aria-label="Footer">
+            <ul>
+              {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+              {% for item in footermenu %}
+              <li class="{% if item.url == page.url %}active{% endif %}">
+                <a href="{{ item.url | relative_url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.name }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

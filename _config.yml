@@ -1,7 +1,35 @@
 title: tutuf
+url: "https://tutuf.com"
+permalink: pretty
+
 logo: images/tutuf_logo.png
-show_downloads: false
-remote_theme: pages-themes/midnight@v0.2.0
-gems:
-  - jekyll-mentions
-  - jekyll-remote-theme 
+
+# Listed as tutuf's profiles by jekyll-seo-tag; the first is linked in the sub-footer
+social:
+  name: tutuf
+  links:
+    - https://www.linkedin.com/company/tutuf
+
+header_logo:
+  desktop: "images/tutuf_logo_transparent.png"
+  desktop_height: "35px"
+  desktop_width: "40px"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+      image: /images/og-image.png
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/

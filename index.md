@@ -1,66 +1,171 @@
 ---
-title: tutuf - we program the present
+title: Care for what works. Shape what comes next.
+description: "The engineering partner for the business behind the software. We help established businesses decide what to use, connect, build or remove - and stay to look after it."
 ---
 
-# We help small companies build the software they actually need
+<div class="hero" markdown="1">
 
-Sometimes this means custom development. Sometimes it means giving you user friendly tools so you can build it yourself, without writing a line of code. Sometimes it means joining your team to help ship what you're already building. Either way, we start by listening. You can reach out to us at [hi@tutuf.com](mailto:hi@tutuf.com) or [connect on LinkedIn](https://www.linkedin.com/company/tutuf)
+# <span>Care for what works.</span> <span>Shape what comes next.</span>
 
-# tutuf way
+The engineering partner for the business behind the software
+{: .tagline}
 
-We build web apps since 2007. We always ask a lot of questions in order to understand our clients’ needs before we program. We deploy often to a test environment and refine the software based on the clients’ feedback. We automate tests to keep cost of change low. We outsource coding to AI agents but never the thinking.
+Your business already runs on systems, tools and knowledge that work. When they start holding you back, we help you decide what to **use**, **connect**, **build** or **remove** - and we stay to look after it.
 
-We have experience in building from scratch as well as maintaining and improving legacy systems. Our biggest project is [custom-built online shop](https://laptop.bg): 17 years, seven-digit number of customers, double-digit sustained annual growth.
+[Tell us what’s in the way](#contact)
+{: .hero-links}
 
-# tutuf team
+</div>
 
-* [Denitsa Belogusheva](https://github.com/denitsa) - manager and lead developer, co-founder
-* [Sava Lachezarov](https://github.com/kanmeiban) - systems design and development, co-founder
-* [Gabriela Velinova](https://github.com/luhova) - senior developer, joined 2015
+---
 
-We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at the [Saint Kliment Ohridski University of Sofia](https://uni-sofia.bg/index.php/eng).
+## What has started to hold you back?
 
-# tutuf culture
+The right next step depends on how your business actually works, so we start with your situation - not with a solution. Most of our work begins in one of these four.
 
-We build products with a strong focus on long-term value. We practice collective ownership, close collaboration, and continuous improvement of both technical and interpersonal skills.
+<div class="situations" markdown="1">
 
-We value mutual trust, proactivity, and commitment to building high-quality software that is a pleasure both to use and to maintain. The engineering expertise is as important for us as teamwork and open communication.
+<div class="situation" markdown="1">
 
-We're a small team by choice because  quality is more important than quantity. A thousand hands are needless, if one knows exactly where to touch.
+### A proven process has outgrown spreadsheets and workarounds
 
-Success for us is not getting unhandsomely rich but having the satisfaction of job well done and enough time to enjoy life outside of work.
+The business model works and your team knows how the process should run. But ready-made products do not fit the part specific to your business, and manual work is beginning to limit growth.
 
-Beyond commisioned projects, we mentor interns to become full-fledged developers, we contribute to open source, and we support the local Ruby community.
+<span>We would first ask</span> Where does the work depend on a person, spreadsheet or workaround?
+{: .question}
 
-We are a remote company, and we love to meet in-person occasionally to keep the human connection. And we are playful!
+</div>
 
-# tutuf policy
+<div class="situation" markdown="1">
 
-We don’t work with gambling, tobacco, and weapons companies as well as those engaging in exploitative practices, harmful addiction, or environmentally damaging activities.
+### Useful systems still need people to bridge the gaps
 
-We try to minimize our footprint by using our hardware as long as we can. Climate change is real, and infinite growth on a finite planet is impossible.
+ERP, accounting, payments, suppliers and sales channels each do their job, while somebody on your team has quietly become the integration between them.
 
-# tutuf tech stack
+<span>We would first ask</span> Where is information entered or checked twice?
+{: .question}
 
-We build with [Ruby on Rails](https://rubyonrails.org/) and [PostgreSQL](https://postgresql.org/).
+</div>
 
-We are experienced in event-driven architectures, API design, distributed systems and service integration.
+<div class="situation" markdown="1">
 
-We maintain several open source [Ruby gems](https://github.com/tutuf/).
+### A useful prototype has become real software
 
-# tutuf hall of fame
+It was built quickly - perhaps partly with AI - and proved the idea. Now customers, data and daily work are beginning to depend on it.
 
-* [Stefan Kanev](https://github.com/skanev) - Chief Technology Officer at Dext
-* [Tsanka Dobreva](https://github.com/tsankaste) - Rails developer
-* [Siyana Kaneva](https://github.com/skanevaa) - Rails developer
-* [Georgi Peshev](https://github.com/EL-34) - QA engineer
+<span>We would first ask</span> What kind of failure would matter to the business?
+{: .question}
 
-# tutuf internship
+</div>
 
-We have been running internship programs since 2010. If you are a student or recent graduate who knows or wants to learn Ruby, and you share our work ethic, please, send us a cover letter at [jobs@tutuf.com](mailto:jobs@tutuf.com).
+<div class="situation" markdown="1">
 
-![We program the present](images/we_program_the_present_bg.png)
+### An important system needs a responsible team again
 
-<footer style="text-align:center;">Made in Bulgaria</footer>
+A freelancer disappeared, an agency dissolved, or the person who held the context moved on. The system still works, but the next decision no longer feels safe.
 
+<span>We would first ask</span> Which change are you least comfortable approving?
+{: .question}
+
+</div>
+
+</div>
+
+Recognise one of these, or none quite fits? Tell us at [hi@tutuf.com](mailto:hi@tutuf.com).
+
+---
+
+## Four legitimate answers. Only one of them is “build”
+
+Every line of custom code can create value - and becomes something that must be understood, changed and cared for.
+
+* **Use** Choose a proven product where it already solves the common need well.
+* **Connect** Make trusted systems work together around the actual business process.
+* {:.build} **Build** Create the focused custom layer specific to the way your business works.
+* **Remove** Take away code, steps and dependencies that no longer earn their place.
+{: .answers role="list"}
+
+AI made writing code cheaper. That makes the judgment behind what to write, what not to write and what to remove more valuable.
+
+[See how we approach a decision](/how-we-work/)
+
+---
+
+## Seventeen years with one growing business
+
+laptop.bg started as an online store. Over seventeen years, it grew into the production system behind daily commercial operations - catalogue, suppliers, payments and sales channels.
+
+When smartphones became an important category, the business introduced it without new category-specific development from us.
+
+> “They know how to look past the feature we’ve asked for to the business problem underneath… and will tell us when a quick solution is likely to cost us later.”
+>
+> \- **Dimitar Raykov**, Deputy Executive Director, [laptop.bg](https://laptop.bg)
+
+[Read the client story](/work/laptop-bg/)
+
+---
+
+## A clear decision at every stage
+
+It starts with a free conversation, before either of us commits to anything. After that, you commit to one step at a time, and each one ends with something useful in your hands and a decision that is yours.
+
+<div class="stage" markdown="1">
+
+### Focused assessment
+
+*Usually 1–2 weeks · fixed price*
+{: .meta}
+
+Every engagement starts here. We study the business goal, the system and the process around it. You receive written findings, options and a recommended next step. They are yours to keep, whether you continue with us, with someone else, or not at all.
+
+</div>
+
+<div class="stage" markdown="1">
+
+### Delivery in useful increments
+
+*One clear objective · review at the end*
+{: .meta}
+
+Each increment ends in working change your team can use. We name risks and unknowns early, and at every review we decide together whether to continue, adjust or stop.
+
+</div>
+
+<div class="stage" markdown="1">
+
+### Ongoing care and development
+
+*Reserved capacity · monthly*
+{: .meta}
+
+For software that keeps changing, you get continuity, priority and senior judgment without building an internal engineering team. The capacity is agreed with you, and you can change it as your needs change.
+
+</div>
+
+---
+
+## Who we work best with
+
+We are not the right team if you need one supplier for all of your technology and design. And when an affordable ready-made product already does the job, we will recommend it instead of building.
+
+We should probably talk if:
+
+* Leaving an important process or system as it is has **a real cost**.
+* Someone on your side **knows the business and can make decisions** with us.
+* You want a partner who will **question the solution**, not just execute&nbsp;it.
+
+---
+
+## A useful first conversation
+{: #contact}
+
+**What is your business trying to make possible?** Tell us what you need, what is getting in the way, or what has become difficult to change.
+
+A few lines are enough; you do not need a specification or a proposed solution. One of our [product engineers](/team/) who would work with you reads it and replies - with a link to choose a time for a free conversation, or with an honest word when someone else could help you better.
+
+[Start the conversation](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
+{: .cta .primary}
+
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) in English or Bulgarian.
+{: .note}
 

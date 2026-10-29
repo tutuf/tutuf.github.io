@@ -1,0 +1,19 @@
+// assets/css/style.scss is where Jekyll loads the main stylesheet
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1300px,
+);
+
+$container-max-widths: (
+  sm: 566px,
+  md: 740px,
+  lg: 960px,
+  xl: 1140px,
+);
+
+// 20px either side at the default font size, so text never presses on the screen edge
+$grid-gutter-width: 2.5rem;

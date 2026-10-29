@@ -1,0 +1,803 @@
+---
+---
+
+// Serif's layout in Midnight's colours and type
+// honey rather than Midnight's gold: warmer beside the logo's orange; 9.7:1 on the page
+$primary: #ffb54d;
+$primary-light: #ffc670;
+$secondary: rgba(255, 181, 77, 0.35);
+$heading: #e8e8e8;        // headings; not $black, which Bootstrap needs for contrast
+$white-offset: #434343;   // rules and borders
+$steel: #f0e7d5;          // body text
+$muted: #b6b6b6;
+$faint: #999;        // quiet text, still above 4.5:1 on cards
+$card-bg: rgba(255, 255, 255, 0.03);
+$card-border: rgba(255, 255, 255, 0.08);
+$page-dark: #1c1c1c;
+
+// Spacing in rem, so it grows with the reader's font size and zoom;
+// borders, outlines and hairlines stay in px to stay crisp
+$space-xs: 0.25rem;   // 4px at the default size
+$space-s: 0.5rem;     // 8px
+$space-m: 1rem;       // 16px
+$space-p: 1.25rem;    // 20px, between paragraphs
+$space-l: 1.5rem;     // 24px
+$space-xl: 2rem;      // 32px
+// between sections: 56px on phones, growing to 80px on wide screens
+// (unquoted so Ruby Sass passes the mixed units through to the browser)
+$space-section: unquote("clamp(3.5rem, 2.25rem + 4vw, 5rem)");
+
+// Breakpoints in em, so they follow the reader's font size too
+$phone: 30em;         // 480px
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: $primary-light;
+$link-hover-decoration: none;
+
+// Fonts (Open Sans, self-hosted as in Midnight), as woff2 subset to Latin
+// and common punctuation; Cyrillic would need adding for Bulgarian pages
+$font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-heading: $font-family-base;
+
+@each $weight, $file in (300: Light, 400: Regular, 600: Semibold, 700: Bold) {
+  @font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-#{$file}-webfont.woff2") format("woff2");
+    font-weight: $weight;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Italic-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+// Bootstrap 5.3.2
+
+// 1. Include Bootstrap functions first
+@import "bootstrap/functions";
+
+// 2. Include our variable overrides here
+@import "bootstrap-variables";
+
+// 3. Include main bootstrap variables and functions
+@import "bootstrap/variables";
+@import "bootstrap/variables-dark";
+@import "bootstrap/maps";
+@import "bootstrap/mixins";
+
+// 4. Include optional Bootstrap components
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+
+// 5. Include Bootstrap helpers
+@import "bootstrap/helpers";
+
+// Colours as custom properties, so the browser can switch them with the
+// reader's light or dark setting; Bootstrap's own variables stay in Sass
+@mixin dark-colours {
+  color-scheme: dark;
+  --text: #{$steel};
+  --heading: #{$heading};
+  --muted: #{$muted};
+  --faint: #{$faint};
+  --accent: #{$primary};
+  --accent-light: #{$primary-light};
+  --accent-soft: #{$secondary};
+  --accent-underline: rgba(255, 181, 77, 0.45);
+  --accent-rail: rgba(255, 181, 77, 0.6);
+  --fill: #{$primary};          // honey buttons, dark text 9.7:1
+  --fill-hover: #{$primary-light};
+  --on-accent: #{$page-dark};   // text on the button fills
+  --rule: #{$white-offset};
+  --card-bg: #{$card-bg};
+  --card-border: #{$card-border};
+  --page-bg: #{$page-dark};
+  --page-bg-top: #2a2a29;
+  --footer-bg: #2a2a29;
+  --sub-footer-bg: #151515;
+  --bs-link-color-rgb: 255, 181, 77;
+  --bs-link-hover-color-rgb: 255, 198, 112;
+}
+
+// Honey is unreadable on white, and a yellow dark enough to read turns
+// olive, so links and accents take the logo's orange, deepened to burnt
+// orange; every text colour here keeps at least 4.5:1 on the page and cards
+@mixin light-colours {
+  color-scheme: light;
+  --text: #2b2722;
+  --heading: #1c1c1c;
+  --muted: #555049;
+  --faint: #6b665e;
+  --accent: #ad4f05;
+  --accent-light: #8f4206;
+  --accent-soft: rgba(244, 130, 40, 0.45);
+  --accent-underline: rgba(173, 79, 5, 0.45);
+  --accent-rail: rgba(244, 130, 40, 0.8);
+  // buttons in the logo's orange with dark text, 6.6:1
+  --fill: #f48228;
+  --fill-hover: #f59a3c;
+  --on-accent: #1c1c1c;
+  --rule: #d9d5cb;
+  --card-bg: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.16);
+  --page-bg: #faf7f0;
+  --page-bg-top: #fffdf9;
+  --bs-link-color-rgb: 173, 79, 5;
+  --bs-link-hover-color-rgb: 143, 66, 6;
+}
+
+:root {
+  @include dark-colours;
+}
+
+// Readers whose system is set to light get a light page; the header, menu
+// and footers stay dark bars in both, so the logo and texture keep working
+@media (prefers-color-scheme: light) {
+  :root {
+    @include light-colours;
+  }
+
+  .header,
+  .main-menu-mobile,
+  .footer,
+  .sub-footer {
+    @include dark-colours;
+  }
+
+  // a honey link would stand alone among the page's orange, so LinkedIn takes
+  // the footer menu's grey; the underline still marks it as a link
+  .sub-footer a.social {
+    color: var(--heading);
+    text-decoration-color: rgba(232, 232, 232, 0.4);
+
+    &:hover {
+      color: var(--accent);
+      text-decoration-color: currentColor;
+    }
+  }
+}
+
+// Libraries
+@import "libraries/hamburgers/hamburgers";
+
+// Components
+@import "components/type";
+@import "components/page";
+@import "components/header";
+@import "components/footer";
+@import "components/sub-footer";
+@import "components/logo";
+@import "components/main-menu";
+@import "components/main-menu-mobile";
+@import "components/hamburger";
+@import "components/content";
+
+body {
+  // 18px at the default size: easier on readers who tire or lose their place
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-family: $font-family-base;
+  color: var(--text);
+  background: linear-gradient(var(--page-bg-top), var(--page-bg));
+  background-color: var(--page-bg);
+  background-attachment: fixed;
+}
+
+strong {
+  font-weight: 700;
+}
+
+// One visible focus ring for everything keyboard users can reach
+a,
+button,
+summary {
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+// Lets keyboard users jump past the menu; shown only when focused
+.skip-link {
+  position: absolute;
+  top: $space-s;
+  left: $space-s;
+  z-index: 40;
+  padding: $space-s $space-m;
+  border-radius: 4px;
+  background: var(--fill);
+  color: var(--on-accent);
+  transform: translateY(-200%);
+
+  &:focus {
+    transform: none;
+    color: var(--on-accent);
+  }
+}
+
+// No movement for readers who ask for less of it
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
+
+  .content p.cta.primary a:hover {
+    transform: none;
+  }
+
+  // the menu links fade in from transparent, so show them without the animation
+  .main-menu-mobile.open li {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+// Header: Midnight's textured bar
+.header {
+  background: url("../images/nav-bg.gif") #353535;
+  border-bottom: 4px solid var(--rule);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.main-menu > ul > li > a {
+  color: var(--heading);
+  font-weight: 400;
+
+  &:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+}
+
+// the current page in the accent, in the header, phone menu and footer alike
+.main-menu > ul > li.active > a,
+.main-menu-mobile ul li.active a,
+.footer ul li.active a {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+// Contact as the one accent button in the nav
+.main-menu > ul > li.menu-button {
+  margin-left: 0.75rem;
+
+  > a {
+    padding: 0.4375rem $space-m;
+    border-radius: 4px;
+    background: var(--fill);
+    color: var(--on-accent);
+    font-weight: 400;
+
+    &:hover {
+      background: var(--fill-hover);
+      color: var(--on-accent);
+    }
+  }
+}
+
+.main-menu-mobile {
+  background: var(--page-bg);
+
+  ul li a {
+    color: var(--heading);
+    font-weight: 400;
+  }
+
+  // Contact as a filled button, as in the desktop menu, so it does not look
+  // like the current page, which is shown in the accent colour
+  ul li.menu-button a {
+    display: inline-block;
+    padding: 0.25em 0.75em;
+    border-radius: 4px;
+    background: var(--fill);
+    color: var(--on-accent);
+  }
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  text-decoration: none;
+}
+
+.logo-text {
+  color: var(--heading);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+// the header's logo, a step smaller, so the page ends where it began
+.footer-logo {
+  img {
+    width: 32px;
+    height: auto;
+  }
+
+  .logo-text { font-size: 1.3rem; }
+}
+
+.footer ul li a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.content {
+  // links are underlined so they do not rely on colour alone
+  a {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-underline);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+
+    &:hover {
+      color: var(--accent-light);
+      text-decoration-color: currentColor;
+    }
+  }
+
+  // no paragraph or list item ends on a single short word
+  p,
+  li {
+    color: var(--text);
+    text-wrap: pretty;
+  }
+
+  // running text keeps to roughly 65 characters a line, which is easier to
+  // follow from one line to the next; text inside cards and stages keeps
+  // the wider measure so it fills its box
+  p:not(.cta):not(.note) {
+    max-width: 38em;
+  }
+
+  > p:not(.cta):not(.note),
+  > ul:not(.answers),
+  .hero p:not(.cta):not(.note) {
+    max-width: 34em;
+  }
+
+  h1,
+  h2 {
+    color: var(--heading);
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  // lines of even length, so no heading ends on a word or two alone
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  // a headline of two sentences starts each on its own line
+  h1 span {
+    display: block;
+  }
+
+  // section headings clearly larger than the card and stage titles inside them
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-bottom: $space-m;
+  }
+
+  // each section's opening paragraph carries its point, so skimming the
+  // headings and these leads still gives the whole argument; the page's
+  // own introduction under its title reads the same way
+  > h1 + p,
+  > h2 + p {
+    font-size: 1.25rem;
+    line-height: 1.55;
+  }
+
+  h3 {
+    color: var(--heading);
+    font-weight: 400;
+  }
+
+  // a section heading without a rule above it still needs room to start
+  > :is(p, ul, ol, div) + h2 {
+    margin-top: $space-section;
+  }
+
+  // the "»" is drawn rather than set as list-style-type, whose text some
+  // screen readers read out before every item; it sits in the space the
+  // item's left margin leaves, in the theme's muted colour
+  ul {
+    list-style: none;
+  }
+
+  ul:not(.lenses):not(.answers) > li {
+    position: relative;
+
+    &::before {
+      content: "»";
+      content: "»" / "";
+      position: absolute;
+      left: -1.25em;
+      color: var(--muted);
+    }
+  }
+
+  // a faint hairline between sections; the space around it does the separating
+  hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid var(--card-border);
+    opacity: 1;
+    margin: $space-section 0;
+  }
+
+  blockquote {
+    margin: $space-xl 0;
+    padding: 0 0 0 $space-p;
+    border-left: 3px solid var(--accent);
+
+    // the client's words, upright and a step larger than the body text
+    p {
+      font-size: 1.25rem;
+      line-height: 1.55;
+      color: var(--heading);
+    }
+
+    p:last-child {
+      font-size: 1rem;
+      color: var(--muted);
+
+      strong { color: var(--heading); }
+    }
+  }
+
+  // eyebrow lines such as "*How we work*" above a page heading
+  > p:first-child > em:only-child {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-style: normal;
+    font-size: 0.875rem;
+    color: var(--muted);
+  }
+}
+
+// Home hero: headline, accent tagline, then the explanation in softer, larger text
+.content .hero {
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: $space-m;
+
+    @include media-breakpoint-up(md) {
+      font-size: 3rem;
+    }
+  }
+
+  p.tagline {
+    font-size: 1.25rem;
+    line-height: 1.35;
+    color: var(--accent);
+    margin-bottom: $space-l;
+  }
+
+  p:not(.tagline):not(.hero-links) {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--muted);
+
+    strong {
+      color: var(--heading);
+      font-weight: 600;
+    }
+  }
+
+  p.hero-links {
+    font-size: 1.125rem;
+  }
+}
+
+// A quiet line of jumps to a long page's sections, under its introduction
+.content .on-this-page p {
+  font-size: 1rem;
+  line-height: 2;   // room to tap one link without hitting the next
+  color: var(--muted);
+
+  // quiet, so the line points the way without competing with the text;
+  // the underline still marks them as links
+  a {
+    color: var(--muted);
+    text-decoration-color: var(--faint);
+    white-space: nowrap;   // each label wraps whole, never across two lines
+
+    &:hover,
+    &:focus-visible {
+      color: var(--accent);
+      text-decoration-color: currentColor;
+    }
+  }
+}
+
+// Questions we start from: stacked, with an accent rail like the blockquote
+.content ul.lenses {
+  list-style: none;
+
+  li {
+    margin-left: 0;
+    border-left: 3px solid var(--accent);
+    padding: 0.125rem 0 0.125rem $space-p;
+    margin-bottom: $space-m;
+    color: var(--muted);
+  }
+
+  strong {
+    display: block;
+    color: var(--heading);
+  }
+
+  // the rails end abruptly, so give a following heading more room
+  + h2 {
+    margin-top: $space-xl;
+  }
+}
+
+// Use / Connect / Build / Remove as a 2×2 grid, with Build set apart;
+// unnumbered, since the four answers have no order
+.content ul.answers {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-m;
+  margin: $space-xl 0 $space-l;
+
+  li {
+    margin: 0;
+    padding: 0.875rem $space-m;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    color: var(--muted);
+  }
+
+  strong {
+    display: block;
+    color: var(--heading);
+    font-size: 1.1875rem;
+    margin-bottom: $space-xs;
+  }
+
+  li.build {
+    border-color: var(--accent);
+    color: var(--text);
+
+    strong { color: var(--accent); }
+  }
+}
+
+// Situations as stacked cards, so each reads as its own thing: what it
+// looks like, and the first question we would ask
+.content {
+  counter-reset: stage;
+}
+
+.situations {
+  display: grid;
+  gap: $space-m;
+  margin: $space-xl 0 $space-l;
+}
+
+.situation {
+  padding: 1.125rem $space-l 0.125rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+
+  h3 {
+    margin: 0 0 $space-s;
+    font-size: 1.25rem;
+  }
+
+  // the context, softer than the title and the question around it
+  > p:not(.question) {
+    color: var(--muted);
+  }
+
+  p.question {
+    padding-left: 0.875rem;
+    border-left: 2px solid var(--accent-rail);
+    color: var(--heading);
+
+    // whose question it is, quieter than the question itself
+    span {
+      display: block;
+      font-size: 0.875rem;
+      color: var(--faint);
+    }
+  }
+}
+
+@media (max-width: $phone) {
+  .situation {
+    padding: $space-m $space-m 0.125rem;
+  }
+}
+
+// People on the Team page, set apart as cards
+.person {
+  padding: $space-p $space-l $space-xs;
+  margin-bottom: $space-m;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: $space-xs;
+    font-size: 1.5rem;
+  }
+
+  // role and years at a glance, under the name
+  p.role {
+    font-size: 0.9375rem;
+    color: var(--muted);
+    margin-bottom: 0.875rem;
+
+    // the icon stays with its word and takes the link's colour
+    a { white-space: nowrap; }
+
+    .social-icon {
+      width: 1em;
+      height: 1em;
+      margin-right: 0.35em;
+      vertical-align: -0.125em;
+    }
+  }
+
+  // each bio opens with who the person is in one line; the rest is
+  // softer, for readers who want more
+  > p:not(.role) {
+    color: var(--muted);
+  }
+
+  > p.role + p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: var(--heading);
+  }
+}
+
+// room between the introduction and the first card, as after other leads
+.visually-hidden + .person {
+  margin-top: $space-xl;
+}
+
+@media (max-width: $phone) {
+  .person {
+    padding: $space-m $space-m $space-xs;
+  }
+}
+
+// Numbered steps along an accent line
+%step-number {
+  position: absolute;
+  left: 0;
+  width: 1.875rem;
+  height: 1.875rem;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  color: var(--accent);
+  font-size: 0.875rem;
+  line-height: calc(1.875rem - 4px);
+  text-align: center;
+}
+
+%step-line {
+  content: "";
+  position: absolute;
+  left: calc(0.9375rem - 1px);
+  width: 2px;
+  background: var(--accent-soft);
+}
+
+// room between a section's lead and its first stage
+:is(h2, p) + .stage {
+  margin-top: $space-xl;
+}
+
+.stage {
+  counter-increment: stage;
+  position: relative;
+  padding-left: 3.125rem;
+  padding-bottom: $space-xs;
+
+  // the line down to the next step
+  &:has(+ .stage)::after {
+    @extend %step-line;
+    top: 2.125rem;
+    bottom: -0.125rem;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.375rem;
+
+    &::before {
+      @extend %step-number;
+      content: counter(stage);
+      top: -0.125rem;
+    }
+  }
+
+  // grey, so the accent in this section means only the sequence
+  p.meta {
+    margin-bottom: $space-s;
+
+    em {
+      font-style: normal;
+      font-size: 0.9375rem;
+      color: var(--muted);
+      border: 1px solid var(--rule);
+      border-radius: 1em;
+      padding: 0.125rem 0.625rem;
+    }
+  }
+}
+
+.content p.cta a {
+  display: inline-block;
+  padding: 0.375rem $space-m;
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+
+  // decorative, so screen readers skip it where alt text is supported
+  &::after {
+    content: " →";
+    content: " →" / "";
+  }
+
+  &:hover {
+    background: var(--fill);
+    color: var(--on-accent);
+  }
+}
+
+.content p.cta.primary {
+  margin-bottom: $space-s;
+
+  a {
+    padding: 0 1.375rem;
+    height: 2.875rem;
+    line-height: 2.875rem;
+    font-size: 1rem;
+    background: var(--fill);
+    color: var(--on-accent);
+
+    &:hover {
+      background: var(--fill-hover);
+      transform: translateY(-1px);
+    }
+  }
+}
+
+.content p.note {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+@media (max-width: $phone) {
+  .content ul.answers { grid-template-columns: 1fr; }
+}

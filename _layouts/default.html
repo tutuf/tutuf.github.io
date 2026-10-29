@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="/images/favicon.ico">
-    <link rel="shortcut icon" href="/images/favicon-16x16.png">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#353535">
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="shortcut icon" href="/images/favicon-16x16.png">
+  {% seo %}
+  <link href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet">
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-EK9ZHgzabPa3wNkD4pMto.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
+</head>
 
-    {% seo %}
-
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
- </head>
-  <body>
-    <div class="wrapper">
-      <section>
-
+<body class='page {{ layout.bodyClass }}{% if page.url == "/" %} page-home{% endif %}'>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="wrapper" class="wrapper">
+    {% include header.html %}
+    {% comment %}After the header's menu button, so Tab goes from the button into the open menu{% endcomment %}
+    {% include main-menu-mobile.html %}
+    <main id="main">
       {{ content }}
-
-      </section>
-    </div>
-  </body>
+    </main>
+  </div>
+  {% include footer.html %}
+  {% include sub-footer.html %}
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+</body>
 </html>
