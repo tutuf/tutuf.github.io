@@ -518,6 +518,29 @@ summary {
     color: $muted;
     margin-bottom: 0.875rem;
   }
+
+  // each bio opens with who the person is in one line; the rest is
+  // softer, for readers who want more
+  > p:not(.role) {
+    color: $muted;
+  }
+
+  > p.role + p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: $black;
+  }
+}
+
+// room between the introduction and the first card, as after other leads
+.visually-hidden + .person {
+  margin-top: $space-xl;
+}
+
+@media (max-width: $phone) {
+  .person {
+    padding: $space-m $space-m $space-xs;
+  }
 }
 
 // Numbered steps along a gold line, shared by the stages and the contact steps
