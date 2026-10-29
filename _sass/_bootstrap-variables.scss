@@ -15,7 +15,8 @@ $container-max-widths: (
   xl: 1140px,
 );
 
-$grid-gutter-width: 30px;
+// 20px either side at the default font size, so text never presses on the screen edge
+$grid-gutter-width: 2.5rem;
 
 $spacer: 1rem;
 $spacers: ();

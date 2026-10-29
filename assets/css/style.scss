@@ -110,7 +110,8 @@ $sub-footer-text-color: $faint;
 @import "components/strip";
 
 body {
-  font-size: 1.0625rem;
+  // 18px at the default size: easier on readers who tire or lose their place
+  font-size: 1.125rem;
   line-height: 1.6;
   font-family: $font-family-base;
   color: $steel;
@@ -297,7 +298,7 @@ summary {
   // each section's opening paragraph carries its point, so skimming the
   // headings and these leads still gives the whole argument
   > h2 + p {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.55;
   }
 
@@ -331,7 +332,7 @@ summary {
 
     // the client's words, upright and a step larger than the body text
     p {
-      font-size: 1.1875rem;
+      font-size: 1.25rem;
       line-height: 1.55;
       color: $black;
     }
@@ -378,7 +379,7 @@ summary {
   }
 
   p:not(.tagline):not(.hero-links) {
-    font-size: 1.1875rem;
+    font-size: 1.25rem;
     line-height: 1.6;
     color: $muted;
 
@@ -389,7 +390,7 @@ summary {
   }
 
   p.hero-links {
-    font-size: 1.0625rem;
+    font-size: 1.125rem;
   }
 }
 
@@ -437,7 +438,7 @@ summary {
   strong {
     display: block;
     color: $black;
-    font-size: 1.125rem;
+    font-size: 1.1875rem;
     margin-bottom: $space-xs;
   }
 
@@ -612,7 +613,7 @@ summary {
   strong {
     display: block;
     color: $black;
-    font-size: 1.125rem;
+    font-size: 1.1875rem;
     font-weight: 400;
     margin-bottom: 0.125rem;
   }
@@ -656,7 +657,7 @@ summary {
 }
 
 .content p.note {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   color: $muted;
 }
 
