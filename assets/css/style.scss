@@ -334,10 +334,14 @@ summary {
   font-weight: 300;
 }
 
-.footer .footer-title {
-  color: var(--heading);
-  font-weight: 300;
-  line-height: 1.2;
+// the header's logo, a step smaller, so the page ends where it began
+.footer-logo {
+  img {
+    width: 32px;
+    height: auto;
+  }
+
+  .logo-text { font-size: 1.3rem; }
 }
 
 .footer ul li a:hover {

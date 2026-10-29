@@ -13,11 +13,7 @@
       align-items: center;
     }
   }
-  .footer-title {
-    color: #ffffff;
-    font-size: 1.3rem;
-    font-family: $font-family-heading;
-    font-weight: bold;
+  .footer-logo {
     margin-bottom: 10px;
     @include media-breakpoint-up(sm) {
       margin: 0;
