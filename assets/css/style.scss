@@ -276,7 +276,10 @@ summary {
   }
 }
 
-.main-menu > ul > li.active > a {
+// the current page in the accent, in the header, phone menu and footer alike
+.main-menu > ul > li.active > a,
+.main-menu-mobile ul li.active a,
+.footer ul li.active a {
   color: var(--accent);
   font-weight: 400;
 }
