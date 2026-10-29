@@ -72,7 +72,7 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 </div>
 
-Recognise one of these, or none quite fits? [Tell us what is in the way](mailto:hi@tutuf.com?subject=What%20is%20in%20the%20way) - or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
+Recognise one of these, or none quite fits? Write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
 
 ---
 
