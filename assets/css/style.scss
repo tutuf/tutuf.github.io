@@ -71,7 +71,6 @@ $font-family-heading: $font-family-base;
 @import "bootstrap/variables-dark";
 @import "bootstrap/maps";
 @import "bootstrap/mixins";
-@import "bootstrap/utilities";
 
 // 4. Include optional Bootstrap components
 @import "bootstrap/root";
@@ -81,9 +80,8 @@ $font-family-heading: $font-family-base;
 @import "bootstrap/containers";
 @import "bootstrap/grid";
 
-// 5. Include Bootstrap helpers and utilities
+// 5. Include Bootstrap helpers
 @import "bootstrap/helpers";
-@import "bootstrap/utilities/api";
 
 // Colours as custom properties, so the browser can switch them with the
 // reader's light or dark setting; Bootstrap's own variables stay in Sass

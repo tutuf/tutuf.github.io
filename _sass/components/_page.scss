@@ -6,3 +6,13 @@
     flex: 1 0 0;
   }
 }
+// room above and below the page's text: 60px on phones, 80px from tablets
+// up, at the default font size
+.page-body {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+  @include media-breakpoint-up(md) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
