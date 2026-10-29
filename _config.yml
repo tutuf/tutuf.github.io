@@ -1,4 +1,5 @@
 title: tutuf
+url: "https://tutuf.com"
 permalink: pretty
 
 logo: images/tutuf_logo.png
@@ -19,6 +20,7 @@ defaults:
       path: ""
     values:
       layout: "page"
+      image: /images/og-image.png
 
 sass:
   style: compressed

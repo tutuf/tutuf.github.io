@@ -1,7 +1,6 @@
 ---
 title: Client story · laptop.bg
 description: "How laptop.bg grew from an online store into the production system behind daily commercial operations over seventeen years."
-image: /images/og-image.png
 permalink: /work/laptop-bg/
 ---
 

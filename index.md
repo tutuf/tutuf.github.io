@@ -1,7 +1,6 @@
 ---
 title: Care for what works. Shape what comes next.
 description: "The engineering partner for the business behind the software. We help established businesses decide what to use, connect, build or remove - and stay to look after it."
-image: /images/og-image.png
 ---
 
 <div class="hero" markdown="1">
