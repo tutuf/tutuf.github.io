@@ -310,8 +310,14 @@ summary {
     font-weight: 400;
   }
 
+  // Contact as a filled button, as in the desktop menu, so it does not look
+  // like the current page, which is shown in the accent colour
   ul li.menu-button a {
-    color: var(--accent);
+    display: inline-block;
+    padding: 0.25em 0.75em;
+    border-radius: 4px;
+    background: var(--fill);
+    color: var(--on-accent);
   }
 }
 
