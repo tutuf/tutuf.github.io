@@ -104,6 +104,6 @@ A few lines are enough; you do not need a specification. The first conversation 
 [Start the conversation](mailto:hi@tutuf.com?subject=A%20first%20conversation)
 {: .cta .primary}
 
-Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. You can write in English or Bulgarian.
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) in English or Bulgarian.
 {: .note}
 

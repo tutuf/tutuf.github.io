@@ -66,6 +66,6 @@ You do not need a specification or a proposed solution. The first conversation i
 [Start the conversation](mailto:hi@tutuf.com?subject=After%20reading%20the%20laptop.bg%20story)
 {: .cta .primary}
 
-Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. You can write in English or Bulgarian.
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) in English or Bulgarian.
 {: .note}
 

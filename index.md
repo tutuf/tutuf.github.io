@@ -72,7 +72,7 @@ A freelancer disappeared, an agency dissolved, or the person who held the contex
 
 </div>
 
-Recognise one of these, or none quite fits? Write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email.
+Recognise one of these, or none quite fits? Tell us at [hi@tutuf.com](mailto:hi@tutuf.com).
 
 ---
 
@@ -174,6 +174,6 @@ If one of the four situations sounds familiar, start there. You do not need a sp
 [Start the conversation](mailto:hi@tutuf.com?subject=A%20useful%20first%20conversation)
 {: .cta .primary}
 
-Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. You can write in English or Bulgarian.
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) in English or Bulgarian.
 {: .note}
 

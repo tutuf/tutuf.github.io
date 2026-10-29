@@ -107,5 +107,5 @@ You do not need a specification or a proposed solution. The first conversation i
 [Start the conversation](mailto:hi@tutuf.com?subject=A%20decision%20in%20front%20of%20us)
 {: .cta .primary}
 
-Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. You can write in English or Bulgarian.
+Or write to [hi@tutuf.com](mailto:hi@tutuf.com) in English or Bulgarian.
 {: .note}
