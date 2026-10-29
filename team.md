@@ -64,17 +64,23 @@ She presents clearly to clients, to the team and at conferences. Through trainin
 
 ---
 
-## Small by design. Clear about who does what
+## Shared roots. Room to grow
 
-We work with only a few clients at a time, so each one gets the attention its work needs. If we cannot give yours that, we say so up front - not halfway through.
+We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at [Sofia University](https://uni-sofia.bg/index.php/eng). That shared foundation still shapes how we reason about systems, learn together and challenge one another’s decisions.
 
-Before an engagement begins, you know who will lead it, who else will contribute, and how much of our time is reserved for you.
+We keep learning across product engineering, leadership and facilitation. Beyond client work, we have run internships since 2010, mentored developers through initiatives including Rails Girls, published open-source [Ruby gems](https://github.com/tutuf/) and supported the local Ruby community.
 
 We are a remote company and value focused work. We still make a point of meeting in person, with each other and with clients, because long partnerships need human connection too.
 
-## Continuity is built in, not promised
+---
 
-Your software should not depend on one irreplaceable person. We build continuity into the way the work is understood, recorded and owned.
+## Small by design
+
+We are three product engineers, and we intend to stay small. We work with only a few clients at a time, so the people you talk to are the people who do the work. If we cannot give your work the attention it needs, we say so up front - not halfway through.
+
+Before an engagement begins, you know who will lead it, who else will contribute, and how much of our time is reserved for you.
+
+A small team works only when your software does not depend on any one of us. So we build continuity into the way the work is understood, recorded and owned:
 
 * **Decisions with reasons.** We record not only what was decided, but why, so future changes can respect the original trade-offs or revisit them deliberately.
 * **Knowledge that outlasts any one of us.** Automated tests capture how the system should behave; technical and user documentation explain the rest.
@@ -83,14 +89,6 @@ Your software should not depend on one irreplaceable person. We build continuity
 {: .lenses role="list"}
 
 We want you to stay because the partnership works - not because your software cannot leave with us.
-
----
-
-## Shared roots. Room to grow
-
-We are graduates of the [Faculty of Mathematics and Informatics](https://fmi.uni-sofia.bg/) at [Sofia University](https://uni-sofia.bg/index.php/eng). That shared foundation still shapes how we reason about systems, learn together and challenge one another’s decisions.
-
-We keep learning across product engineering, leadership and facilitation. Beyond client work, we have mentored developers through initiatives including Rails Girls, published open-source [Ruby gems](https://github.com/tutuf/) and supported the local Ruby community.
 
 ---
 
