@@ -357,9 +357,11 @@ summary {
     }
   }
 
+  // no paragraph or list item ends on a single short word
   p,
   li {
     color: var(--text);
+    text-wrap: pretty;
   }
 
   // running text keeps to roughly 65 characters a line, which is easier to
