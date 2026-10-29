@@ -14,9 +14,6 @@ main:
     class: "menu-button"
 
 footer:
-  - name: "Home"
-    url: "/"
-    weight: 1
   - name: "How we work"
     url: "/how-we-work/"
     weight: 2
