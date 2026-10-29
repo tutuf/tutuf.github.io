@@ -267,10 +267,17 @@ summary {
     color: $steel;
   }
 
-  // keep lines to roughly 75 characters
-  p:not(.cta):not(.note),
-  > ul:not(.answers) {
+  // running text keeps to roughly 65 characters a line, which is easier to
+  // follow from one line to the next; text inside cards and stages keeps
+  // the wider measure so it fills its box
+  p:not(.cta):not(.note) {
     max-width: 38em;
+  }
+
+  > p:not(.cta):not(.note),
+  > ul:not(.answers),
+  .hero p:not(.cta):not(.note) {
+    max-width: 34em;
   }
 
   h1,
