@@ -391,6 +391,13 @@ summary {
     text-wrap: balance;
   }
 
+  // a headline of two sentences puts each on its own line where both fit
+  h1 span {
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+
   // section headings clearly larger than the card and stage titles inside them
   h2 {
     font-size: 1.75rem;
@@ -473,11 +480,8 @@ summary {
     line-height: 1.15;
     margin-bottom: $space-m;
 
-    // each sentence on its own line where both fit
     @include media-breakpoint-up(md) {
       font-size: 3rem;
-
-      span { display: block; }
     }
   }
 

@@ -7,7 +7,7 @@ permalink: /how-we-work/
 
 *How we work*
 
-# Your business already has a system. We start there
+# <span>Your business already has a system.</span> <span>We start there</span>
 
 Sometimes it is software. Sometimes it is a spreadsheet, a manual handoff or knowledge held by one person. Before we suggest any change, we look at it through three questions:
 
