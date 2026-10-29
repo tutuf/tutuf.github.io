@@ -652,6 +652,16 @@ summary {
     font-size: 0.9375rem;
     color: var(--muted);
     margin-bottom: 0.875rem;
+
+    // the icon stays with its word and takes the link's colour
+    a { white-space: nowrap; }
+
+    .social-icon {
+      width: 1em;
+      height: 1em;
+      margin-right: 0.35em;
+      vertical-align: -0.125em;
+    }
   }
 
   // each bio opens with who the person is in one line; the rest is
