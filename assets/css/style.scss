@@ -195,7 +195,7 @@ body {
   font-family: $font-family-base;
   color: var(--text);
   background: linear-gradient(var(--page-bg-top), var(--page-bg));
-  background-color: var(--on-accent);
+  background-color: var(--page-bg);
   background-attachment: fixed;
 }
 
