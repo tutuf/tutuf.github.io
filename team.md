@@ -5,7 +5,7 @@ image: /images/og-image.png
 permalink: /team/
 ---
 
-*Team*
+*The people behind the work*
 
 # A small team of product engineers who think beyond the next release
 
