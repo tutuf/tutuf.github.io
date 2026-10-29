@@ -29,5 +29,13 @@
     text-decoration: underline;
     text-decoration-color: var(--accent-underline);
     text-underline-offset: 3px;
+    // the icon takes the link's colour, so it follows the theme and the hover
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    align-self: flex-start;
+  }
+  .social-icon {
+    flex: none;
   }
 }
