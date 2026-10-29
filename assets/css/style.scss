@@ -435,9 +435,14 @@ summary {
     font-size: 1.25rem;
   }
 
+  // the context, softer than the title and the question around it
+  > p:not(.question) {
+    color: $muted;
+  }
+
   p.question {
     padding-left: 14px;
-    border-left: 2px solid $secondary;
+    border-left: 2px solid rgba(255, 204, 0, 0.6);
     color: $black;
 
     // whose question it is, quieter than the question itself
