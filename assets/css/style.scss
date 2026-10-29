@@ -36,7 +36,8 @@ $link-decoration: none;
 $link-hover-color: $primary-light;
 $link-hover-decoration: none;
 
-// Fonts (Open Sans, self-hosted as in Midnight)
+// Fonts (Open Sans, self-hosted as in Midnight), as woff2 subset to Latin
+// and common punctuation; Cyrillic would need adding for Bulgarian pages
 $font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-heading: $font-family-base;
 
@@ -49,7 +50,7 @@ $sub-footer-text-color: $faint;
 @each $weight, $file in (300: Light, 400: Regular, 600: Semibold, 700: Bold) {
   @font-face {
     font-family: "Open Sans";
-    src: url("../fonts/OpenSans-#{$file}-webfont.woff") format("woff");
+    src: url("../fonts/OpenSans-#{$file}-webfont.woff2") format("woff2");
     font-weight: $weight;
     font-style: normal;
     font-display: swap;
@@ -58,7 +59,7 @@ $sub-footer-text-color: $faint;
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Italic-webfont.woff") format("woff");
+  src: url("../fonts/OpenSans-Italic-webfont.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
