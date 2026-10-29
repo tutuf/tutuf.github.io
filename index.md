@@ -177,6 +177,3 @@ If one of the four situations sounds familiar, start there. You do not need a sp
 Or write to [hi@tutuf.com](mailto:hi@tutuf.com) from any email. You can write in English or Bulgarian.
 {: .note}
 
----
-
-**Make a product our clients could use?** We often recommend and connect proven products instead of building. If you make one - or work alongside teams like ours - we would like to hear from you at [hi@tutuf.com](mailto:hi@tutuf.com?subject=Partnership).
