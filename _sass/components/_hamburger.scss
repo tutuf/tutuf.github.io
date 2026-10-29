@@ -8,7 +8,7 @@
   .hamburger-inner,
   .hamburger-inner::before,
   .hamburger-inner::after {
-    background: $primary;
+    background: var(--accent);
   }
   .hamburger-inner::after {
     width: 18px;

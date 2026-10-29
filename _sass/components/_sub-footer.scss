@@ -1,6 +1,6 @@
 .sub-footer {
-  background: $sub-footer-background-color;
-  color: $sub-footer-text-color;
+  background: var(--sub-footer-bg);
+  color: var(--faint);
   padding-top: 15px;
   padding-bottom: 15px;
   @include media-breakpoint-up(md) {
@@ -27,7 +27,7 @@
     margin-top: 10px;
     font-size: 0.875rem;
     text-decoration: underline;
-    text-decoration-color: rgba(255, 204, 0, 0.45);
+    text-decoration-color: var(--accent-underline);
     text-underline-offset: 3px;
   }
 }

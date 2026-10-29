@@ -1,5 +1,5 @@
 .footer {
-  background: $footer-background-color;
+  background: var(--footer-bg);
   padding-top: 15px;
   padding-bottom: 15px;
   .footer-inner {
@@ -28,10 +28,10 @@
     margin: 0;
     padding: 0;
     li {
-      color: $footer-text-color;
+      color: var(--heading);
       font-size: 1rem;
       a {
-        color: $footer-text-color;
+        color: var(--heading);
         text-decoration: none;
         padding: 12px 14px 12px 0;
         display: block;
