@@ -40,7 +40,7 @@ Both allowed laptop.bg to reach new customers through the system it already had,
 
 ---
 
-None of this means these capabilities should always be custom-built. Mature platforms cover many common needs, and we use them where they fit. Custom work belongs where the business is genuinely specific - and complexity should be removed when it stops earning its place.
+## The business kept the freedom to decide
 
 Over seventeen years, the system grew with a real business. Some parts were built by us, some connected the system to software made by others, and some were later developed further by other teams. Throughout, the business kept the system, the knowledge and the freedom to decide what came next.
 
