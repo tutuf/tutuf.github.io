@@ -16,10 +16,20 @@ Each of us works across product thinking, software development and client conver
 
 <div class="person" markdown="1">
 
-### Denitsa Belogusheva
+<div class="profile" markdown="1">
 
-Co-founder · Engineering lead · 19 years in software · [{% include linkedin-icon.html %}LinkedIn](https://www.linkedin.com/in/denitsa-belogusheva/){: aria-label="Denitsa Belogusheva on LinkedIn"}
-{: .role}
+### ![Denitsa Belogusheva](/images/team/denitsa.png){: width="280" height="280"}
+{: #denitsa-belogusheva}
+
+* Co-founder
+* Engineering lead
+* 19 years in software
+* [{% include linkedin-icon.html %}LinkedIn](https://www.linkedin.com/in/denitsa-belogusheva/){: aria-label="Denitsa Belogusheva on LinkedIn"}
+{: .role role="list"}
+
+</div>
+
+<div class="bio" markdown="1">
 
 Denitsa keeps the whole system in view: the business need, the technical consequences, the people doing the work, and the software that will live with the decision.
 
@@ -29,12 +39,24 @@ She looks past whether software works to whether the people using it understand 
 
 </div>
 
+</div>
+
 <div class="person" markdown="1">
 
-### Sava Lachezarov
+<div class="profile" markdown="1">
 
-Co-founder · Systems design · 25 years in software · [{% include linkedin-icon.html %}LinkedIn](https://www.linkedin.com/in/sava-lachezarov-0834b2275/){: aria-label="Sava Lachezarov on LinkedIn"}
-{: .role}
+### ![Sava Lachezarov](/images/team/sava.png){: width="280" height="280"}
+{: #sava-lachezarov}
+
+* Co-founder
+* Systems design
+* 25 years in software
+* [{% include linkedin-icon.html %}LinkedIn](https://www.linkedin.com/in/sava-lachezarov-0834b2275/){: aria-label="Sava Lachezarov on LinkedIn"}
+{: .role role="list"}
+
+</div>
+
+<div class="bio" markdown="1">
 
 Sava thinks in systems.
 
@@ -46,18 +68,32 @@ His background in journalism and facilitation shapes the way he asks questions, 
 
 </div>
 
+</div>
+
 <div class="person" markdown="1">
 
-### Gabriela Velinova
+<div class="profile" markdown="1">
 
-Product engineer · Delivery and team practices · 11 years in software · [{% include linkedin-icon.html %}LinkedIn](https://www.linkedin.com/in/gabriela-luhova/){: aria-label="Gabriela Velinova on LinkedIn"}
-{: .role}
+### ![Gabriela Velinova](/images/team/gabriela.png){: width="280" height="280"}
+{: #gabriela-velinova}
+
+* Product engineer
+* Delivery and team practices
+* 11 years in software
+* [{% include linkedin-icon.html %}LinkedIn](https://www.linkedin.com/in/gabriela-luhova/){: aria-label="Gabriela Velinova on LinkedIn"}
+{: .role role="list"}
+
+</div>
+
+<div class="bio" markdown="1">
 
 Gabriela brings order to complex work. She plans it, keeps the people involved coordinated and makes sure decisions are written down.
 
 When an idea is still taking shape, she asks the questions that turn it into clear business rules, then builds those rules into working software. For a long-running e-commerce business, she designed and built the promotion-code system and delivered a supplier integration that opened an entirely new channel for the business.
 
 She presents clearly to clients, to the team and at conferences. Through trainings and mentoring, she helps developers grow and the whole team get better at the work.
+
+</div>
 
 </div>
 
