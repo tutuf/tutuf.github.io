@@ -29,6 +29,7 @@ $space-section: unquote("clamp(3.5rem, 2.25rem + 4vw, 5rem)");
 
 // Breakpoints in em, so they follow the reader's font size too
 $phone: 30em;         // 480px
+$card-stack: 48em;    // 768px; below this a person's card is one column
 
 // Links
 $link-color: $primary;
@@ -635,9 +636,13 @@ summary {
   }
 }
 
-// People on the Team page, set apart as cards
+// People on the Team page, set apart as cards: portrait and role on the
+// left, the bio in a column on their right
 .person {
-  padding: $space-p $space-l $space-xs;
+  display: grid;
+  grid-template-columns: 13.75rem minmax(0, 1fr);
+  column-gap: $space-xl;
+  padding: $space-l $space-l $space-xs;
   margin-bottom: $space-m;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
@@ -645,15 +650,28 @@ summary {
 
   h3 {
     margin-top: 0;
-    margin-bottom: $space-xs;
+    margin-bottom: $space-m;
     font-size: 1.5rem;
+
+    // the portrait carries the name, set into the image
+    img {
+      display: block;
+      width: 100%;
+      max-width: 17.5rem;
+      height: auto;
+    }
   }
 
-  // role and years at a glance, under the name
-  p.role {
+  // role and years at a glance, under the portrait
+  ul.role {
     font-size: 0.9375rem;
     color: var(--muted);
-    margin-bottom: 0.875rem;
+    margin-bottom: $space-m;
+
+    li {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
 
     // the icon stays with its word and takes the link's colour
     a { white-space: nowrap; }
@@ -668,11 +686,11 @@ summary {
 
   // each bio opens with who the person is in one line; the rest is
   // softer, for readers who want more
-  > p:not(.role) {
+  .bio > p {
     color: var(--muted);
   }
 
-  > p.role + p {
+  .bio > p:first-child {
     font-size: 1.25rem;
     line-height: 1.5;
     color: var(--heading);
@@ -682,6 +700,12 @@ summary {
 // room between the introduction and the first card, as after other leads
 .visually-hidden + .person {
   margin-top: $space-xl;
+}
+
+@media (max-width: $card-stack) {
+  .person {
+    display: block;
+  }
 }
 
 @media (max-width: $phone) {
