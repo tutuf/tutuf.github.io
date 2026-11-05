@@ -110,6 +110,8 @@ $font-family-heading: $font-family-base;
   --sub-footer-bg: #151515;
   --bs-link-color-rgb: 255, 181, 77;
   --bs-link-hover-color-rgb: 255, 198, 112;
+  // the team badges' cream disc glares on a dark card, so it is dimmed
+  --portrait-filter: brightness(0.85);
 }
 
 // Honey is unreadable on white, and a yellow dark enough to read turns
@@ -137,6 +139,7 @@ $font-family-heading: $font-family-base;
   --page-bg-top: #fffdf9;
   --bs-link-color-rgb: 173, 79, 5;
   --bs-link-hover-color-rgb: 143, 66, 6;
+  --portrait-filter: none;
 }
 
 :root {
@@ -648,18 +651,27 @@ summary {
   border: 1px solid var(--card-border);
   border-radius: 4px;
 
+  // the badge repeats the name in its curve, so the image is decorative
+  // and the name below it is the heading
+  img.portrait {
+    display: block;
+    width: 100%;
+    max-width: 17.5rem;
+    height: auto;
+    filter: var(--portrait-filter);
+  }
+
+  .profile > p:has(> img.portrait) {
+    margin-bottom: $space-s;
+  }
+
+  // a label for the card, quieter than the bio's opening line
   h3 {
     margin-top: 0;
-    margin-bottom: $space-m;
-    font-size: 1.5rem;
-
-    // the portrait carries the name, set into the image
-    img {
-      display: block;
-      width: 100%;
-      max-width: 17.5rem;
-      height: auto;
-    }
+    margin-bottom: $space-s;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--heading);
   }
 
   // role and years at a glance, under the portrait
@@ -705,12 +717,37 @@ summary {
 @media (max-width: $card-stack) {
   .person {
     display: block;
+
+    // once the card is one column, the portrait sits beside the name and
+    // roles, so the bio's opening line shows on the same screen
+    .profile {
+      display: grid;
+      grid-template-columns: 8.5rem minmax(0, 1fr);
+      column-gap: $space-l;
+      align-items: center;
+      margin-bottom: $space-l;
+
+      > p:has(> img.portrait) {
+        grid-row: span 2;
+        margin-bottom: 0;
+      }
+
+      ul.role {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
 @media (max-width: $phone) {
   .person {
     padding: $space-m $space-m $space-xs;
+
+    // a narrower portrait leaves the name and roles room for whole words
+    .profile {
+      grid-template-columns: 6rem minmax(0, 1fr);
+      column-gap: $space-m;
+    }
   }
 }
 

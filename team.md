@@ -18,7 +18,9 @@ Each of us works across product thinking, software development and client conver
 
 <div class="profile" markdown="1">
 
-### ![Denitsa Belogusheva](/images/team/denitsa.png){: width="280" height="280"}
+![](/images/team/denitsa.png){: .portrait width="280" height="280"}
+
+### Denitsa Belogusheva
 {: #denitsa-belogusheva}
 
 * Co-founder
@@ -45,7 +47,9 @@ She looks past whether software works to whether the people using it understand 
 
 <div class="profile" markdown="1">
 
-### ![Sava Lachezarov](/images/team/sava.png){: width="280" height="280"}
+![](/images/team/sava.png){: .portrait width="280" height="280"}
+
+### Sava Lachezarov
 {: #sava-lachezarov}
 
 * Co-founder
@@ -74,7 +78,9 @@ His background in journalism and facilitation shapes the way he asks questions, 
 
 <div class="profile" markdown="1">
 
-### ![Gabriela Velinova](/images/team/gabriela.png){: width="280" height="280"}
+![](/images/team/gabriela.png){: .portrait width="280" height="280"}
+
+### Gabriela Velinova
 {: #gabriela-velinova}
 
 * Product engineer
