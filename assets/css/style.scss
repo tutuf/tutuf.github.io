@@ -717,12 +717,37 @@ summary {
 @media (max-width: $card-stack) {
   .person {
     display: block;
+
+    // once the card is one column, the portrait sits beside the name and
+    // roles, so the bio's opening line shows on the same screen
+    .profile {
+      display: grid;
+      grid-template-columns: 8.5rem minmax(0, 1fr);
+      column-gap: $space-l;
+      align-items: center;
+      margin-bottom: $space-l;
+
+      > p:has(> img.portrait) {
+        grid-row: span 2;
+        margin-bottom: 0;
+      }
+
+      ul.role {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
 @media (max-width: $phone) {
   .person {
     padding: $space-m $space-m $space-xs;
+
+    // a narrower portrait leaves the name and roles room for whole words
+    .profile {
+      grid-template-columns: 6rem minmax(0, 1fr);
+      column-gap: $space-m;
+    }
   }
 }
 
