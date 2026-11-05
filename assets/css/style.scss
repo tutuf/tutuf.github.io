@@ -651,19 +651,27 @@ summary {
   border: 1px solid var(--card-border);
   border-radius: 4px;
 
+  // the badge repeats the name in its curve, so the image is decorative
+  // and the name below it is the heading
+  img.portrait {
+    display: block;
+    width: 100%;
+    max-width: 17.5rem;
+    height: auto;
+    filter: var(--portrait-filter);
+  }
+
+  .profile > p:has(> img.portrait) {
+    margin-bottom: $space-s;
+  }
+
+  // a label for the card, quieter than the bio's opening line
   h3 {
     margin-top: 0;
-    margin-bottom: $space-m;
-    font-size: 1.5rem;
-
-    // the portrait carries the name, set into the image
-    img {
-      display: block;
-      width: 100%;
-      max-width: 17.5rem;
-      height: auto;
-      filter: var(--portrait-filter);
-    }
+    margin-bottom: $space-s;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--heading);
   }
 
   // role and years at a glance, under the portrait
