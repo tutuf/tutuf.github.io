@@ -20,7 +20,7 @@ Facts about tutuf:
 
 - Legal name: ТУТУФ ЕООД, registered in Sofia, Bulgaria.
 - We build web applications with Ruby on Rails and PostgreSQL, and connect them to the services around them - payment providers, supplier feeds, marketplaces. If a system is built with something else, we are still open to it.
-- Every engagement starts with a focused assessment, usually 1–2 weeks at a fixed price, continues in useful increments, and can move on to ongoing care and development with reserved monthly capacity.
+- Every engagement starts with a focused assessment, usually 1–2 weeks at a fixed price, continues in useful increments, and can move on to looking after it and developing it further, with reserved monthly capacity.
 - AI agents write, test and change much of our code. Every change that reaches a client's system is reviewed by one of us, and we remain responsible for it.
 - We are not the right team for companies that need one supplier for all of their technology and design. When an affordable ready-made product already does the job, we recommend it instead of building.
 - We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.

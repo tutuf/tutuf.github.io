@@ -1,5 +1,5 @@
 ---
-title: "How we work: from assessment to ongoing care"
+title: "How we work: from assessment to looking after it"
 description: "How we decide what to use, connect, build or remove, how we work together one step at a time, what we ask of you and how we use AI."
 last_modified_at: 2026-10-29
 permalink: /how-we-work/
@@ -37,7 +37,7 @@ What we learn points to one of four next steps - often a combination:
 
 We lay out the options with their trade-offs and recommend one. We reach for building last, not first.
 
-When we do build, we aim for software that makes the business less dependent on us, not more. If your team keeps needing a new product type, pricing rule or report, we build the ability for your team to [add it themselves, without new development](/work/laptop-bg/#a-product-model-the-business-could-reshape).
+When we do build, we aim for software that makes the business less dependent on us, not more. If your team keeps needing a new product type, pricing rule or report, we build the ability for your team to add it themselves, without new development - as we did [for laptop.bg](/work/laptop-bg/#a-product-model-the-business-could-reshape).
 
 ---
 
