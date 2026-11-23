@@ -15,6 +15,7 @@
   {% else %}
   {% include structured-data.html %}
   {% endif %}
+  <link rel="alternate" type="text/markdown" title="Summary for AI tools" href="{{ '/llms.txt' | absolute_url }}">
   <link href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet">
   <!-- Privacy-friendly analytics by Plausible -->
   <script async src="https://plausible.io/js/pa-EK9ZHgzabPa3wNkD4pMto.js"></script>
@@ -34,8 +35,10 @@
       {{ content }}
     </main>
   </div>
-  {% include footer.html %}
-  {% include sub-footer.html %}
+  <footer>
+    {% include footer.html %}
+    {% include sub-footer.html %}
+  </footer>
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
 </html>
