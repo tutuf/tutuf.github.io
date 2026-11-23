@@ -7,7 +7,10 @@
   <meta name="theme-color" content="#353535">
   <link rel="icon" href="/images/favicon.ico">
   <link rel="shortcut icon" href="/images/favicon-16x16.png">
-  {% seo %}
+  {% capture seo_tags %}{% seo %}{% endcapture %}
+  {% comment %}Drop jekyll-seo-tag's JSON-LD; structured-data.html describes every page instead{% endcomment %}
+  {{ seo_tags | split: '<script type="application/ld+json">' | first }}
+  {% include structured-data.html %}
   <link href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet">
   <!-- Privacy-friendly analytics by Plausible -->
   <script async src="https://plausible.io/js/pa-EK9ZHgzabPa3wNkD4pMto.js"></script>

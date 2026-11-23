@@ -2,6 +2,12 @@
 title: Client story · laptop.bg
 description: "How laptop.bg grew from an online store into the production system behind daily commercial operations over seventeen years."
 permalink: /work/laptop-bg/
+schema: article
+headline: Built for the business it became
+date_published: 2026-10-29
+about:
+  name: laptop.bg
+  url: https://laptop.bg
 ---
 
 *Client story · [laptop.bg](https://laptop.bg)*

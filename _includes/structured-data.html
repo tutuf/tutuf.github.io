@@ -1,0 +1,122 @@
+{%- comment -%}
+  Schema.org graph linking the site, its pages, the company, its people and its
+  client stories by @id. It replaces the JSON-LD from jekyll-seo-tag, which
+  default.html strips because it cannot be turned off and has no @ids.
+  - WebSite, Organization and the current page (WebPage): on every page.
+  - Person: in full on the Team page (schema: team), referenced by @id elsewhere.
+    The Team page is an AboutPage about the Organization.
+  - Article: on pages with "schema: article" (client stories), as the page's main entity.
+    Front matter: headline, date_published, optional date_modified, about: {name, url}.
+{%- endcomment -%}
+{%- assign org_id = site.url | append: "/#organization" -%}
+{%- assign website_id = site.url | append: "/#website" -%}
+{%- assign team_url = site.url | append: "/team/" -%}
+{%- assign page_url = site.url | append: page.url -%}
+{%- assign lang = page.lang | default: "en-US" -%}
+{%- assign home = site.pages | where: "url", "/" | first -%}
+{%- assign page_type = "WebPage" -%}
+{%- if page.schema == "team" %}{% assign page_type = "AboutPage" %}{% endif -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ site.url | append: "/" | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ home.description | jsonify }},
+      "inLanguage": {{ lang | jsonify }},
+      "publisher": { "@id": {{ org_id | jsonify }} }
+    },
+    {
+      "@type": {{ page_type | jsonify }},
+      "@id": {{ page_url | jsonify }},
+      "url": {{ page_url | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "inLanguage": {{ lang | jsonify }},
+      "isPartOf": { "@id": {{ website_id | jsonify }} },
+      "primaryImageOfPage": {{ site.url | append: page.image | jsonify }}
+      {%- if page.schema == "team" %},
+      "about": { "@id": {{ org_id | jsonify }} }
+      {%- elsif page.schema == "article" %},
+      "mainEntity": { "@id": {{ page_url | append: "#article" | jsonify }} }
+      {%- endif %}
+    },
+    {
+      "@type": "Organization",
+      "@id": {{ org_id | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "url": {{ site.url | append: "/" | jsonify }},
+      "logo": {{ site.url | append: "/" | append: site.logo | jsonify }},
+      "description": {{ home.description | jsonify }},
+      "foundingDate": "2007",
+      "address": { "@type": "PostalAddress", "addressLocality": "Sofia", "addressCountry": "BG" },
+      "email": "hi@tutuf.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "sales",
+        "email": "hi@tutuf.com",
+        "availableLanguage": ["English", "Bulgarian"]
+      },
+      "knowsAbout": ["Ruby on Rails", "PostgreSQL", "Event-driven architecture", "API design", "Distributed systems", "System integration"],
+      "sameAs": [
+        {%- for link in site.social.links %}{{ link | jsonify }}, {% endfor -%}
+        "https://github.com/tutuf"
+      ],
+      "founder": [
+        {%- assign founders = site.data.team | where: "founder", true -%}
+        {%- for person in founders %}
+        { "@id": {{ team_url | append: "#" | append: person.id | jsonify }} }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ],
+      "employee": [
+        {%- for person in site.data.team %}
+        { "@id": {{ team_url | append: "#" | append: person.id | jsonify }} }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
+    {%- for person in site.data.team %},
+    {
+      "@type": "Person",
+      "@id": {{ team_url | append: "#" | append: person.id | jsonify }},
+      "name": {{ person.name | jsonify }}
+      {%- if page.schema == "team" %},
+      "url": {{ team_url | append: "#" | append: person.id | jsonify }},
+      "jobTitle": {{ person.titles | jsonify }},
+      {%- if person.knows_about %}
+      "knowsAbout": {{ person.knows_about | jsonify }},
+      {%- endif %}
+      "image": {{ site.url | append: person.image | jsonify }},
+      "sameAs": [{{ person.linkedin | jsonify }}],
+      "worksFor": { "@id": {{ org_id | jsonify }} }
+      {%- endif %}
+    }
+    {%- endfor %}
+    {%- if page.schema == "article" %},
+    {
+      "@type": "Article",
+      "@id": {{ page_url | append: "#article" | jsonify }},
+      "mainEntityOfPage": { "@id": {{ page_url | jsonify }} },
+      "isPartOf": { "@id": {{ website_id | jsonify }} },
+      "headline": {{ page.headline | default: page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "image": {{ site.url | append: page.image | jsonify }},
+      "inLanguage": {{ lang | jsonify }},
+      {%- if page.date_published %}
+      "datePublished": {{ page.date_published | date: "%Y-%m-%d" | jsonify }},
+      {%- endif %}
+      {%- if page.date_modified %}
+      "dateModified": {{ page.date_modified | date: "%Y-%m-%d" | jsonify }},
+      {%- endif %}
+      "author": { "@id": {{ org_id | jsonify }} },
+      "publisher": { "@id": {{ org_id | jsonify }} }
+      {%- if page.about %},
+      "about": { "@type": "Organization", "name": {{ page.about.name | jsonify }}, "url": {{ page.about.url | jsonify }} }
+      {%- endif %}
+    }
+    {%- endif %}
+  ]
+}
+</script>

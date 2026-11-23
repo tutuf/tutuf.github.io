@@ -2,6 +2,7 @@
 title: The people behind the work
 description: "Meet the three product engineers behind tutuf - why we stay small, and how we keep your software from depending on any one of us."
 permalink: /team/
+schema: team
 ---
 
 *The people behind the work*
