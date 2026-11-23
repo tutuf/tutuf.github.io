@@ -10,7 +10,11 @@
   {% capture seo_tags %}{% seo %}{% endcapture %}
   {% comment %}Drop jekyll-seo-tag's JSON-LD; structured-data.html describes every page instead{% endcomment %}
   {{ seo_tags | split: '<script type="application/ld+json">' | first }}
+  {% if page.noindex %}
+  <meta name="robots" content="noindex">
+  {% else %}
   {% include structured-data.html %}
+  {% endif %}
   <link href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet">
   <!-- Privacy-friendly analytics by Plausible -->
   <script async src="https://plausible.io/js/pa-EK9ZHgzabPa3wNkD4pMto.js"></script>
