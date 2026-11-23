@@ -6,7 +6,9 @@
   - Person: in full on the Team page (schema: team), referenced by @id elsewhere.
     The Team page is an AboutPage about the Organization.
   - Article: on pages with "schema: article" (client stories), as the page's main entity.
-    Front matter: headline, date_published, optional date_modified, about: {name, url}.
+    Front matter: headline, date_published, about: {name, url}.
+  Every page's last_modified_at (front matter) is its dateModified here and its
+  <lastmod> in sitemap.xml: update it when the page's content really changes.
 {%- endcomment -%}
 {%- assign org_id = site.url | append: "/#organization" -%}
 {%- assign website_id = site.url | append: "/#website" -%}
@@ -38,6 +40,9 @@
       "inLanguage": {{ lang | jsonify }},
       "isPartOf": { "@id": {{ website_id | jsonify }} },
       "primaryImageOfPage": {{ site.url | append: page.image | jsonify }}
+      {%- if page.last_modified_at %},
+      "dateModified": {{ page.last_modified_at | date: "%Y-%m-%d" | jsonify }}
+      {%- endif %}
       {%- if page.schema == "team" %},
       "about": { "@id": {{ org_id | jsonify }} }
       {%- elsif page.schema == "article" %},
@@ -48,6 +53,7 @@
       "@type": "Organization",
       "@id": {{ org_id | jsonify }},
       "name": {{ site.title | jsonify }},
+      "legalName": "ТУТУФ ЕООД",
       "url": {{ site.url | append: "/" | jsonify }},
       "logo": {{ site.url | append: "/" | append: site.logo | jsonify }},
       "description": {{ home.description | jsonify }},
@@ -107,8 +113,8 @@
       {%- if page.date_published %}
       "datePublished": {{ page.date_published | date: "%Y-%m-%d" | jsonify }},
       {%- endif %}
-      {%- if page.date_modified %}
-      "dateModified": {{ page.date_modified | date: "%Y-%m-%d" | jsonify }},
+      {%- if page.last_modified_at %}
+      "dateModified": {{ page.last_modified_at | date: "%Y-%m-%d" | jsonify }},
       {%- endif %}
       "author": { "@id": {{ org_id | jsonify }} },
       "publisher": { "@id": {{ org_id | jsonify }} }

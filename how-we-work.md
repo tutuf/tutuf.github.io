@@ -1,6 +1,7 @@
 ---
 title: How we work
 description: "How we decide what to use, connect, build or remove, how we work together one step at a time, what we ask of you and how we use AI."
+last_modified_at: 2026-10-29
 permalink: /how-we-work/
 ---
 

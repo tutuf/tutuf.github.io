@@ -5,6 +5,7 @@ permalink: /work/laptop-bg/
 schema: article
 headline: Built for the business it became
 date_published: 2026-10-29
+last_modified_at: 2026-10-29
 about:
   name: laptop.bg
   url: https://laptop.bg
