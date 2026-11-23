@@ -1,0 +1,23 @@
+# The people on the Team page, for structured data (_includes/structured-data.html).
+# Keep in step with team.md: id is the person's heading anchor there.
+- name: Denitsa Belogusheva
+  id: denitsa-belogusheva
+  founder: true
+  titles: [Co-founder, Engineering lead]
+  image: /images/team/denitsa.png
+  linkedin: https://www.linkedin.com/in/denitsa-belogusheva/
+
+- name: Sava Lachezarov
+  id: sava-lachezarov
+  founder: true
+  titles: [Co-founder]
+  knows_about: [Systems design]
+  image: /images/team/sava.png
+  linkedin: https://www.linkedin.com/in/sava-lachezarov-0834b2275/
+
+- name: Gabriela Velinova
+  id: gabriela-velinova
+  titles: [Product engineer]
+  knows_about: [Delivery and team practices]
+  image: /images/team/gabriela.png
+  linkedin: https://www.linkedin.com/in/gabriela-luhova/

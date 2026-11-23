@@ -1,7 +1,14 @@
 ---
-title: Client story · laptop.bg
+title: "Client story: 17 years with laptop.bg"
 description: "How laptop.bg grew from an online store into the production system behind daily commercial operations over seventeen years."
 permalink: /work/laptop-bg/
+schema: article
+headline: Built for the business it became
+date_published: 2026-10-29
+last_modified_at: 2026-10-29
+about:
+  name: laptop.bg
+  url: https://laptop.bg
 ---
 
 *Client story · [laptop.bg](https://laptop.bg)*
@@ -60,7 +67,7 @@ Over seventeen years, the system grew with a real business. Some parts were buil
 
 Tell us what the business needs, where the software gets in the way, or what has become difficult to change.
 
-You do not need a specification or a proposed solution. The first conversation is free, and if we are not the right fit, we say so.
+You do not need a specification or a proposed solution. The first conversation is free. If we are a good fit, we then [work one step at a time](/how-we-work/#working-together-one-step-at-a-time); if not, we say so.
 
 [Start the conversation](mailto:hi@tutuf.com?subject=After%20reading%20the%20laptop.bg%20story)
 {: .cta .primary}

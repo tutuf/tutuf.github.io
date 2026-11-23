@@ -10,6 +10,10 @@ social:
   links:
     - https://www.linkedin.com/company/tutuf
 
+# Search Console ownership; keep it, Google re-checks it
+webmaster_verifications:
+  google: CFyGKi1lcTzWr3uzXHqSkPlNbs9tjE-paIQ8EVVobbA
+
 header_logo:
   desktop: "images/tutuf_logo_transparent.png"
   desktop_height: "35px"
@@ -27,6 +31,7 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile

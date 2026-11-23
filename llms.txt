@@ -1,0 +1,41 @@
+---
+layout: null
+sitemap: false
+---
+{%- assign home = site.pages | where: "url", "/" | first -%}
+# {{ site.title }}
+
+> {{ home.description }}
+
+tutuf is a small team of three product engineers based in Sofia, Bulgaria, building, evolving and looking after software that businesses depend on since 2007. We work with only a few clients at a time, so the people you talk to are the people who do the work.
+
+Most of our work begins in one of four situations:
+
+- A proven process has outgrown spreadsheets and workarounds.
+- Useful systems still need people to bridge the gaps.
+- A useful prototype has become real software.
+- An important system needs a responsible team again.
+
+Facts about tutuf:
+
+- Legal name: ТУТУФ ЕООД, registered in Sofia, Bulgaria.
+- We build web applications with Ruby on Rails and PostgreSQL, and connect them to the services around them - payment providers, supplier feeds, marketplaces. If a system is built with something else, we are still open to it.
+- Every engagement starts with a focused assessment, usually 1–2 weeks at a fixed price, continues in useful increments, and can move on to looking after it and developing it further, with reserved monthly capacity.
+- AI agents write, test and change much of our code. Every change that reaches a client's system is reviewed by one of us, and we remain responsible for it.
+- We are not the right team for companies that need one supplier for all of their technology and design. When an affordable ready-made product already does the job, we recommend it instead of building.
+- We do not work with companies whose business involves gambling, tobacco or weapons, or with companies built on exploitation, harmful addiction or serious environmental harm.
+- Contact: hi@tutuf.com, in English or Bulgarian. The first conversation is free.
+
+## Pages
+
+- [Home]({{ site.url }}/): The four situations where most of our work begins, the four answers (use, connect, build, remove), the stages of an engagement and who we work best with.
+{%- assign menu = site.data.menus.footer | sort: "weight" %}
+{%- for item in menu %}
+{%- assign page_for_item = site.pages | where: "url", item.url | first %}
+- [{{ item.name }}]({{ site.url }}{{ item.url }}){% if page_for_item.description %}: {{ page_for_item.description }}{% endif %}
+{%- endfor %}
+
+## Optional
+
+- [Open-source Ruby gems](https://github.com/tutuf/): Gems published and maintained by tutuf.
+- [LinkedIn](https://www.linkedin.com/company/tutuf): tutuf's company profile.
