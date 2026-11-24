@@ -15,6 +15,9 @@
 {%- assign team_url = site.url | append: "/team/" -%}
 {%- assign page_url = site.url | append: page.url -%}
 {%- assign lang = page.lang | default: "en-US" -%}
+{%- comment %}image is a {path, width, height, alt} block in _config.yml; a plain path also works{% endcomment -%}
+{%- assign page_image = site.url | append: page.image.path -%}
+{%- if page.image.path == nil %}{% assign page_image = site.url | append: page.image %}{% endif -%}
 {%- assign home = site.pages | where: "url", "/" | first -%}
 {%- assign page_type = "WebPage" -%}
 {%- if page.schema == "team" %}{% assign page_type = "AboutPage" %}{% endif -%}
@@ -39,7 +42,7 @@
       "description": {{ page.description | jsonify }},
       "inLanguage": {{ lang | jsonify }},
       "isPartOf": { "@id": {{ website_id | jsonify }} },
-      "primaryImageOfPage": {{ site.url | append: page.image | jsonify }}
+      "primaryImageOfPage": {{ page_image | jsonify }}
       {%- if page.last_modified_at %},
       "dateModified": {{ page.last_modified_at | date: "%Y-%m-%d" | jsonify }}
       {%- endif %}
@@ -108,7 +111,7 @@
       "isPartOf": { "@id": {{ website_id | jsonify }} },
       "headline": {{ page.headline | default: page.title | jsonify }},
       "description": {{ page.description | jsonify }},
-      "image": {{ site.url | append: page.image | jsonify }},
+      "image": {{ page_image | jsonify }},
       "inLanguage": {{ lang | jsonify }},
       {%- if page.date_published %}
       "datePublished": {{ page.date_published | date: "%Y-%m-%d" | jsonify }},

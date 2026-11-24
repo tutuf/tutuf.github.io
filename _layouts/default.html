@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#353535">
-  <link rel="icon" href="/images/favicon.ico">
-  <link rel="shortcut icon" href="/images/favicon-16x16.png">
+  {%- comment %}SVG last: browsers that can use it pick it over the .ico{% endcomment %}
+  <link rel="icon" href="/images/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   {% capture seo_tags %}{% seo %}{% endcapture %}
   {% comment %}Drop jekyll-seo-tag's JSON-LD; structured-data.html describes every page instead{% endcomment %}
   {{ seo_tags | split: '<script type="application/ld+json">' | first }}

@@ -2,7 +2,7 @@ title: tutuf
 url: "https://tutuf.com"
 permalink: pretty
 
-logo: images/tutuf_logo.png
+logo: images/tutuf-logo-512.png
 
 # Listed as tutuf's profiles by jekyll-seo-tag; the first is linked in the sub-footer
 social:
@@ -16,15 +16,19 @@ webmaster_verifications:
 
 header_logo:
   desktop: "images/tutuf_logo_transparent.png"
-  desktop_height: "35px"
-  desktop_width: "40px"
+  desktop_height: 35
+  desktop_width: 40
 
 defaults:
   - scope:
       path: ""
     values:
       layout: "page"
-      image: /images/og-image.png
+      image:
+        path: /images/og-image.jpg
+        width: 1200
+        height: 630
+        alt: "tutuf - Care for what works. Shape what comes next."
 
 sass:
   style: compressed
