@@ -28,7 +28,7 @@ defaults:
         path: /images/og-image.jpg
         width: 1200
         height: 630
-        alt: "tutuf - Care for what works. Shape what comes next."
+        alt: "tutuf - Care for what works. Shape what comes next. The engineering partner for the business behind the software."
 
 sass:
   style: compressed
