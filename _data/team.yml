@@ -4,7 +4,7 @@
   id: denitsa-belogusheva
   founder: true
   titles: [Co-founder, Engineering lead]
-  image: /images/team/denitsa.png
+  image: /images/team/denitsa.webp
   linkedin: https://www.linkedin.com/in/denitsa-belogusheva/
 
 - name: Sava Lachezarov
@@ -12,12 +12,12 @@
   founder: true
   titles: [Co-founder]
   knows_about: [Systems design]
-  image: /images/team/sava.png
+  image: /images/team/sava.webp
   linkedin: https://www.linkedin.com/in/sava-lachezarov-0834b2275/
 
 - name: Gabriela Velinova
   id: gabriela-velinova
   titles: [Product engineer]
   knows_about: [Delivery and team practices]
-  image: /images/team/gabriela.png
+  image: /images/team/gabriela.webp
   linkedin: https://www.linkedin.com/in/gabriela-luhova/

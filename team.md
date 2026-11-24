@@ -20,7 +20,7 @@ Each of us works across product thinking, software development and client conver
 
 <div class="profile" markdown="1">
 
-![](/images/team/denitsa.png){: .portrait width="280" height="280"}
+![](/images/team/denitsa.webp){: .portrait width="280" height="280" srcset="/images/team/denitsa-320.webp 320w, /images/team/denitsa.webp 560w" sizes="(max-width: 30em) 6rem, (max-width: 48em) 8.5rem, 13.75rem"}
 
 ### Denitsa Belogusheva
 {: #denitsa-belogusheva}
@@ -49,7 +49,7 @@ She looks past whether software works to whether the people using it understand 
 
 <div class="profile" markdown="1">
 
-![](/images/team/sava.png){: .portrait width="280" height="280"}
+![](/images/team/sava.webp){: .portrait width="280" height="280" srcset="/images/team/sava-320.webp 320w, /images/team/sava.webp 560w" sizes="(max-width: 30em) 6rem, (max-width: 48em) 8.5rem, 13.75rem" loading="lazy"}
 
 ### Sava Lachezarov
 {: #sava-lachezarov}
@@ -80,7 +80,7 @@ His background in journalism and facilitation shapes the way he asks questions, 
 
 <div class="profile" markdown="1">
 
-![](/images/team/gabriela.png){: .portrait width="280" height="280"}
+![](/images/team/gabriela.webp){: .portrait width="280" height="280" srcset="/images/team/gabriela-320.webp 320w, /images/team/gabriela.webp 560w" sizes="(max-width: 30em) 6rem, (max-width: 48em) 8.5rem, 13.75rem" loading="lazy"}
 
 ### Gabriela Velinova
 {: #gabriela-velinova}
